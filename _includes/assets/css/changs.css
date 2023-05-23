@@ -1323,7 +1323,7 @@ ul.off-canvas-list li.sectionheader  {color: var(--grey);background:var(--black)
     background: var(--white);
     transition: background 300ms ease;
 }
-.off-canvas-list li.menuactive a.navside {
+.off-canvas-list ul > li.menuactive a.navside {
     display: block;
     padding: 0.75rem;
     color: var(--black);
