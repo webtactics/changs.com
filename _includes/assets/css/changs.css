@@ -1335,3 +1335,24 @@ body.lb-disable-scrolling {
 }
 
 
+.main-menu > li > ul, .main-menu > li > ul > li > ul {
+    position: absolute;
+    left: -999em;
+    list-style: none;
+  }
+  .main-menu > li > ul > li > a, .main-menu > li > ul > li.sectionheader > span, .main-menu > li > ul > li > ul > li > a, .main-menu > li > ul > li > ul > li.sectionheader > span {
+    text-decoration: none;
+    color: rgba(0,0,0,1.00);
+    text-transform: none;
+    display: block;
+    padding: 0;
+    text-align: center;
+    line-height: 1.2;
+    padding: 0.64rem;
+    font-size: 1rem;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-top: 1px solid #e6e6e6;
+    background-color: #fff;
+  }
