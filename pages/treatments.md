@@ -6,7 +6,7 @@ date: 2023-04-19
 permalink: /treatments/
 eleventyNavigation:
   key: Treatments
-  order: 3
+  order: 4
 parent: null
 hasChildren: false
 ---

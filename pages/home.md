@@ -6,7 +6,7 @@ description: We offer you a variety of treatments to unwind the stress of your m
 permalink: /
 eleventyNavigation:
   key: Home
-  order: 0
+  order: 1
 parent: null
 hasChildren: false
 ---

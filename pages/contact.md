@@ -7,7 +7,7 @@ date: 2018-01-01
 permalink: /contact/
 eleventyNavigation:
   key: Contact
-  order: 4
+  order: 5
 parent: null
 hasChildren: true
 ---

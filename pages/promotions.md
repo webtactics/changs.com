@@ -6,7 +6,7 @@ date: 2023-04-19
 permalink: /promotions/
 eleventyNavigation:
   key: Promotions
-  order: 2
+  order: 3
 parent: null
 hasChildren: false
 ---

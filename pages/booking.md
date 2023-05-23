@@ -9,6 +9,6 @@ parent: null
 hasChildren: false
 eleventyNavigation:
   key: Booking
-  order: 1
+  order: 2
 ---
 
