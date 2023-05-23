@@ -1345,17 +1345,17 @@ ul.off-canvas-list  li.active-class a:hover {
     transition: background 300ms ease;
 }
 
-.off-canvas-list ul.second li a {
+ul.off-canvas-list ul.second li a {
     color: var(--black);
     background: var(--white);
     padding: 0.35rem 0 0.35rem 1rem;
 }
-.off-canvas-list ul.second li.menuactive a {
+ul.off-canvas-list ul.second li.menuactive a {
     color: var(--primary);
     background: var(--text);
     padding: 0.35rem 0 0.35rem 1rem;
 }
-..off-canvas-list ul.second li.menuactive a:hover {
+ul.off-canvas-list ul.second li.menuactive a:hover {
     color: var(--black);
     background: var(--red);
     padding: 0.35rem 0 0.35rem 1rem;
@@ -1364,20 +1364,10 @@ ul.off-canvas-list  li.active-class a:hover {
 ul.off-canvas-list li ul {margin: 0;}
 
 ul.off-canvas-list li a:hover, ul.off-canvas-list li a:focus {
-color: var(--black);
-background:var(--white);
+color: var(--green);
+background:var(--red);
 font-weight: normal;}
 
-ul.off-canvas-list li li.menuactive a {
-color: var(--white);
-background:var(--green);
-padding: 0.35rem 1rem;
-font-size:1rem;}
 
 
 
-ul.off-canvas-list li li.menuactive a:hover, ul.off-canvas-list li li.menuactive a:focus {
-color: var(--primary);
-background:var(--grey);
-padding: 0.35rem 1rem;
-font-size:1rem;}
