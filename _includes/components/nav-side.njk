@@ -1,7 +1,7 @@
 {% set navPages = collections.all | eleventyNavigation %}
 {% macro renderNavListItem(entry) -%}
 <li{% if entry.url == page.url %} class="active-class menuactive"{% endif %}>
-  <a class="menuparent menuactive" href="{{ entry.url }}">{{ entry.title }}</a>
+  <a class="navside" href="{{ entry.url }}">{{ entry.title }}</a>
 {%- if entry.children.length -%}
    <ul class="second">
     {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}

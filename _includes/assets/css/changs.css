@@ -1041,7 +1041,7 @@ box-shadow: 0 0.15rem 0.5rem #333333;
 	float: left;
 	margin: 0;
 	text-indent: -1000px;
-	background: url(https://www.tararomthaimassage.com.au/modules/Gallery/images/previous.png) transparent no-repeat 0 0;
+	background: url(https://www.changs.com/modules/Gallery/images/previous.png) transparent no-repeat 0 0;
 	overflow: hidden;
 }
 
@@ -1052,7 +1052,7 @@ box-shadow: 0 0.15rem 0.5rem #333333;
 	float: left;
 	margin: 0 6px 0 0;
 	text-indent: -1000px;
-	background: url(https://www.tararomthaimassage.com.au/modules/Gallery/images/next.png) transparent no-repeat 0 0;
+	background: url(https://www.changs.com/modules/Gallery/images/next.png) transparent no-repeat 0 0;
 	overflow: hidden;
 }
 
@@ -1062,7 +1062,7 @@ box-shadow: 0 0.15rem 0.5rem #333333;
 	height: 39px;
 	float: left;
 	text-indent: -1000px;
-	background: url(https://www.tararomthaimassage.com.au/modules/Gallery/images/uppage.png) transparent no-repeat 0 0;
+	background: url(https://www.changs.com/modules/Gallery/images/uppage.png) transparent no-repeat 0 0;
 	overflow: hidden;
 }
 
@@ -1100,7 +1100,7 @@ box-shadow: 0 0.15rem 0.5rem #333333;
 
 /* Preload images */
 body:after {
-  content: url(https://www.tararomthaimassage.com.au/modules/Gallery/templates/lightbox/images/close.png) url(https://www.tararomthaimassage.com.au/modules/Gallery/templates/lightbox/images/images/loading.gif) url(https://www.tararomthaimassage.com.au/modules/Gallery/templates/lightbox/images/images/prev.png) url(https://www.tararomthaimassage.com.au/modules/Gallery/templates/lightbox/images/images/next.png);
+  content: url(https://www.changs.com/modules/Gallery/templates/lightbox/images/close.png) url(https://www.changs.com/modules/Gallery/templates/lightbox/images/images/loading.gif) url(https://www.changs.com/modules/Gallery/templates/lightbox/images/images/prev.png) url(https://www.changs.com/modules/Gallery/templates/lightbox/images/images/next.png);
   display: none;
 }
 
@@ -1175,7 +1175,7 @@ body.lb-disable-scrolling {
   width: 32px;
   height: 32px;
   margin: 0 auto;
-  background: url(https://www.tararomthaimassage.com.au/modules/Gallery/templates/lightbox/images/loading.gif) no-repeat;
+  background: url(https://www.changs.com/modules/Gallery/templates/lightbox/images/loading.gif) no-repeat;
 }
 
 .lb-nav {
@@ -1206,7 +1206,7 @@ body.lb-disable-scrolling {
   width: 34%;
   left: 0;
   float: left;
-  background: url(https://www.tararomthaimassage.com.au/modules/Gallery/templates/lightbox/images/prev.png) left 48% no-repeat;
+  background: url(https://www.changs.com/modules/Gallery/templates/lightbox/images/prev.png) left 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -1224,7 +1224,7 @@ body.lb-disable-scrolling {
   width: 64%;
   right: 0;
   float: right;
-  background: url(https://www.tararomthaimassage.com.au/modules/Gallery/templates/lightbox/images/next.png) right 48% no-repeat;
+  background: url(https://www.changs.com/modules/Gallery/templates/lightbox/images/next.png) right 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -1288,7 +1288,7 @@ body.lb-disable-scrolling {
   float: right;
   width: 30px;
   height: 30px;
-  background: url(https://www.tararomthaimassage.com.au/modules/Gallery/templates/lightbox/images/close.png) top right no-repeat;
+  background: url(https://www.changs.com/modules/Gallery/templates/lightbox/images/close.png) top right no-repeat;
   text-align: right;
   outline: none;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
@@ -1306,20 +1306,20 @@ body.lb-disable-scrolling {
 }
 
 
-ul.off-canvas-list, ul.second, ul.menusocial {
+ul.off-canvas-list, ul.second {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+
 }
 
-ul.off-canvas-list li.sectionheader  {color: [[$grey]];background:var(--black);padding: 0; border-bottom: 1px solid var(--grey);}
+ul.off-canvas-list li.sectionheader  {color: var(--grey);background:var(--black);padding: 0; border-bottom: 1px solid var(--grey);}
 
 .off-canvas-list li a:focus, .off-canvas-list li a:hover, .off-canvas-list li a:active {
     display: block;
     padding: 0.4rem 0.66667rem;
     color: var(--black);
-    border-bottom: 1px solid #262626;
+    border-bottom: 1px solid var(--black);
     background: var(--white);
     transition: background 300ms ease;
 }
@@ -1327,13 +1327,13 @@ ul.off-canvas-list li.sectionheader  {color: [[$grey]];background:var(--black);p
     display: block;
     padding: 0.4rem 0.66667rem;
     color: var(--black);
-    border-bottom: 1px solid #262626;
+    border-bottom: 1px solid var(--black);
     background: var(--white);
     transition: background 300ms ease;
   
 }
 
-.off-canvas-list ul.second li.menuactive a.menuactive {
+.off-canvas-list ul.second li.menuactive a {
     color: var(--black);
     background: var(--white);
     padding: 0.35rem 0 0.35rem 1rem;
@@ -1348,7 +1348,7 @@ ul.off-canvas-list li.sectionheader  {color: [[$grey]];background:var(--black);p
     background: var(--white);
     padding: 0.35rem 0 0.35rem 1rem;
 }
-.left-small a {background-color: #333333;}
+
 ul.off-canvas-list li ul, ul li ol {margin: 0;}
 ul.off-canvas-list li a {
     border-bottom: 1px solid var(--grey);
@@ -1356,7 +1356,7 @@ ul.off-canvas-list li a {
     display: block;
     padding: 0.4rem 0.66667rem;
     transition: background 300ms ease;
-	background:[[$mattblack]];
+	background:var(--black);
     font-family: 'Montserrat', sans-serif;
 }
 ul.off-canvas-list li a:hover, ul.off-canvas-list li a:focus {color: var(--black);background:var(--white);font-weight: normal;}
