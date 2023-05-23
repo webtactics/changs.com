@@ -1,0 +1,9 @@
+{
+    "layout": "layouts/post.njk",
+    "permalink": "packages/{{ title | slug }}/index.html",
+    "author": "Anonymous",
+    "tags": [
+      "packages"
+    ]
+  }
+  

@@ -1,0 +1,30 @@
+<section class="grid-4-columns" >
+	{% for post in postslist | reverse %}
+	<div class="NewsSummaryHome">
+		<article{% if post.url == url %} data-current="current item"{% endif %} >
+			
+	
+
+<div class="packageimage">
+<img src="{{ post.data.image }}/tr:w-400,h-400" alt="{{ post.data.imageAlt }}" title="{{ post.data.imageAlt }}" >
+</div>
+
+
+<div class="packagetitle">
+<h2>{{ post.data.title }}</h2>
+</div>
+<div class="packagesummary">
+{% if post.data.content %}{{ post.data.content | safe }}{% endif %}
+</div>
+<div class="packageprice">  
+{% if post.data.price %}<div class="timecostwrapper"><span class="timecostmin">Price:</span>{{ post.data.price }}</div>{% endif %}
+</div>				
+
+
+
+		</article>
+		</div>
+	{% endfor %}
+</section>
+
+
