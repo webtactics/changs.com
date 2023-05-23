@@ -1317,15 +1317,15 @@ ul.off-canvas-list li.sectionheader  {color: var(--grey);background:var(--black)
 
 .off-canvas-list li a:focus, .off-canvas-list li a:hover, .off-canvas-list li a:active {
     display: block;
-    padding: 0.4rem 0.66667rem;
+    padding: 0.75rem;
     color: var(--black);
     border-bottom: 1px solid var(--black);
     background: var(--white);
     transition: background 300ms ease;
 }
-.off-canvas-list li.menuactive a.menuactive {
+.off-canvas-list li.menuactive a.navside {
     display: block;
-    padding: 0.4rem 0.66667rem;
+    padding: 0.75rem;
     color: var(--black);
     border-bottom: 1px solid var(--black);
     background: var(--white);
