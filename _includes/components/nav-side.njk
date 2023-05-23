@@ -1,4 +1,7 @@
-{% assign navPages = collections.all | eleventyNavigation %}
+
+
+
+{% set navPages = collections.all | eleventyNavigation %}
 <ul>
 {%- for entry in navPages %}
   <li{% if entry.url == page.url %} class="my-active-class"{% endif %}>
