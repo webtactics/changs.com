@@ -1334,14 +1334,9 @@ ul.off-canvas-list  li.active-class a {
     background: var(--red);
     transition: background 300ms ease;
 }
-ul.off-canvas-list  li.active-class a:hover {
+ul.off-canvas-list li ul li.active-class a:hover {
     color: var(--black);
-    background: var(--red);
-    transition: background 300ms ease;
-}
-.off-canvas-list  ul > li a:hover {
-    color: var(--green);
-    background: var(--primary);
+    background: var(--green);
     transition: background 300ms ease;
 }
 
