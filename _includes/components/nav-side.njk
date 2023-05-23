@@ -12,7 +12,7 @@
         {% endfor %}
       >
         <summary>{{ entry.title }}</summary>
-        <ul role="list">
+      <ul class="off-canvas-list">
           {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
         </ul>
       </details>
@@ -24,6 +24,6 @@
   {%- endif -%}
 {%- endmacro %}
 
-<ul class="nav-list" role="list">
+<ul class="off-canvas-list">
 {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
 </ul>
