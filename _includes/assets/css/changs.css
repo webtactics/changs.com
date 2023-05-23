@@ -1315,7 +1315,7 @@ ul.off-canvas-list, ul.second {
 
 
 
-.off-canvas-list ul > li a, .off-canvas-list ul > li a:focus, .off-canvas-list  ul > li a:active {
+ul.off-canvas-list li a, ul.off-canvas-list li a:focus, ul.off-canvas-list  li a:active {
     display: block;
     padding: 0.75rem;
     color: var(--black);
@@ -1324,7 +1324,7 @@ ul.off-canvas-list, ul.second {
     transition: background 300ms ease;
 }
 
-.off-canvas-list  ul > li.active-class a,  .off-canvas-list  ul > li.active-class a:hover {
+ul.off-canvas-list  li a:hover {
     color: var(--black);
     background: var(--red);
     transition: background 300ms ease;
