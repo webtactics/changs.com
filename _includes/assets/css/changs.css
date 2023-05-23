@@ -1359,9 +1359,21 @@ ul.off-canvas-list li a {
 	background: #3A3A3A;
   
 }
-ul.off-canvas-list li a:hover, ul.off-canvas-list li a:focus {color: var(--black);background:var(--white);font-weight: normal;}
-ul.off-canvas-list li li a {color: var(--white);background:var(--green);padding: 0.35rem 0 0.35rem 1rem;font-size:1rem;}
+ul.off-canvas-list li a:hover, ul.off-canvas-list li a:focus {
+color: var(--black);
+background:var(--white);
+font-weight: normal;}
+
+ul.off-canvas-list li li a {
+color: var(--white);
+background:var(--green);
+padding: 0.35rem 1rem;
+font-size:1rem;}
 
 
 
-ul.off-canvas-list li li a:hover, ul.off-canvas-list li li a:focus {color: var(--primary);background:var(--grey);padding: 0.35rem 0 0.35rem 1rem;font-size:1rem;}
+ul.off-canvas-list li li a:hover, ul.off-canvas-list li li a:focus {
+color: var(--primary);
+background:var(--grey);
+padding: 0.35rem 1rem;
+font-size:1rem;}
