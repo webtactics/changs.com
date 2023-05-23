@@ -1335,30 +1335,62 @@ body.lb-disable-scrolling {
 }
 
 
-ul li ul {
-    background: orange;
-    visibility: hidden;
-    opacity: 0;
-    min-width: 5rem;
-    position: absolute;
-    transition: all 0.5s ease;
-    margin-top: 1rem;
-    left: 0;
-    display: none;
-  }
+ul.off-canvas-list, ul.second, ul.menusocial {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul.off-canvas-list li.sectionheader  {color: [[$grey]];background:var(--black);padding: 0; border-bottom: 1px solid var(--grey);}
+
+.off-canvas-list li a:focus, .off-canvas-list li a:hover, .off-canvas-list li a:active {
+    display: block;
+    padding: 0.4rem 0.66667rem;
+    color: var(--black);
+    border-bottom: 1px solid #262626;
+    background: var(--white);
+    transition: background 300ms ease;
+}
+.off-canvas-list li.menuactive a.menuactive {
+    display: block;
+    padding: 0.4rem 0.66667rem;
+    color: var(--black);
+    border-bottom: 1px solid #262626;
+    background: var(--white);
+    transition: background 300ms ease;
   
-  ul li:hover > ul,
-  ul li:focus-within > ul,
-  ul li ul:hover,
-  ul li ul:focus {
-    visibility: visible;
-    opacity: 1;
-    display: block
-  }
-  
-  ul li ul li {
-    clear: both;
-    width: 100%;
-  }
-  
-  
+}
+
+.off-canvas-list ul.second li.menuactive a.menuactive {
+    color: var(--black);
+    background: var(--white);
+    padding: 0.35rem 0 0.35rem 1rem;
+}
+.off-canvas-list ul.second li.menuparent.menuactive a.menuparent.menuactive {
+    color: var(--white);
+    background: var(--text);
+    padding: 0.35rem 0 0.35rem 1rem;
+}
+.off-canvas-list ul.second li.menuparent.menuactive a.menuparent.menuactive:hover {
+    color: var(--black);
+    background: var(--white);
+    padding: 0.35rem 0 0.35rem 1rem;
+}
+.left-small a {background-color: #333333;}
+ul.off-canvas-list li ul, ul li ol {margin: 0;}
+ul.off-canvas-list li a {
+    border-bottom: 1px solid var(--grey);
+    color: var(--white);
+    display: block;
+    padding: 0.4rem 0.66667rem;
+    transition: background 300ms ease;
+	background:[[$mattblack]];
+    font-family: 'Montserrat', sans-serif;
+}
+ul.off-canvas-list li a:hover, ul.off-canvas-list li a:focus {color: var(--black);background:var(--white);font-weight: normal;}
+ul.off-canvas-list li li a {color: var(--white);background:[[$grey]];padding: 0.35rem 0 0.35rem 1rem;font-size:1rem;}
+ul.off-canvas-list li li a.menuparent {color: var(--white);background:var(--text);padding: 0.35rem 0 0.35rem 1rem;font-size:1rem;}
+
+
+ul.off-canvas-list li li a:hover, ul.off-canvas-list li li a:focus {color: [[$mattblack]];background:var(--grey);padding: 0.35rem 0 0.35rem 1rem;font-size:1rem;}
