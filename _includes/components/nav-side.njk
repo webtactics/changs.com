@@ -12,7 +12,7 @@
         {% endfor %}
       >
         <summary>{{ entry.title }}</summary>
-      <ul class="off-canvas-list">
+     <ul class="second">
           {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
         </ul>
       </details>
