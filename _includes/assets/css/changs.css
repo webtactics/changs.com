@@ -1312,56 +1312,65 @@ ul.off-canvas-list, ul.second {
     padding: 0;
 
 }
+ul.off-canvas-list li ul {margin: 0;}
 
+
+ul.off-canvas-list li a {
+    color: var(--black);
+    background: var(--white);
+    padding: 0.35rem 0 0.35rem 1rem;
+}
+ul.off-canvas-list li a:hover {
+    color: var(--black);
+    background: var(--green);
+    padding: 0.35rem 0 0.35rem 1rem;
+}
+ul.off-canvas-list li.active-class a {
+    color: var(--white);
+    background: var(--primary);
+    padding: 0.35rem 0 0.35rem 1rem;
+}
+ul.off-canvas-list li.active-class a:hover {
+    color: var(--black);
+    background: var(--green);
+    padding: 0.35rem 0 0.35rem 1rem;
+}
 
 
 ul.off-canvas-list li a, ul.off-canvas-list li a:focus, ul.off-canvas-list  li a:active {
     display: block;
     padding: 0.75rem;
     color: var(--black);
-    border-bottom: 1px solid var(--black);
+    border-bottom: 1px solid var(--grey);
     background: var(--white);
     transition: background 300ms ease;
 }
 
-ul.off-canvas-list  li a:hover {
-    color: var(--black);
-    background: var(--red);
-    transition: background 300ms ease;
-}
-ul.off-canvas-list  li.active-class a {
-    color: var(--black);
-    background: var(--red);
-    transition: background 300ms ease;
-}
-ul.off-canvas-list li ul li.active-class a:hover {
-    color: var(--black);
-    background: var(--green);
-    transition: background 300ms ease;
-}
+
 
 ul.off-canvas-list ul.second li a {
     color: var(--black);
     background: var(--white);
     padding: 0.35rem 0 0.35rem 1rem;
 }
-ul.off-canvas-list ul.second li.menuactive a {
-    color: var(--primary);
-    background: var(--text);
+ul.off-canvas-list ul.second li a:hover {
+    color: var(--black);
+    background: var(--green);
     padding: 0.35rem 0 0.35rem 1rem;
 }
-ul.off-canvas-list ul.second li.menuactive a:hover {
-    color: var(--green);
+ul.off-canvas-list ul.second li.active-class a {
+    color: var(--white);
     background: var(--primary);
     padding: 0.35rem 0 0.35rem 1rem;
 }
+ul.off-canvas-list ul.second li.active-class a:hover {
+    color: var(--black);
+    background: var(--green);
+    padding: 0.35rem 0 0.35rem 1rem;
+}
 
-ul.off-canvas-list li ul {margin: 0;}
 
-ul.off-canvas-list li a:hover, ul.off-canvas-list li a:focus {
-color: var(--green);
-background:var(--red);
-font-weight: normal;}
+
 
 
 
