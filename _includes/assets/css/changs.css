@@ -1,16 +1,23 @@
 :root {
-	--primary: hsla(203, 70%, 46%, 1);
-  --primary50: hsla(203, 70%, 46%, 0.5);
-  --primary30: hsla(203, 70%, 46%, 0.3);
-  --primary60: hsla(203, 70%, 46%, 0.6);
-  --primary75: hsla(203, 70%, 46%, 0.75);
-	--white: #ffffff;
-  --text: rgba(129,129,129,1.00);
-	--background: #FFF0EB;
-	--red: #D90000;
-  --black: #000000;
-  --grey: #ebebeb;
-  --green: hsla(144, 80%, 22%, 1);
+--primary: hsla(203, 70%, 46%, 1);
+--primary50: hsla(203, 70%, 46%, 0.5);
+--primary30: hsla(203, 70%, 46%, 0.3);
+--primary60: hsla(203, 70%, 46%, 0.6);
+--primary75: hsla(203, 70%, 46%, 0.75);
+--text: rgba(129,129,129,1.00);
+--background: #FFF0EB;
+--red: #D90000;
+--green: hsla(144, 80%, 22%, 1);
+--lightgrey: #e6e6e6;
+--lightergrey: #808080;
+--grey: #A7A7A7;
+--darkgrey: #3A3A3A;
+--darkergrey:' 'hsl(0, 0%, 20%);
+--white: #fff;
+--black: rgba(0,0,0,1.00);
+--mattblack: #191C20;
+--light_black: rgba(0,0,0,0.30);
+--seethrublack: rgba(0,0,0,0.05);
  
 }
 *, *:before, *:after {
@@ -1193,7 +1200,7 @@ body.lb-disable-scrolling {
 
 .lb-nav a {
   outline: none;
-  background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+  background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw= );
 }
 
 .lb-prev, .lb-next {
