@@ -1321,22 +1321,26 @@ ul.off-canvas-list li a {
     padding: 0.75rem;
     display: block;
     border-bottom: 1px solid var(--primary);
+    transition: background 300ms ease;
 }
 ul.off-canvas-list li a:hover {
     color: var(--black);
     background: var(--green);
     padding: 0.75rem;
     border-bottom: 1px solid var(--primary);
+    transition: background 300ms ease;
 }
 ul.off-canvas-list li.active-class a, ul.off-canvas-list li.active-class a:focus, ul.off-canvas-list li.active-class a:active  {
     color: var(--white);
     background: var(--primary);
     padding: 0.75rem;
+    transition: background 300ms ease;
 }
 ul.off-canvas-list li.active-class a:hover {
     color: var(--white);
     background: var(--primary);
     padding: 0.75rem;
+    transition: background 300ms ease;
 }
 
 
@@ -1347,25 +1351,29 @@ ul.off-canvas-list li.active-class a:hover {
 ul.off-canvas-list ul.second li a {
     color: var(--white);
     background: var(--red);
-    padding: 0.35rem 0 0.35rem 1rem;
+    padding: 0.35rem 0 0.35rem 2rem;
     display: block;
     border-bottom: 1px solid var(--grey);
+    transition: background 300ms ease;
 }
 ul.off-canvas-list ul.second li a:hover {
     color: var(--black);
     background: var(--green);
-    padding: 0.35rem 0 0.35rem 1rem;
+    padding: 0.35rem 0 0.35rem 3rem;
     border-bottom: 1px solid var(--red);
+    transition: background 300ms ease;
 }
 ul.off-canvas-list ul.second li.active-class a, ul.off-canvas-list ul.second li.active-class a:focus, ul.off-canvas-list ul.second li.active-class a:active {
     color: var(--green);
     background: var(--red);
-    padding: 0.35rem 0 0.35rem 1rem;
+    padding: 0.35rem 0 0.35rem 2rem;
+    transition: background 300ms ease;
 }
 ul.off-canvas-list ul.second li.active-class a:hover {
     color: var(--black);
     background: var(--green);
-    padding: 0.35rem 0 0.35rem 1rem;
+    padding: 0.35rem 0 0.35rem 3rem;
+    transition: background 300ms ease;
 }
 
 
