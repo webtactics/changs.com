@@ -1354,9 +1354,9 @@ ul.off-canvas-list li a {
     border-bottom: 1px solid var(--grey);
     color: var(--white);
     display: block;
-    padding: 0.4rem 0.66667rem;
+    padding: 0.75rem;
     transition: background 300ms ease;
-	background:var(--black);
+	background: #3A3A3A;
   
 }
 ul.off-canvas-list li a:hover, ul.off-canvas-list li a:focus {color: var(--black);background:var(--white);font-weight: normal;}
