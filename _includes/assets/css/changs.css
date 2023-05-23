@@ -1344,7 +1344,7 @@ ul.off-canvas-list li.active-class a:hover {
 
 ul.off-canvas-list ul.second li a {
     color: var(--white);
-    background: var(--primary);
+    background: var(--red);
     padding: 0.35rem 0 0.35rem 1rem;
     display: block;
 }
@@ -1354,7 +1354,7 @@ ul.off-canvas-list ul.second li a:hover {
     padding: 0.35rem 0 0.35rem 1rem;
 }
 ul.off-canvas-list ul.second li.active-class a, ul.off-canvas-list ul.second li.active-class a:focus, ul.off-canvas-list ul.second li.active-class a:active {
-    color: var(--white);
+    color: var(--green);
     background: var(--red);
     padding: 0.35rem 0 0.35rem 1rem;
 }
