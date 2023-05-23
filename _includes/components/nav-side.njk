@@ -1,5 +1,3 @@
-
-
 {% set navPages = collections.all | eleventyNavigation %}
 {% macro renderNavListItem(entry) -%}
 <li{% if entry.url == page.url %} class="active-class menuactive"{% endif %}>
