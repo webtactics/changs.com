@@ -1338,18 +1338,18 @@ ul.off-canvas-list li.sectionheader  {color: var(--grey);background:var(--black)
     background: var(--white);
     padding: 0.35rem 0 0.35rem 1rem;
 }
-.off-canvas-list ul.second li.menuparent.menuactive a.menuparent.menuactive {
-    color: var(--white);
+.off-canvas-list ul.second li.menuactive a.navside {
+    color: var(--primary);
     background: var(--text);
     padding: 0.35rem 0 0.35rem 1rem;
 }
-.off-canvas-list ul.second li.menuparent.menuactive a.menuparent.menuactive:hover {
+..off-canvas-list ul.second li.menuactive a.navside:hover {
     color: var(--black);
-    background: var(--white);
+    background: var(--red);
     padding: 0.35rem 0 0.35rem 1rem;
 }
 
-ul.off-canvas-list li ul, ul li ol {margin: 0;}
+ul.off-canvas-list li ul {margin: 0;}
 ul.off-canvas-list li a {
     border-bottom: 1px solid var(--grey);
     color: var(--white);
@@ -1357,11 +1357,11 @@ ul.off-canvas-list li a {
     padding: 0.4rem 0.66667rem;
     transition: background 300ms ease;
 	background:var(--black);
-    font-family: 'Montserrat', sans-serif;
+  
 }
 ul.off-canvas-list li a:hover, ul.off-canvas-list li a:focus {color: var(--black);background:var(--white);font-weight: normal;}
-ul.off-canvas-list li li a {color: var(--white);background:[[$grey]];padding: 0.35rem 0 0.35rem 1rem;font-size:1rem;}
-ul.off-canvas-list li li a.menuparent {color: var(--white);background:var(--text);padding: 0.35rem 0 0.35rem 1rem;font-size:1rem;}
+ul.off-canvas-list li li a {color: var(--white);background:var(--green);padding: 0.35rem 0 0.35rem 1rem;font-size:1rem;}
 
 
-ul.off-canvas-list li li a:hover, ul.off-canvas-list li li a:focus {color: [[$mattblack]];background:var(--grey);padding: 0.35rem 0 0.35rem 1rem;font-size:1rem;}
+
+ul.off-canvas-list li li a:hover, ul.off-canvas-list li li a:focus {color: var(--primary);background:var(--grey);padding: 0.35rem 0 0.35rem 1rem;font-size:1rem;}
