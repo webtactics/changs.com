@@ -1316,7 +1316,7 @@ ul.off-canvas-list li ul {margin: 0;}
 
 
 ul.off-canvas-list li a {
-    color: var(--black);
+    color: var(--primary);
     background: var(--white);
     padding: 0.75rem;
     display: block;
