@@ -564,6 +564,56 @@ margin:5px 0;
 }
 
 .mobilemenu {padding:0 0 1rem;}
+ul.off-canvas-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.off-canvas-list li a {
+  border-bottom: 1px solid #e6e6e6;
+  color: var(--white);
+  display: block;
+  padding: 0.75rem;
+  transition: background 300ms ease;
+  background: #3A3A3A;
+}
+ul.off-canvas-list li a:hover, ul.off-canvas-list li a:focus {
+  color: #191C20;
+  background: var(--primary);
+  font-weight: bold;
+}
+
+ul.off-canvas-list > li.current > a, ul.off-canvas-list > li.active-class > a {
+  color: var(--white);
+  background-color: var(--primary); font-weight: bold;}
+
+  ul.off-canvas-list li ul.second li a {
+    border-bottom: 1px solid #e6e6e6;
+    color: var(--white);
+    display: block;
+    padding: 0.75rem 1.5rem;
+    transition: background 300ms ease;
+    background: var(--red);
+  }
+
+  ul.off-canvas-list li ul.second li a:hover {
+    border-bottom: 1px solid #e6e6e6;
+    color: var(--white);
+    display: block;
+    padding: 0.75rem 1.5rem;
+    transition: background 300ms ease;
+    background: var(--green);
+  }
+
+  ul.off-canvas-list li ul.second li.active-class a {
+    border-bottom: 1px solid #e6e6e6;
+    color: var(--white);
+    display: block;
+    padding: 0.75rem 1.5rem;
+    transition: background 300ms ease;
+    background: var(--black);
+  }
+
 
 
 .hero {height: 100svh;height: 100vh;}
@@ -1008,80 +1058,4 @@ button.button.success {cursor: pointer;}
   }
 
  
-
-
-
-ul.off-canvas-list, ul.second {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
-}
-ul.off-canvas-list li ul {margin: 0;}
-
-
-ul.off-canvas-list li a {
-    color: var(--white);
-    background: var(--primary50);
-    padding: 0.75rem;
-    display: block;
-    border-bottom: 1px solid var(--primary);
-    transition: background 300ms ease;
-}
-ul.off-canvas-list li a:hover {
-    color: var(--white);
-    background: var(--green);
-    padding: 0.75rem;
-    border-bottom: 1px solid var(--primary);
-
-}
-ul.off-canvas-list li.active-class a {
-    color: var(--white);
-    background: var(--green);
-    padding: 0.75rem;
-   
-    border-bottom: 1px solid var(--primary);
-}
-ul.off-canvas-list li.active-class a:hover {
-    color: var(--white);
-    background: var(--primary);
-    padding: 0.75rem;
-
-    border-bottom: 1px solid var(--primary);
-}
-
-
-
-
-
-
-ul.off-canvas-list ul.second li a {
-    color: var(--white);
-    background: var(--red);
-    padding: 0.5rem 0 0.5rem 2rem;
-    display: block;
-    border-bottom: 1px solid var(--grey);
-    transition: background 300ms ease;
-}
-ul.off-canvas-list ul.second li a:hover {
-    color: var(--black);
-    background: var(--green);
-    padding: 0.5rem 0 0.5rem 2rem;
-    border-bottom: 1px solid var(--red);
-
-}
-ul.off-canvas-list ul.second li.active-class a {
-    color: var(--green);
-    background: var(--red);
-    padding: 0.5rem 0 0.5rem 2rem;
-
-}
-ul.off-canvas-list ul.second li.active-class a:hover {
-    color: var(--black);
-    background: var(--green);
-    padding: 0.5rem 0 0.5rem 2rem;
- 
-}
-
-
 
