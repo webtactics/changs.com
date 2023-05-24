@@ -1,7 +1,7 @@
 :root {
 --primary: hsla(203, 70%, 46%, 1);
---primary50: hsla(203, 70%, 46%, 0.5);
 --primary30: hsla(203, 70%, 46%, 0.3);
+--primary50: hsla(203, 70%, 46%, 0.5);
 --primary60: hsla(203, 70%, 46%, 0.6);
 --primary75: hsla(203, 70%, 46%, 0.75);
 --text: rgba(129,129,129,1.00);
@@ -12,7 +12,7 @@
 --lightergrey: #808080;
 --grey: #A7A7A7;
 --darkgrey: #3A3A3A;
---darkergrey:' 'hsl(0, 0%, 20%);
+--darkergrey: hsl(0, 0%, 20%);
 --white: #fff;
 --black: rgba(0,0,0,1.00);
 --mattblack: #191C20;
