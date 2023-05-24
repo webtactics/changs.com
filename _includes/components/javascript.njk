@@ -2,9 +2,6 @@
 
 
 {% set js %}
-
-{% include "assets/js/lightbox.js" %}
 {% include "assets/js/script.js" %}
-
 {% endset %}
 <script>{{ js | jsmin | safe }}</script>
