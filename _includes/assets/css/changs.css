@@ -1033,20 +1033,20 @@ ul.off-canvas-list li a:hover {
     background: var(--green);
     padding: 0.75rem;
     border-bottom: 1px solid var(--primary);
-    transition: background 300ms ease;
+
 }
 ul.off-canvas-list li.active-class a {
     color: var(--white);
     background: var(--green);
     padding: 0.75rem;
-    transition: background 300ms ease;
+   
     border-bottom: 1px solid var(--primary);
 }
 ul.off-canvas-list li.active-class a:hover {
     color: var(--white);
     background: var(--primary);
     padding: 0.75rem;
-    transition: background 300ms ease;
+
     border-bottom: 1px solid var(--primary);
 }
 
@@ -1068,19 +1068,19 @@ ul.off-canvas-list ul.second li a:hover {
     background: var(--green);
     padding: 0.5rem 0 0.5rem 2rem;
     border-bottom: 1px solid var(--red);
-    transition: background 300ms ease;
+
 }
 ul.off-canvas-list ul.second li.active-class a {
     color: var(--green);
     background: var(--red);
     padding: 0.5rem 0 0.5rem 2rem;
-    transition: background 300ms ease;
+
 }
 ul.off-canvas-list ul.second li.active-class a:hover {
     color: var(--black);
     background: var(--green);
     padding: 0.5rem 0 0.5rem 2rem;
-    transition: background 300ms ease;
+ 
 }
 
 
