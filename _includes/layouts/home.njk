@@ -7,7 +7,11 @@
 {% block content %}
 <section role="main" class="content">  
 {{ layoutContent | safe }}
-{% set postslist = collections.massages %}
+<h3>Products</h3>
+{% set postslist = collections.products %}
+{% include "components/postslist.njk" %}
+<h3>Recipes</h3>
+{% set postslist = collections.recipes %}
 {% include "components/postslist.njk" %}
 </section>
 {% endblock %}
