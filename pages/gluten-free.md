@@ -1,12 +1,12 @@
 ---
-layout: layouts/booking.njk
-title: Make a booking
+layout: layouts/default.njk
+title: Gluten Free Products and Recipes
 description: This is a sample meta description. If one is not present in your page/post's front matter, the default metadata.description will be used instead.
-section: contact
+section: gluten-free
 date: 2023-01-01
-permalink: /booking/
+permalink: /gluten-free/
 eleventyNavigation:
-  key: Booking
-  order: 2
+  key: Gluten Free
+  order: 3
 ---
 
