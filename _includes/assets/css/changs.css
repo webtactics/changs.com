@@ -649,6 +649,7 @@ padding: 1rem;
 z-index: 2;
 max-width: 1280px;
 background-color: var(--white);
+min-height:600px;
 }
 
 .internal .content {
