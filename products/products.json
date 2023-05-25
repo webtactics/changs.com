@@ -1,9 +1,9 @@
 {
     "layout": "layouts/post.njk",
-    "permalink": "massages/{{ title | slug }}/index.html",
+    "permalink": "products/{{ title | slug }}/index.html",
     "author": "Anonymous",
     "tags": [
-      "massages"
+      "products"
     ]
   }
   
