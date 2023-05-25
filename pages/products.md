@@ -6,6 +6,6 @@ date: 2023-04-19
 permalink: /products/
 eleventyNavigation:
   key: Products
-  order: 2
+  order: 1
 ---
 

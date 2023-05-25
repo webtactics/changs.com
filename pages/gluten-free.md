@@ -7,6 +7,6 @@ date: 2023-01-01
 permalink: /gluten-free/
 eleventyNavigation:
   key: Gluten Free
-  order: 3
+  order: 2
 ---
 
