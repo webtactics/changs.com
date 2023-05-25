@@ -1,9 +1,9 @@
 ---
 layout: layouts/home.njk
-title: Chang's Authentic Asian Cooking
-metatitle: Easy Asian recipes and the products to create them - Chang's Authentic Asian Cooking
+title: Changs Flavours of Asia
+metatitle: Changs Flavours of Asia. Easy Asian recipes and the products to create them.
 date: 2023-04-22T00:00:00.000Z
-description: Gloucester Thai Massage trained with the prestigious Wat Pho massage school, in Bangkok, Thailand and we take great pride in our massages and service.
+description: Chang’s is more than just a brand with great products, it’s a lifelong passion to share our love for food and Asian cooking with Australians.
 permalink: /
 
 ---
