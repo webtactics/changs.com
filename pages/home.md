@@ -1,12 +1,11 @@
 ---
 layout: layouts/home.njk
-title: Gloucester Thai Massage
+title: Chang's Authentic Asian Cooking
+metatitle: Easy Asian recipes and the products to create them - Chang's Authentic Asian Cooking
 date: 2023-04-22T00:00:00.000Z
 description: Gloucester Thai Massage trained with the prestigious Wat Pho massage school, in Bangkok, Thailand and we take great pride in our massages and service.
 permalink: /
-eleventyNavigation:
-  key: Home
-  order: 0
+
 ---
 # Gloucester Thai Massage
 **Joy from Gloucester Thai Massage trained with the prestigious Wat Pho massage school, in Bangkok, Thailand and takes great pride in her massages and service.**

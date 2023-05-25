@@ -12,9 +12,9 @@
 <meta name="theme-color" content="#ffffff">
 
 
-<title>{{ title or metadata.title }} | {{ sitename }}</title>
+<title>{{ title or metadata.title }}</title>
 
-<meta property="og:title" content="{{ title or metadata.title }}" />
+<meta property="og:title" content="{{ metatitle or title or metadata.title }}" />
 <meta property="og:description" content="{{ description or metadata.description or eleventyComputed.description }}" />
 <meta property="og:image" content="{{ image or metadata.image or eleventyComputed.image }}" />
 <meta property="og:url" content="https://www.changs.com{{ page.url or post.url or permalink }}" />
