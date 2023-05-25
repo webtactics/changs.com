@@ -5,9 +5,7 @@ description: To book a massage please call Joy on 0411 447 704, use our booking 
 section: contact
 date: 2018-01-01
 permalink: /contact/
-eleventyNavigation:
-  key: Contact
-  order: 4
+
 ---
 
 To book a massage please call Joy on [0411 447 704](tel:+61411447704), use our [booking page](/booking/) or email [joy@gtmassage.com.au](mailto:joy@gtmassage.com.au)
