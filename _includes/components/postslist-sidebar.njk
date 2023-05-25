@@ -11,21 +11,17 @@
 
 
 <div class="pricesumpic">
-<a href="{{ post.url | url }}"><img src="{{ post.data.image }}/tr:w-300,h-300" alt="{{ post.data.imageAlt }}" title="{{ post.data.imageAlt }}" ></a>
+<a href="{{ post.url | url }}"><img src="{{ post.data.image }}/tr:w-300,h-200" alt="{{ post.data.imageAlt }}" title="{{ post.data.imageAlt }}" ></a>
 </div>
 
 <div class="detailpage-sidebar-summary-content-wrapper">
 <div class="pricelistsum">
-<h3><a href="{{ post.url | url }}" title="{{ post.data.title }}" alt="{{ post.data.title }}" >{{ post.data.title }}</a></h3>
+<h3><a href="{{ post.url | url }}" title="{{ post.data.title }}">{{ post.data.title }}</a></h3>
 </div>
-<div class="SummaryPrice sidebar">  
-<div class="grid-timecost"> 
-{% if post.data.time30 %}<div class="timecostwrapper"><span class="timecostmin">30 min:</span>{{ post.data.time30 }}</div>{% endif %}
-{% if post.data.time45 %}<div class="timecostwrapper"><span class="timecostmin">45 min:</span>{{ post.data.time45 }}</div>{% endif %}
-{% if post.data.time60 %}<div class="timecostwrapper"><span class="timecostmin">60 min:</span>{{ post.data.time60 }}</div>{% endif %}
-{% if post.data.time90 %}<div class="timecostwrapper"><span class="timecostmin">90 min:</span>{{ post.data.time90 }}</div>{% endif %}
-{% if post.data.time120 %}<div class="timecostwrapper"><span class="timecostmin">120 min:</span>{{ post.data.time120 }}</div>{% endif %}
-</div>	</div>	
+<div class="NewsSummaryPrice">   
+{% if post.data.time30 %}30 min: {{ post.data.time30 }} | {% endif %}{% if post.data.time45 %}45 min: {{ post.data.time45 }}{% endif %}<br>
+{% if post.data.time60 %}60 min: {{ post.data.time60 }} | {% endif %}{% if post.data.time90 %}90 min: {{ post.data.time90 }}{% endif %}
+</div>
 </div>
 </div>
 </div>
