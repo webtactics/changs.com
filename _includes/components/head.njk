@@ -12,7 +12,7 @@
 <meta name="theme-color" content="#ffffff">
 
 
-<title>{{ title or metadata.title }}</title>
+<title>{{ title or metadata.title }} | {{ sitename }}</title>
 
 <meta property="og:title" content="{{ title or metadata.title }}" />
 <meta property="og:description" content="{{ description or metadata.description or eleventyComputed.description }}" />
