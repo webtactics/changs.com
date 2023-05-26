@@ -237,6 +237,7 @@ transition: all 0.6s;}
  }
 .scrolled .toggle-nav {
 margin: 5px;
+color: var(--white);
 height: 34px;
 -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
@@ -296,15 +297,7 @@ span.title-bar-title {display:flex;text-indent:30px;padding:0;margin-top:-0.25re
 .toggle-nav:focus {outline: none;}
 
 
-.toggle-nav:hover {
-background-color: var(--primary);
-color: var(--white);
-}
 
-.scrolled .toggle-nav:hover {
-  background-color: var(--white);
-  color: var(--primary);
-  }
 
 .button {
   background-color: var(--primary);
