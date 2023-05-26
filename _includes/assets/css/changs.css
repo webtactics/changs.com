@@ -123,7 +123,7 @@ font-style: normal;
 @media only screen and (min-width: 1025px) {  
         .headerwrapper {
         display: grid;
-        grid-template-columns: 120px 150px 1fr 150px;
+        grid-template-columns: 120px 200px 1fr 200px;
         grid-template-areas:
           "hamburger logo nav socialwrapper";
           grid-template-rows: 64px; } 
@@ -150,13 +150,13 @@ font-style: normal;
           }
   
 @media screen and (min-width: 1025px) {
-  .logo img {max-width:130px;
+  .logo img {max-width:200px;
     -webkit-transition: all 0.6s;
 -moz-transition: all 0.6s;
 -ms-transition: all 0.6s;
 -o-transition: all 0.6s;
 transition: all 0.6s;}
-.scrolled .logo img {max-width:80px;
+.scrolled .logo img {max-width:120px;
     -webkit-transition: all 0.6s;
 -moz-transition: all 0.6s;
 -ms-transition: all 0.6s;
@@ -169,13 +169,13 @@ transition: all 0.6s;}
   display: none;
 }
 .logo {position:absolute;right:0.5rem;text-align: right;}
-.logo img {max-width:80px;
+.logo img {max-width:100px;
   -webkit-transition: all 0.6s;
 -moz-transition: all 0.6s;
 -ms-transition: all 0.6s;
 -o-transition: all 0.6s;
 transition: all 0.6s;}
-.scrolled .logo img {max-width:50px;
+.scrolled .logo img {max-width:90px;
   -webkit-transition: all 0.6s;
 -moz-transition: all 0.6s;
 -ms-transition: all 0.6s;
