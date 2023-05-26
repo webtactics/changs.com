@@ -495,11 +495,18 @@ ul.second-level li a {
   text-align: center;
   text-decoration: none;
 }
+ul.second-level li a:hover {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: var(--white);
+  background-color: var(--primary);
+  width: 160px;
+  text-align: center;
+  text-decoration: none;
+}
 
 ul.main-menu li:hover ul.second-level {
   display: block;
-  color: var(--white);
-  background-color: var(--primary);
 }
 
 
