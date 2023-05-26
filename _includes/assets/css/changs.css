@@ -464,11 +464,45 @@ padding: 0;
   transition: all 0.3s;
 }
 
-.main-menu > li.current > a,
+
 .main-menu > li.active-class > a {
   color: var(--primary);
   background-color: var(--white);
 }
+
+
+
+ul.second-level {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+ul.second-level li {
+  display: block;
+}
+
+ul.second-level li a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+ul.main-menu li:hover ul.second-level {
+  display: block;
+}
+
+
+
+
+
+
 
 
 ul.menusocial li {
