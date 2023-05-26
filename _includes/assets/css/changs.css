@@ -7,6 +7,7 @@
 	--red: #D90000;
   --text: #333;
   --black: #000000;
+  --lightgrey: #ebebeb;
   --mattblack: hsla(214,12%,11%,1);
   --green: hsla(144, 80%, 22%, 1);
 }
@@ -485,7 +486,7 @@ ul.second-level {
 
 ul.second-level li {
   display: block;
-  border-top: 1px solid var(--text);
+  border-top: 1px solid var(--lightgrey);
 }
 
 ul.second-level li:first-child {
