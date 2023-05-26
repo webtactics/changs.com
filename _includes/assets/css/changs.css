@@ -2,10 +2,10 @@
 
 
 :root {
-	--primary: hsla(16, 25%, 38%, 1);
-  --primarylight: hsla(16, 25%, 38%, 0.6);
+	--primary: hsla(358,78%,51%,1);
+  --primary60: hsla(358,78%,51%,0.6);
+  --primary30: hsla(358,78%,51%,0.3);
 	--white: #ffffff;
-	--background: #FFF0EB;
 	--red: #D90000;
   --black: #000000;
   --green: hsla(144, 80%, 22%, 1);
@@ -341,7 +341,7 @@ span.title-bar-title {display:flex;text-indent:30px;padding:0;margin-top:-0.25re
   color: var(--white);
 }
 button.success, .button.success {
-  background-color: var(--primarylight);
+  background-color: var(--primary60);
   border-width: 0.1rem;
   border-color: var(--primary);
   color: var(--white);
