@@ -264,6 +264,18 @@ height: 34px;
 }
 
 
+.scrolled  .hamburger-icon:before {
+
+    background: var(--white);
+    box-shadow: 0 8px 0 0 var(--white), 0 16px 0 0 var(--white);
+    -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+
 span.title-bar-title {display:flex;text-indent:30px;padding:0;margin-top:-0.25rem;}
 
 
@@ -271,9 +283,14 @@ span.title-bar-title {display:flex;text-indent:30px;padding:0;margin-top:-0.25re
 
 
 .toggle-nav:hover {
-  background-color: var(--primary);
-  color: var(--white);
+background-color: var(--primary);
+color: var(--white);
 }
+
+.scrolled .toggle-nav:hover {
+  background-color: var(--white);
+  color: var(--primary);
+  }
 
 .button {
   background-color: var(--primary);
