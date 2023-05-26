@@ -408,8 +408,8 @@ ul.menusocial li {
     margin: 0;
     border: none;
     position: relative;
-    left: 0;
-    width: 200px;
+    right: 0;
+    width: 170px;
     text-align: center;
 }
 .main-menu > li.hide {
