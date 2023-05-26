@@ -485,7 +485,12 @@ ul.second-level {
 
 ul.second-level li {
   display: block;
+  border-top: 1px solid var(--text);
 }
+
+ul.second-level li:first-child {
+  border-top: none;}
+
 
 ul.second-level li a {
   display: block;
