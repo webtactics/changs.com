@@ -386,7 +386,7 @@ button.blogdetail, .button.blogdetail {margin:0;}
 }
 .topbar {
   position: fixed;
-  background-color: var(--white50);
+  background-color: var(--primary60);
   width: 100%;
   padding: 0;
   top: 0;
