@@ -398,6 +398,8 @@ ul, ul.menusocial, ul.main-menu {
 ul.main-menu {
   float: left;
 }
+
+.main-menu {margin:0 auto;}
 ul.menusocial li {
   float: right;
   margin:0 1rem 0 0;
@@ -408,7 +410,6 @@ ul.menusocial li {
     margin: 0;
     border: none;
     position: relative;
-    right: 0;
     width: 170px;
     text-align: center;
 }
