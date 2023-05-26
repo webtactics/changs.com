@@ -5,6 +5,7 @@
   --white: hsla(0,0%,100%,1);
   --white50: hsla(0,0%,100%,0.5);
 	--red: #D90000;
+  --text: #333;
   --black: #000000;
   --mattblack: hsla(214,12%,11%,1);
   --green: hsla(144, 80%, 22%, 1);
@@ -17,7 +18,10 @@ html,
 body {
 padding: 0;
 margin: 0;
-font-family: Tahoma, Verdana, "Segoe Print", sans-serif;}
+font-family: Tahoma, Verdana, "Segoe Print", sans-serif;
+color: var(--text);
+background-image: url('https://ik.imagekit.io/webtactics/changs/images/assets/bg/Chang-pattern-191x500-40.png');
+background-repeat: repeat;}
 
 html { 
 scroll-behavior: smooth; 
@@ -276,7 +280,7 @@ height: 34px;
 }
 
 
-span.title-bar-title {display:flex;text-indent:30px;padding:0;margin-top:-0.25rem;}
+span.title-bar-title {display:flex;text-indent:30px;padding:0;margin-top:-0.25rem;color: var(--green);}
 
 
 .toggle-nav:focus {outline: none;}
