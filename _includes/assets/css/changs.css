@@ -396,7 +396,7 @@ ul, ul.menusocial, ul.main-menu {
     padding-inline-start: 0;
 }
 ul.main-menu li {
-  float: left;
+  float: right;
 }
 ul.menusocial li {
   float: right;
