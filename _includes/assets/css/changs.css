@@ -248,16 +248,13 @@ height: 34px;
 }
 }
 
-
-
-
 .hamburger-icon:before {
   content: "";
   display:block;
     width: 24px;
     height: 4px;
     margin:0px;
-    background: var(--white);
+    background: var(--primary);
     box-shadow: 0 8px 0 0 var(--primary), 0 16px 0 0 var(--primary);
     -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
@@ -270,11 +267,7 @@ height: 34px;
 span.title-bar-title {display:flex;text-indent:30px;padding:0;margin-top:-0.25rem;}
 
 
-
-
-.toggle-nav:focus {
-  outline: none;
-}
+.toggle-nav:focus {outline: none;}
 
 
 .toggle-nav:hover {
