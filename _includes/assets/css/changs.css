@@ -105,7 +105,7 @@ font-style: normal;
     color: var(--primary);
   }
 
-.container {background: white; }
+.container {background: transparent; }
   .content-title { background: #ebebeb; display: flex;
         align-items: center;
         justify-content: center;}
