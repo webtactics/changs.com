@@ -249,7 +249,7 @@ padding:5px;
 
 .scrolled .toggle-nav:hover {
 color: var(--primary);
-background: var(--white);
+background: var(--white50);
 }
 
  @media screen and (max-width: 1025px) {
