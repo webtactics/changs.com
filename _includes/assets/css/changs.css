@@ -471,10 +471,13 @@ padding: 0;
 
 
 .main-menu > li.active-class > a {
-  color: var(--primary);
-  background-color: var(--green);
+  color: var(--white);
+  background-color: var(--primary);
 }
-
+.scrolled .main-menu > li.active-class > a {
+  color: var(--primary);
+  background-color: var(--white);
+}
 
 
 ul.second-level {
