@@ -1,14 +1,15 @@
 ---
 layout: layouts/default.njk
-title: Chang's Gluten Free Products
-class: products
-metaDescription: Whether you choose to avoid gluten for lifestyle or health reasons, going gluten-free doesn’t mean missing out. Chang’s has a great range of gluten free and wheat free (tamari) products options just for you!
-date: 2023-01-03
+title: Chang's Quick and Easy Recipes
+class: recipes
+metaDescription: Our Quick and Easy Recipes section has heaps of easy Asian meal ideas to try at home!
+date: 2023-01-04
+permalink: "/recipes/quick-and-easy/"
 eleventyNavigation:
-  key: Gluten Free
-  parent: Products
+  key: Quick and Easy
+  parent: Recipes
 ---
-Gluten Free
+Our Quick and Easy Recipes section has heaps of easy Asian meal ideas to try at home!
 
 # Thank you!
 
