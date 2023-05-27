@@ -26,7 +26,7 @@ tags:
   - Tamari Oyster Sauce
   - Soy Sauce Dark
 
-image: https://ik.imagekit.io/webtactics/thai-massage/tararom/massages/Thai-Hot-Coconut-Oil-Massage_q_DgdLvtM6.jpg
+image: https://ik.imagekit.io/webtactics/changs-media/recipes/Beef-with-Broccoli-on-Crispy-Noodles_H99MWsVad.jpg
 imageAlt: Beef with Broccoli on Crispy Noodles
 description: A rich and tasty Chinese inspired stirfry
 serves: 4
