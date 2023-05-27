@@ -9,7 +9,7 @@ permalink: "recipes/main-ingredients/beef/"
 
 
 
-{% set postslist = collections.recipes %}
+{% postslist = collections.recipes %}
 {% include "components/postslist.njk" %}
 
 
