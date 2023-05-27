@@ -544,9 +544,11 @@ ul.main-menu li:hover ul.second-level {
 .fly-out-menu {
   display: none;
   position: absolute;
-  top: 100%;
-  left: 0;
+  top: 0;
+  left: 100%;
+  width: 200px; /* Adjust width as needed */
   background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -560,7 +562,6 @@ ul.main-menu li:hover ul.second-level {
   color: #333;
   text-decoration: none;
 }
-
 
 
 
