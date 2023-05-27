@@ -539,14 +539,13 @@ ul.second-level li.active-class > a {
 ul.main-menu li:hover ul.second-level {
   display: block;
 }
-
+/* fly-out menu */
 
 .fly-out-menu {
   display: none;
   position: absolute;
-  top: 0;
-  left: 100%;
-  min-width: 200px; /* Adjust width as needed */
+  top: 100%;
+  left: 0;
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -563,15 +562,12 @@ ul.main-menu li:hover ul.second-level {
   text-decoration: none;
 }
 
-.third-level {
-  position: relative;
-}
-
-.third-level:hover .fly-out-menu {
+.second-level:hover .fly-out-menu {
   display: block;
 }
 
 /* Adjust positioning and styling as needed */
+
 
 
 

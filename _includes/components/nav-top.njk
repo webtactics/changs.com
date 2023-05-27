@@ -1,9 +1,9 @@
 <nav class="navlist">
   {% set navPages = collections.all | eleventyNavigation %}
-
   {% macro renderNavListItem(entry) %}
     <li{% if entry.url == page.url %} class="active-class"{% endif %}>
       <a href="{{ entry.url }}" title="{{ entry.title }}" alt="{{ entry.title }}">{{ entry.title }}</a>
+     
       {% if entry.url == "/pages/recipes/main-ingredients/" %}
         <div class="third-level">
           <ul class="fly-out-menu">
