@@ -42,27 +42,7 @@ header.classList.toggle('scrolled', !entries[0].isIntersecting)
 navObserver.observe(scrollWatcher)
 
 
-// Add event listeners to the parent menu items with second-level menus
-var parentItems = document.querySelectorAll('.second-level > li');
-parentItems.forEach(function(item) {
-  var flyOutMenu = item.querySelector('.fly-out-menu');
 
-  item.addEventListener('mouseenter', function() {
-    flyOutMenu.style.display = 'block';
-  });
-
-  item.addEventListener('mouseleave', function() {
-    flyOutMenu.style.display = 'none';
-  });
-
-  flyOutMenu.addEventListener('mouseenter', function() {
-    flyOutMenu.style.display = 'block';
-  });
-
-  flyOutMenu.addEventListener('mouseleave', function() {
-    flyOutMenu.style.display = 'none';
-  });
-});
 
 
 
