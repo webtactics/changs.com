@@ -7,11 +7,6 @@ date: 2023-01-04
 permalink: "recipes/main-ingredients/beef/"
 ---
 
-{% for post in collections.Beef %}
-{% include "_includes/components/postslist.njk" %}
-{% endfor %}
-
-
 
 
 {% for post in collections.Beef %}
