@@ -1,33 +1,22 @@
+
 <nav class="navlist">
   {% set navPages = collections.all | eleventyNavigation %}
-  {% macro renderNavListItem(entry) -%}
-  <li{% if entry.url == page.url %} class="active-class"{% endif %}>
-    <a href="{{ entry.url }}" title="{{ entry.title }}" alt="{{ entry.title }}">{{ entry.title }}</a>
-    {% if entry.url == "/pages/recipes/main-ingredients/" %}
-      <ul class="fly-out-menu">
-        <li>
-          <a href="/pages/recipes/main-ingredients/vegetarian/" title="Vegetarian Recipes" alt="Vegetarian Recipes">Vegetarian Recipes</a>
-        </li>
-        <li>
-          <a href="/pages/recipes/main-ingredients/meat/" title="Meat Recipes" alt="Meat Recipes">Meat Recipes</a>
-        </li>
-        <li>
-          <a href="/pages/recipes/main-ingredients/poultry/" title="Poultry Recipes" alt="Poultry Recipes">Poultry Recipes</a>
-        </li>
-        <!-- Add more fly-out items here as needed -->
-      </ul>
-    {% endif %}
-    {% if entry.children.length %}
-      <ul class="second-level">
-        {% for child in entry.children %}
-          {{ renderNavListItem(child) }}
-        {% endfor %}
-      </ul>
-    {% endif %}
-  </li>
-  {%- endmacro %}
+  {% macro renderNavListItem(entry) %}
+    <li{% if entry.url == page.url %} class="active-class"{% endif %}>
+      <a href="{{ entry.url }}" title="{{ entry.title }}" alt="{{ entry.title }}">{{ entry.title }}</a>
+      {% if entry.children.length %}
+        <ul class="second-level">
+          {% for child in entry.children %}
+            {{ renderNavListItem(child) }}
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </li>
+  {% endmacro %}
 
   <ul class="main-menu">
-    {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+    {% for entry in navPages %}
+      {{ renderNavListItem(entry) }}
+    {% endfor %}
   </ul>
 </nav>
