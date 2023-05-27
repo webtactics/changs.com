@@ -544,6 +544,7 @@ ul.main-menu li:hover ul.second-level {
 .main-menu > li > ul li > ul.fly-out-menu{   /* Third Level & beyond */
   display:none;
   background-color: var(--white);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 
 }
 .main-menu > li > ul li:hover > ul.fly-out-menu{
