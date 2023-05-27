@@ -7,14 +7,12 @@ date: 2023-01-04
 permalink: "recipes/main-ingredients/beef/"
 ---
 
-{% for recipes in collections.Beef %}
-{% include "components/postslist.njk" %}
+{% for post in collections.Beef %}
+{% include "_includes/components/postslist.njk" %}
 {% endfor %}
 
 
-{% for post in collections.beef %}
-    <a href="{{ page.url }}">{{ post.data.title }}</a>
-{% endfor %}
+
 
 {% for post in collections.Beef %}
 <h3>Beef</h3>
