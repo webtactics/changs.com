@@ -8,6 +8,11 @@ permalink: "recipes/main-ingredients/beef/"
 ---
 Chang's Beef Recipes
 
+{% set postslist = collections.beef %}
+{% include "components/postslist.njk" %}
+
+
+
 # Thank you!
 
 Add a few line breaks in here to test:-
