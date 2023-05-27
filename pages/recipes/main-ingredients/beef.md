@@ -8,7 +8,7 @@ permalink: "recipes/main-ingredients/beef/"
 ---
 Chang's Beef Recipes
 
-{% set postslist = collections.beef %}
+{% set postslist = collections.Beef %}
 {% include "components/postslist.njk" %}
 
 
