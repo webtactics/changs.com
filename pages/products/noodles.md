@@ -1,8 +1,9 @@
 ---
 layout: layouts/default.njk
 title: Changs Noodle Products
+class: products
 metaDescription: All the noodles you will ever need or want to create authentic Asian cuisine to serve up in so many ways.
-date: 2017-01-01T00:00:00.000Z
+date: 2023-01-01
 eleventyNavigation:
   key: Noodles
   parent: Products

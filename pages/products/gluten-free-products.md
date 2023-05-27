@@ -1,14 +1,14 @@
 ---
 layout: layouts/default.njk
-title: Chang's Sauces
+title: Chang's Gluten Free Products
 class: products
-metaDescription: All the noodles you will ever need or want to create authentic Asian cuisine to serve up in so many ways.
+metaDescription: Whether you choose to avoid gluten for lifestyle or health reasons, going gluten-free doesn’t mean missing out. Chang’s has a great range of gluten free and wheat free (tamari) products options just for you!
 date: 2023-01-01
 eleventyNavigation:
-  key: Sauces
+  key: Gluten Free
   parent: Products
 ---
-Sauces
+Gluten Free
 
 # Thank you!
 

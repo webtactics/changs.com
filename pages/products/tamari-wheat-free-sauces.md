@@ -1,14 +1,14 @@
 ---
 layout: layouts/default.njk
-title: Chang's Sauces
+title: Chang's Tamari - Wheat Free Products
 class: products
-metaDescription: All the noodles you will ever need or want to create authentic Asian cuisine to serve up in so many ways.
+metaDescription: Tamari is a Japanese sauce made from fermented soybeans. Use ours to create authentic Asian cuisine to serve up in so many ways!
 date: 2023-01-01
 eleventyNavigation:
-  key: Sauces
+  key: Tamari
   parent: Products
 ---
-Sauces
+Chang's Tamari - Wheat Free Products
 
 # Thank you!
 
