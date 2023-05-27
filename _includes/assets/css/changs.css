@@ -391,7 +391,7 @@ transition: all 0.6s;
 
 
 
-ul.menusocial, ul.main-menu,  ul.second, ul.second-level {
+ul.menusocial, ul.main-menu,  ul.second, ul.second-level, ul.fly-out-menu {
   list-style: none;
   margin: 0;
   margin-block-start: 0;
@@ -544,12 +544,9 @@ ul.main-menu li:hover ul.second-level {
 .fly-out-menu {
   display: none;
   position: absolute;
-  top: 0;
-  left: 100%;
-  margin-top: -40px; /* Adjust the value to align the menu correctly */
-  min-width: 200px;
+  top: 100%;
+  left: 0;
   background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -564,14 +561,11 @@ ul.main-menu li:hover ul.second-level {
   text-decoration: none;
 }
 
-.second-level:hover .fly-out-menu {
-  display: block;
-}
-
 /* Adjust positioning and styling as needed */
 
 
-/* Adjust positioning and styling as needed */
+
+
 
 
 

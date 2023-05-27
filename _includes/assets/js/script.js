@@ -42,6 +42,25 @@ header.classList.toggle('scrolled', !entries[0].isIntersecting)
 navObserver.observe(scrollWatcher)
 
 
+// Add event listeners to the parent menu item and the fly-out menu
+var menuItem = document.querySelector('.main-menu > li');
+var flyOutMenu = document.querySelector('.fly-out-menu');
+
+menuItem.addEventListener('mouseenter', function() {
+  flyOutMenu.style.display = 'block';
+});
+
+menuItem.addEventListener('mouseleave', function() {
+  flyOutMenu.style.display = 'none';
+});
+
+flyOutMenu.addEventListener('mouseenter', function() {
+  flyOutMenu.style.display = 'block';
+});
+
+flyOutMenu.addEventListener('mouseleave', function() {
+  flyOutMenu.style.display = 'none';
+});
 
 
 
