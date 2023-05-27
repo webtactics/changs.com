@@ -6,7 +6,7 @@ metaDescription: All the noodles you will ever need or want to create authentic 
 date: 2023-01-02
 permalink: "/recipes/soup-salad/"
 eleventyNavigation:
-  key: Sauces
+  key: Soup & Salad
   parent: Recipes
 ---
 Chang's Soup & Salad Recipes

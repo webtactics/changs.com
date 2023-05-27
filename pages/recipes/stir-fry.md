@@ -6,7 +6,7 @@ metaDescription: Tamari is a Japanese sauce made from fermented soybeans. Use ou
 date: 2023-01-04
 permalink: "/recipes/stir-fry/"
 eleventyNavigation:
-  key: Tamari
+  key: Stir Fry
   parent: Recipes
 ---
 Chang's Stir Fry Recipes

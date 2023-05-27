@@ -6,7 +6,7 @@ metaDescription: Tamari is a Japanese sauce made from fermented soybeans. Use ou
 date: 2023-01-04
 permalink: "/recipes/sweet-treats/"
 eleventyNavigation:
-  key: Tamari
+  key: Sweet Treats
   parent: Recipes
 ---
 Chang's Sweet Treats Recipes
