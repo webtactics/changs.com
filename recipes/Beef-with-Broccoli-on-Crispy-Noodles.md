@@ -2,6 +2,22 @@
 title: Beef with Broccoli on Crispy Noodles
 date: 2023-05-15
 tags:
+  - Noodles Ingredient
+  - Beef
+  - Quick and Easy
+  - Stir Frys
+  - Main Meals
+  - Gluten Free Variation
+  - Family Dinners
+  - Winter
+  - Summer
+  - Autumn
+  - Spring
+  - Festive
+  - Kid friendly
+
+
+
   - Crunchy Fried Noodles
   - Original Oyster Sauce
   - Rice Vermicelli Noodles
@@ -12,7 +28,7 @@ tags:
 
 image: https://ik.imagekit.io/webtactics/thai-massage/tararom/massages/Thai-Hot-Coconut-Oil-Massage_q_DgdLvtM6.jpg
 imageAlt: Beef with Broccoli on Crispy Noodles
-description: A combination between remedial massage and the warmth virgin organic coconut oil is both relaxing and therapeutic at the same time. Those with tired aching muscles, deep tension or stubborn knots will benefit from this treatment. Coconut oil is also great for the skin.
+description: A rich and tasty Chinese inspired stirfry
 serves: 4
 prep: 40 minutes 
 makes: 
