@@ -68,7 +68,7 @@ Chang’s Oyster Sauce is gluten free.
 <div class="recipesingredient">
 <h3>Ingredients:</h3>
 <ul>
-<li>100g <a title="Chang's Rice Vermicelli Noodles" href="products/Changs-Rice-Noodles-Vermicelli/" target="_blank" rel="noopener">Chang's Rice Vermicelli Noodles</a>, cut into 4-6 cm lengths (or cheat and use <a title="Chang's Original Fried Noodles" href="products/Original-Fried-Noodles/" target="_blank" rel="noopener">Chang's Original Fried Noodles</a>)</li>
+<li>100g {% include "components/product-recipe-link/Changs-Rice-Noodles-Vermicelli.html" %}, cut into 4-6 cm lengths (or cheat and use <a title="Chang's Original Fried Noodles" href="products/Original-Fried-Noodles/" target="_blank" rel="noopener">Chang's Original Fried Noodles</a>)</li>
 <li>1 ½ cups neutral oil</li>
 <li>400g sirloin, rump or fillet, trimmed of all fat and cut into thin strips across the grain</li>
 <li>300g broccoli florets</li>
