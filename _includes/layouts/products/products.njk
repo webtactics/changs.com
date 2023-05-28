@@ -18,6 +18,10 @@
 {% set postslist = collections.noodles %}
 {% include "components/postslist.njk" %}
 {% endif %}
+{% if entry.url == "/products/noodles/" %}
+{% set postslist = collections.Beef %}
+{% include "components/postslist.njk" %}
+{% endif %}
 {% if entry.url == "products/sauces/" %}
 {% set postslist = collections.sauces %}
 {% include "components/postslist.njk" %}
