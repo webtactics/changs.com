@@ -730,6 +730,15 @@ ul.off-canvas-list > li.current > a, ul.off-canvas-list > li.active-class > a {
     background: var(--black);
   }
 
+  .seafood ul.off-canvas-list li ul.second li  a, .seafood ul.off-canvas-list li ul.second li  a:hover {
+    border-bottom: 1px solid #e6e6e6;
+    color: var(--white);
+    display: block;
+   padding: 0.35rem 1.5rem;
+    transition: background 300ms ease;
+    background: var(--black);
+  }
+
 .hero {height: 100svh;height: 100vh;}
 .homebooklogo {
   position: absolute;
@@ -949,7 +958,7 @@ grid-template-columns: 2fr 1fr;}
 
  /* Styles for the accordion */
  .accordion {
-  border: 1px solid #ddd;
+  border: none;
   margin-bottom: 0;
 }
 
