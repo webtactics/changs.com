@@ -16,7 +16,7 @@
 {{ layoutContent | safe }}
 {% if page.url == "/products/noodles/" %}
 {% set postslist = collections.noodles %}
-{% include "components/postslist.njk" %}
+{% include "components/post-product-default.njk" %}
 {% endif %}
 {% if page.url == "products/sauces/" %}
 {% set postslist = collections.sauces %}
