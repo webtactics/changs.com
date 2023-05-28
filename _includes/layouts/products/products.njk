@@ -14,7 +14,7 @@
 <article>
 <h1>{{ title }}</h1>
 {{ layoutContent | safe }}
-{% if entry.url == "products/noodles/" %}
+{% if entry.url == "/products/noodles/" %}
 {% set postslist = collections.noodles %}
 {% include "components/postslist.njk" %}
 {% endif %}
