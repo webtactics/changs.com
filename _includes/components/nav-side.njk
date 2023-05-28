@@ -4,7 +4,8 @@
 <li{% if entry.url == page.url %} class="active-class"{% endif %}>
   <a href="{{ entry.url }}" title="{{ entry.title }}" alt="{{ entry.title }}">{{ entry.title }}</a>
 {%- if entry.children.length -%}
-<ul class="second">
+<li{% if entry.url == page.url %} class="menu-item has-submenu"{% endif %}>
+<ul class="submenu">
     {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
   </ul>
 {%- endif -%}
