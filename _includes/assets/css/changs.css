@@ -10,6 +10,10 @@
   --lightgrey: #ebebeb;
   --mattblack: hsla(214,12%,11%,1);
   --green: hsla(144, 80%, 22%, 1);
+
+
+  --midnight: hsla(210,29%,24%,1);
+  --clouds: hsla(192,15%,94%,1);
 }
 *, *:before, *:after {
   box-sizing: border-box;
@@ -943,11 +947,6 @@ grid-template-columns: 2fr 1fr;}
 
 /* Mobile menu styles */
 
-:root {
-	--midnight: hsla(210,29%,24%,1);
-  --clouds: hsla(192,15%,94%,1);
-
-}
 
 
 
@@ -1007,17 +1006,5 @@ input {
   }
 }
 
-// :checked
-input:checked {
-  + .tab-label {
-    background: var(--primary);
-    &::after {
-      transform: rotate(90deg);
-    }
-  }
-  ~ .tab-content {
-    max-height: 100vh;
-    padding: 1em;
-  }
-}
+
 
