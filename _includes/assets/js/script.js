@@ -44,17 +44,12 @@ navObserver.observe(scrollWatcher)
 
 
 
-// Get all menu items with a submenu
-const menuItems = document.querySelectorAll('.menu-item.has-submenu');
+// Mobile menu toggle
+const navbarToggle = document.querySelector('.navbar-toggle');
+const navbarMenu = document.querySelector('.navbar-menu');
 
-// Add click event listener to each menu item
-menuItems.forEach(item => {
-  item.addEventListener('click', () => {
-    // Toggle the submenu visibility
-    const submenu = item.querySelector('.submenu');
-    submenu.style.display = submenu.style.display === 'block' ? 'none' : 'block';
-  });
+navbarToggle.addEventListener('click', () => {
+  navbarMenu.classList.toggle('show');
+  navbarToggle.classList.toggle('active');
 });
-
-
 
