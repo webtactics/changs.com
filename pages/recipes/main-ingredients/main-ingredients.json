@@ -1,9 +1,0 @@
-{
-    "layout": "layouts/recipes/recipes.njk",
-    "permalink": "recipes/main-ingredients/{{ title | slug }}/index.html",
-    "author": "Chang's",
-    "tags": [
-      "recipes", "main-ingredient-selector"
-    ]
-  }
-  
