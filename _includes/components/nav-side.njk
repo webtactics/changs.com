@@ -1,20 +1,45 @@
-
 {% set navPages = collections.all | eleventyNavigation %}
-{% macro renderNavListItem(entry) -%}
-<li{% if entry.url == page.url %} class="active-class"{% endif %}>
-  <a href="{{ entry.url }}" title="{{ entry.title }}" alt="{{ entry.title }}">{{ entry.title }}</a>
-{%- if entry.children.length -%}
-<li{% if entry.url == page.url %} class="menu-item has-submenu"{% endif %}>
-<ul class="submenu">
-    {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
-  </ul>
-{%- endif -%}
-</li>
-{%- endmacro %}
+  {% macro renderNavListItem(entry) -%}
+  <li{% if entry.url == page.url %} class="active-class"{% endif %}>
+    <a href="{{ entry.url }}" title="{{ entry.title }}" alt="{{ entry.title }}">{{ entry.title }}</a>
+    {% if entry.url == "/products/" %}
+      <ul class="accordion">
+        <li>
+          <a href="/products/noodles/" title="Noodles Products" alt="Noodles Products">Noodles</a>
+        </li>
+        <li>
+          <a href="/products/main-ingredients/noodles-ingredients/" title="Noodles Products" alt="Noodles Products">Noodles Products</a>
+        </li>
+        <li>
+          <a href="/products/main-ingredients/seafood/" title="Seafood Products" alt="Seafood Products">Seafood Products</a>
+        </li>
+        <li>
+          <a href="/products/main-ingredients/poultry-based-products/" title="Poultry Products" alt="Poultry Products">Poultry Products</a>
+        </li>
+          <li>
+          <a href="/products/main-ingredients/pork/" title="Pork Products" alt="Pork Products">Pork Products</a>
+        </li>
+          <li>
+          <a href="/products/main-ingredients/lamb/" title="Lamb Products" alt="Lamb Products">Lamb Products</a>
+        </li>
+          <li>
+          <a href="/products/main-ingredients/beef/" title="Beef Products" alt="Beef Products">Beef Products</a>
+        </li>
+        <!-- Add more fly-out items here as needed -->
+      </ul>
+    {% endif %}
+    {% if entry.children.length %}
+<ul class="second">
+        {% for child in entry.children %}
+          {{ renderNavListItem(child) }}
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </li>
+  {%- endmacro %}
 
 <ul class="off-canvas-list">
 <li><a href="/" title="Home" alt="Home">Home</a></li>
 {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
 <li><a href="/contact/" title="Contact" alt="Contact">Contact</a></li>
 </ul>
-
