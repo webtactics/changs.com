@@ -18,23 +18,23 @@
 {% set postslist = collections.noodles %}
 {% include "components/postslist.njk" %}
 {% endif %}
-{% if entry.url == "/products/noodles/" %}
+{% if page.url == "/products/noodles/" %}
 {% set postslist = collections.noodles %}
 {% include "components/postslist.njk" %}
 {% endif %}
-{% if entry.url == "/products/noodles/" %}
+{% if page.url == "/products/noodles/" %}
 {% set postslist = collections.Beef %}
 {% include "components/postslist.njk" %}
 {% endif %}
-{% if entry.url == "products/sauces/" %}
+{% if page.url == "products/sauces/" %}
 {% set postslist = collections.sauces %}
 {% include "components/postslist.njk" %}
 {% endif %}
-{% if entry.url == "products/gluten-free-products/" %}
+{% if page.url == "products/gluten-free-products/" %}
 {% set postslist = collections.gluten-free %}
 {% include "components/postslist.njk" %}
 {% endif %}
-{% if entry.url == "products/tamari-wheat-free-sauces/" %}
+{% if page.url == "products/tamari-wheat-free-sauces/" %}
 {% set postslist = collections.noodles %}
 {% include "components/tamari.njk" %}
 {% endif %}
