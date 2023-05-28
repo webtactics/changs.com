@@ -950,7 +950,7 @@ grid-template-columns: 2fr 1fr;}
  /* Styles for the accordion */
  .accordion {
   border: 1px solid #ddd;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 
 .accordion input[type="checkbox"] {
@@ -959,9 +959,10 @@ grid-template-columns: 2fr 1fr;}
 
 .accordion label {
   display: block;
-  padding: 10px;
+  padding: 0.5rem;;
   background-color: #f4f4f4;
   cursor: pointer;
+  font-size: 0.9rem;
 }
 
 .accordion label:hover {
@@ -974,7 +975,7 @@ grid-template-columns: 2fr 1fr;}
 
 .accordion div {
   display: none;
-  padding: 10px;
+  padding: 0;
 }
 
 
