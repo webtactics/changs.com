@@ -2,13 +2,35 @@
 {% macro renderNavListItem(entry) -%}
 <li{% if entry.url == page.url %} class="active-class"{% endif %}>
   <a href="{{ entry.url }}" title="{{ entry.title }}" alt="{{ page.title }}">{{ entry.title }}</a>
-      {% if entry.url == "/recipes/main-ingredients/" %}
+      {% if entry.url == "/recipes/" %}
 
  <div class="accordion">
     <input type="checkbox" id="accordion-1" />
-    <label for="accordion-1">Section 1</label>
+    <label for="accordion-1">Recipes</label>
     <div>
-      <p>This is the content of Section 1.</p>
+      <ul class="second">
+       <li>
+          <a href="/recipes/main-ingredients/vegetarian/" title="Vegetarian Recipes" alt="Vegetarian Recipes">Vegetarian Recipes</a>
+        </li>
+        <li>
+          <a href="/recipes/main-ingredients/noodles-ingredients/" title="Noodles Recipes" alt="Noodles Recipes">Noodles Recipes</a>
+        </li>
+        <li>
+          <a href="/recipes/main-ingredients/seafood/" title="Seafood Recipes" alt="Seafood Recipes">Seafood Recipes</a>
+        </li>
+        <li>
+          <a href="/recipes/main-ingredients/poultry-based-recipes/" title="Poultry Recipes" alt="Poultry Recipes">Poultry Recipes</a>
+        </li>
+          <li>
+          <a href="/recipes/main-ingredients/pork/" title="Pork Recipes" alt="Pork Recipes">Pork Recipes</a>
+        </li>
+          <li>
+          <a href="/recipes/main-ingredients/lamb/" title="Lamb Recipes" alt="Lamb Recipes">Lamb Recipes</a>
+        </li>
+          <li>
+          <a href="/recipes/main-ingredients/beef/" title="Beef Recipes" alt="Beef Recipes">Beef Recipes</a>
+        </li>
+        </ul>
     </div>
   </div>
 
