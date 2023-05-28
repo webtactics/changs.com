@@ -2,8 +2,55 @@
   {% macro renderNavListItem(entry) -%}
   <li{% if entry.url == page.url %} class="active-class"{% endif %}>
     <a href="{{ entry.url }}" title="{{ entry.title }}" alt="{{ entry.title }}">{{ entry.title }}</a>
+  {% if entry.url == "/products/" %}
+      <ul class="accordion-menu">
+        <li>
+          <a href="/products/noodles/" title="Vegetarian Recipes" alt="Vegetarian Recipes">Noodles</a>
+        </li>
+        <li>
+          <a href="/recipes/main-ingredients/noodles-ingredients/" title="Noodles Recipes" alt="Noodles Recipes">Sauces</a>
+        </li>
+        <li>
+          <a href="/recipes/main-ingredients/seafood/" title="Seafood Recipes" alt="Seafood Recipes">Gluten Free</a>
+        </li>
+        <li>
+          <a href="/recipes/main-ingredients/poultry-based-recipes/" title="Poultry Recipes" alt="Poultry Recipes">Tamari</a>
+        </li>
+        <!-- Add more fly-out items here as needed -->
+      </ul>
+    {% endif %}
+  {% if entry.url == "/recipes/" %}
+      <ul class="accordion-menu">
+        <li>
+          <a href="/recipes/main-ingredients/" title="Vegetarian Recipes" alt="Vegetarian Recipes">Main Ingredient</a>
+        </li>
+        <li>
+          <a href="/recipes/main-ingredients/noodles-ingredients/" title="Noodles Recipes" alt="Noodles Recipes">Soup & Salad</a>
+        </li>
+        <li>
+          <a href="/recipes/main-ingredients/seafood/" title="Seafood Recipes" alt="Seafood Recipes">Gluten Free</a>
+        </li>
+        <li>
+          <a href="/recipes/main-ingredients/poultry-based-recipes/" title="Poultry Recipes" alt="Poultry Recipes">Main Meals</a>
+        </li>
+          <li>
+          <a href="/recipes/main-ingredients/poultry-based-recipes/" title="Poultry Recipes" alt="Poultry Recipes">Main Meals</a>
+        </li>
+          <li>
+          <a href="/recipes/main-ingredients/poultry-based-recipes/" title="Poultry Recipes" alt="Poultry Recipes">Main Meals</a>
+        </li>
+          <li>
+          <a href="/recipes/main-ingredients/poultry-based-recipes/" title="Poultry Recipes" alt="Poultry Recipes">Main Meals</a>
+        </li>
+          <li>
+          <a href="/recipes/main-ingredients/poultry-based-recipes/" title="Poultry Recipes" alt="Poultry Recipes">Main Meals</a>
+        </li>
+        <!-- Add more fly-out items here as needed -->
+      </ul>
+    {% endif %}
+
    {% if entry.url == "/recipes/main-ingredients/" %}
-      <ul class="fly-out-menu">
+   <ul class="accordion-menu">
         <li>
           <a href="/recipes/main-ingredients/vegetarian/" title="Vegetarian Recipes" alt="Vegetarian Recipes">Vegetarian Recipes</a>
         </li>
@@ -26,13 +73,6 @@
           <a href="/recipes/main-ingredients/beef/" title="Beef Recipes" alt="Beef Recipes">Beef Recipes</a>
         </li>
         <!-- Add more fly-out items here as needed -->
-      </ul>
-    {% endif %}
-    {% if entry.children.length %}
-<ul class="second">
-        {% for child in entry.children %}
-          {{ renderNavListItem(child) }}
-        {% endfor %}
       </ul>
     {% endif %}
   </li>
