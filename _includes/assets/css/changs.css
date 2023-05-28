@@ -947,64 +947,34 @@ grid-template-columns: 2fr 1fr;}
 
 /* Mobile menu styles */
 
-
-
-
-input {
-  position: absolute;
-  opacity: 0;
-  z-index: -1;
+ /* Styles for the accordion */
+ .accordion {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
 }
 
-
-/* Accordion styles */
-.tabs {
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 4px -2px rgba(0,0,0,0.5);
-}
-.tab {
-  width: 100%;
-  color: white;
-  overflow: hidden;
-  &-label {
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
-    background: var(--midnight);
-    font-weight: bold;
-    cursor: pointer;
-    /* Icon */
-    &:hover {
-      background: var(--primary);
-    }
-    &::after {
-      content: "\276F";
-      width: 1em;
-      height: 1em;
-      text-align: center;
-      transition: all .35s;
-    }
-  }
-  &-content {
-    max-height: 0;
-    padding: 0 1em;
-    color: var(--midnight);
-    background: white;
-    transition: all .35s;
-  }
-  &-close {
-    display: flex;
-    justify-content: flex-end;
-    padding: 1em;
-    font-size: 0.75em;
-    background: var(--midnight);
-    cursor: pointer;
-    &:hover {
-      background: var(--primary);
-    }
-  }
+.accordion input[type="checkbox"] {
+  display: none;
 }
 
+.accordion label {
+  display: block;
+  padding: 10px;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+.accordion label:hover {
+  background-color: #eaeaea;
+}
+
+.accordion input[type="checkbox"]:checked ~ div {
+  display: block;
+}
+
+.accordion div {
+  display: none;
+  padding: 10px;
+}
 
 
