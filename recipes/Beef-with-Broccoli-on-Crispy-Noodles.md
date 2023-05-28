@@ -1,6 +1,6 @@
 ---
 title: Beef with Broccoli on Crispy Noodles
-date: 2024-05-15
+date: 2022-01-01
 tags:
   - Noodles Ingredient
   - Beef
@@ -16,8 +16,6 @@ tags:
   - Festive
   - Kid friendly
 
-
-
   - Crunchy Fried Noodles
   - Original Oyster Sauce
   - Rice Vermicelli Noodles
@@ -26,6 +24,9 @@ tags:
   - Tamari Oyster Sauce
   - Soy Sauce Dark
 
+
+  - Featured
+
 image: https://ik.imagekit.io/webtactics/changs-media/recipes/Beef-with-Broccoli-on-Crispy-Noodles_H99MWsVad.jpg
 imageAlt: Beef with Broccoli on Crispy Noodles
 description: A rich and tasty Chinese inspired stirfry
@@ -33,7 +34,6 @@ serves: 4
 prep: 40 minutes 
 makes: 
 difficulty: Easy
-time120: $170.00
 imageFolders:
   - name: hot-coconut-oil-massage
     count: 7
@@ -62,20 +62,22 @@ Complex flavours make it suitable for stir-fried beef, pork or chicken as well a
 
 Chang’s Oyster Sauce is gluten free.
 
+{% include "components/product-recipe-link/test.njk" %}
+
 
 <div class="recipesingredient">
 <h3>Ingredients:</h3>
 <ul>
-<li>100g Chang’s Rice Vermicelli, cut into 4-6 cm lengths (or cheat and use Chang’s Original Crispy Noodles)</li>
+<li>100g <a title="Chang's Rice Vermicelli Noodles" href="products/Changs-Rice-Noodles-Vermicelli/" target="_blank" rel="noopener">Chang's Rice Vermicelli Noodles</a>, cut into 4-6 cm lengths (or cheat and use <a title="Chang's Original Fried Noodles" href="products/Original-Fried-Noodles/" target="_blank" rel="noopener">Chang's Original Fried Noodles</a>)</li>
 <li>1 ½ cups neutral oil</li>
 <li>400g sirloin, rump or fillet, trimmed of all fat and cut into thin strips across the grain</li>
 <li>300g broccoli florets</li>
 <li>1 clove garlic, finely chopped or crushed</li>
 <li>2cm piece of ginger, peeled and grated</li>
 <li>1 small can bamboo shoots</li>
-<li>2 tbsp. Chang’s Oyster Sauce</li>
-<li>1 tbsp. Chang’s Light Soy Sauce</li>
-<li>2 tbsp. Chang’s Dark Soy Sauce</li>
+<li>2 tbsp. <a title="Chang's Original Oyster Sauce" href="products/Changs-Original-Oyster-Sauce-150ml/" target="_blank" rel="noopener">Chang's Original Oyster Sauce</a></li>
+<li>1 tbsp. <a title="Chang's Soy Sauce Light" href="products/Changs-Soy-Sauce-Light/" target="_blank" rel="noopener">Chang's Soy Sauce Light</a></li>
+<li>2 tbsp. <a title="Chang's Dark Soy Sauce" href="products/Changs-Soy-Sauce-Dark/" target="_blank" rel="noopener">Chang's Dark Soy Sauce</a></li>
 <li>½ tsp. salt</li>
 <li>2/3 cup chicken stock or water</li>
 <li>1 tbsp. cornflour dissolved in 1 tablespoon of water</li>
@@ -83,7 +85,7 @@ Chang’s Oyster Sauce is gluten free.
 <h3>Marinade:</h3>
 <ul>
 <li>1 tbsp.Shaosing rice wine</li>
-<li>1 tsp.Chang’s Light Soy Sauce</li>
+<li>1 tsp. <a title="Chang's Soy Sauce Light" href="products/Changs-Soy-Sauce-Light/" target="_blank" rel="noopener">Chang's Soy Sauce Light</a></li>
 <li>½ tsp. sugar</li>
 <li>1 tsp. cornflour, heaped</li>
 </ul></div>
