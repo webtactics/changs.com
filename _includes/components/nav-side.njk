@@ -3,30 +3,38 @@
 <li{% if entry.url == page.url %} class="active-class"{% endif %}>
   <a href="{{ entry.url }}" title="{{ entry.title }}" alt="{{ page.title }}">{{ entry.title }}</a>
       {% if entry.url == "/recipes/main-ingredients/" %}
-      <ul class="fly-out-menu">
-        <li>
-          <a href="/recipes/main-ingredients/vegetarian/" title="Vegetarian Recipes" alt="Vegetarian Recipes">Vegetarian Recipes</a>
-        </li>
-        <li>
-          <a href="/recipes/main-ingredients/noodles-ingredients/" title="Noodles Recipes" alt="Noodles Recipes">Noodles Recipes</a>
-        </li>
-        <li>
-          <a href="/recipes/main-ingredients/seafood/" title="Seafood Recipes" alt="Seafood Recipes">Seafood Recipes</a>
-        </li>
-        <li>
-          <a href="/recipes/main-ingredients/poultry-based-recipes/" title="Poultry Recipes" alt="Poultry Recipes">Poultry Recipes</a>
-        </li>
-          <li>
-          <a href="/recipes/main-ingredients/pork/" title="Pork Recipes" alt="Pork Recipes">Pork Recipes</a>
-        </li>
-          <li>
-          <a href="/recipes/main-ingredients/lamb/" title="Lamb Recipes" alt="Lamb Recipes">Lamb Recipes</a>
-        </li>
-          <li>
-          <a href="/recipes/main-ingredients/beef/" title="Beef Recipes" alt="Beef Recipes">Beef Recipes</a>
-        </li>
-        <!-- Add more fly-out items here as needed -->
-      </ul>
+
+    <div class="tabs">
+      <div class="tab">
+        <input type="radio" id="rd1" name="rd">
+        <label class="tab-label" for="rd1">Item 1</label>
+        <div class="tab-content">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, facilis.
+        </div>
+      </div>
+      <div class="tab">
+        <input type="radio" id="rd2" name="rd">
+        <label class="tab-label" for="rd2">Item 2</label>
+        <div class="tab-content">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, aut.
+        </div>
+      </div>
+      <div class="tab">
+        <input type="radio" id="rd3" name="rd">
+        <label for="rd3" class="tab-close">Close others &times;</label>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
     {% endif %}
 {%- if entry.children.length -%}
 <ul class="second">
