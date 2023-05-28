@@ -2,28 +2,28 @@
   {% macro renderNavListItem(entry) -%}
   <li{% if entry.url == page.url %} class="active-class"{% endif %}>
     <a href="{{ entry.url }}" title="{{ entry.title }}" alt="{{ entry.title }}">{{ entry.title }}</a>
-    {% if entry.url == "/products/" %}
-      <ul class="accordion">
+   {% if entry.url == "/recipes/main-ingredients/" %}
+      <ul class="fly-out-menu">
         <li>
-          <a href="/products/noodles/" title="Noodles Products" alt="Noodles Products">Noodles</a>
+          <a href="/recipes/main-ingredients/vegetarian/" title="Vegetarian Recipes" alt="Vegetarian Recipes">Vegetarian Recipes</a>
         </li>
         <li>
-          <a href="/products/main-ingredients/noodles-ingredients/" title="Noodles Products" alt="Noodles Products">Noodles Products</a>
+          <a href="/recipes/main-ingredients/noodles-ingredients/" title="Noodles Recipes" alt="Noodles Recipes">Noodles Recipes</a>
         </li>
         <li>
-          <a href="/products/main-ingredients/seafood/" title="Seafood Products" alt="Seafood Products">Seafood Products</a>
+          <a href="/recipes/main-ingredients/seafood/" title="Seafood Recipes" alt="Seafood Recipes">Seafood Recipes</a>
         </li>
         <li>
-          <a href="/products/main-ingredients/poultry-based-products/" title="Poultry Products" alt="Poultry Products">Poultry Products</a>
+          <a href="/recipes/main-ingredients/poultry-based-recipes/" title="Poultry Recipes" alt="Poultry Recipes">Poultry Recipes</a>
         </li>
           <li>
-          <a href="/products/main-ingredients/pork/" title="Pork Products" alt="Pork Products">Pork Products</a>
+          <a href="/recipes/main-ingredients/pork/" title="Pork Recipes" alt="Pork Recipes">Pork Recipes</a>
         </li>
           <li>
-          <a href="/products/main-ingredients/lamb/" title="Lamb Products" alt="Lamb Products">Lamb Products</a>
+          <a href="/recipes/main-ingredients/lamb/" title="Lamb Recipes" alt="Lamb Recipes">Lamb Recipes</a>
         </li>
           <li>
-          <a href="/products/main-ingredients/beef/" title="Beef Products" alt="Beef Products">Beef Products</a>
+          <a href="/recipes/main-ingredients/beef/" title="Beef Recipes" alt="Beef Recipes">Beef Recipes</a>
         </li>
         <!-- Add more fly-out items here as needed -->
       </ul>
