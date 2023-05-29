@@ -142,6 +142,3 @@ hokkien-noodles: hokkien-noodles
 {% include "components/gallery.njk" %}
 </div>
 
-  <div class="sidebarwrapper2">
-{% include "components/products/sesame-oil.html" %}
-  </div>
