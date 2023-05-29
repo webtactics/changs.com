@@ -55,7 +55,7 @@ section: post
 
   {% if prodTamariLightSoySauce %}
   <h3>tamari-light-soy-sauce</h3>
-{% set postslist = collections['tamari-light-soy-sauce'] %}
+{% set postslist = collections['{{ prodTamariLightSoySauce }}'] %}
 {% include "components/postslist.njk" %}
   {% endif %}
   
