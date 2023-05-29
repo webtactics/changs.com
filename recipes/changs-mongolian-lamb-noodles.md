@@ -141,3 +141,8 @@ hokkien-noodles: hokkien-noodles
 <div class="gallery">
 {% include "components/gallery.njk" %}
 </div>
+
+  <div class="sidebarwrapper2">
+  {% set postslist = collections.tamari-light-soy-sauce %}
+  {% include "components/postslist-sidebar.njk" %}
+  </div>
