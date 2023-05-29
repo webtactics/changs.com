@@ -780,8 +780,8 @@ min-height:600px;
 
 }
 
-.detailwrapper {background-color: var(--white);}
-.sidebarwrapper {background-color: var(--white);}
+.detailwrapper, .sidebarwrapper {background-color: var(--white);padding:1rem;}
+
 
 .footer {
   background-color: var(--primary);
