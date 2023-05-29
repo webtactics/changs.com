@@ -16,12 +16,11 @@ tags:
   - Spring
   - Kid friendly
 
-  - Tamari Light Soy Sauce
-  - Sesame Oil
-  - Original Hoisin Sauce
-  - Wok-Ready Noodles
-  - Hokkien noodles
-
+  - tamari-light-soy-sauce
+  - sesame-oil
+  - original-hoisin-sauce
+  - wok-ready-noodles
+  - hokkien-noodles
 
   - Featured
 
@@ -71,7 +70,13 @@ galleryimages:
   - url: mongolian-lamb-noodles/mongolian-lamb-noodles-landscape-4.jpg
     alt: Chang’s Mongolian Lamb Noodles 16
 
+video: https://iframe.mediadelivery.net/embed/68279/3701e76e-de4b-44ba-877d-738a0d262b5c?autoplay=false
 
+product1: tamari-light-soy-sauce
+product2: sesame-oil
+product3: original-hoisin-sauce
+product4: wok-ready-noodles
+product5: hokkien-noodles
 ---
 
 

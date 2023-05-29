@@ -49,7 +49,18 @@ section: post
 </article>
 </div>
 <div class="sidebarwrapper">
-<aside>{% set postslist = collections.treatments %}{% include "components/postslist-sidebar.njk" %}</aside>
+<aside>
+  {% if prod1 %}{% include "components/products/{{ prod1}}.html" %}{% endif %}
+  
+  
+  <div class="sidebarwrapper2">
+  {% set postslist = collections.tamari-light-soy-sauce %}
+  {% include "components/postslist-sidebar.njk" %}
+  </div>
+  
+  {% if prod2 %}{% include "components/products/{{ prod2}}.html" %}{% endif %}
+  
+  </aside>
 </div>
 </div>
 
