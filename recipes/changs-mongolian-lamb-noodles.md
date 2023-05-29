@@ -72,17 +72,18 @@ galleryimages:
 
 video: https://iframe.mediadelivery.net/embed/68279/3701e76e-de4b-44ba-877d-738a0d262b5c?autoplay=false
 
-CrunchyFriedNoodles: 
-HokkienNoodles: HokkienNoodles
-OriginalHoisinSauce: OriginalHoisinSauce
-OriginalOysterSauce: 
+CrunchyFriedNoodles:
+HokkienNoodles: hokkien-noodles
+OriginalFriedNoodles:
+OriginalHoisinSauce: original-hoisin-sauce
+OriginalOysterSauce:
 SesameOil: sesame-oil
 SoySauceLight:
 SoySauceDark:
-TamariLightSoySauce: TamariLightSoySauce
+TamariLightSoySauce: tamari-light-soy-sauce
 TamariOysterSauce:
 VermicelliRiceNoodles:
-WokReadyNoodles: WokReadyNoodles
+WokReadyNoodles: wok-ready-noodles
 
 ---
 
