@@ -885,7 +885,7 @@ text-align: center;
 
 
 .grid-2-columns-2x1 {
-grid-template-columns: 3fr 1fr;}
+grid-template-columns: 2fr 1fr;}
 
 
 @media (max-width: 1024px) {
