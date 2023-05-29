@@ -641,7 +641,7 @@ ul.main-menu li:hover ul.second-level {
 
 @media (max-width: 1400px) {
   .main-menu > li,  ul.second-level li a {
-width: 120px;
+width: 140px;
   }
 
   }
