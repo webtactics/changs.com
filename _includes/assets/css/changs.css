@@ -287,7 +287,7 @@ padding:5px;
   -o-transition: all 0.6s;
   transition: all 0.6s;
 }
-.toogle-nav:hover .hamburger-icon:before {
+.topbar:hover .hamburger-icon:before {
   background: var(--black);
     box-shadow: 0 8px 0 0 var(--black), 0 16px 0 0 var(--black);
       -webkit-transition: all 0.6s;
