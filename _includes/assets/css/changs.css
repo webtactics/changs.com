@@ -598,7 +598,6 @@ ul.second-level li a:hover {
   padding: 0.5rem 1rem;
   color: var(--white);
   background-color: var(--primary);
-  width: 160px;
   text-align: center;
   text-decoration: none;
 }
@@ -641,10 +640,10 @@ ul.main-menu li:hover ul.second-level {
 
 
 @media (max-width: 1400px) {
-  .main-menu > li {
+  .main-menu > li,  ul.second-level li a {
 width: 120px;
   }
-  
+
   }
 
 /* Adjust positioning and styling as needed */
