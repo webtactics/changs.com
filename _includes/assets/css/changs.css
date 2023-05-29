@@ -640,6 +640,13 @@ ul.main-menu li:hover ul.second-level {
 }
 
 
+@media (max-width: 1400px) {
+  .main-menu > li {
+width: 120px;
+  }
+  
+  }
+
 /* Adjust positioning and styling as needed */
 
 
