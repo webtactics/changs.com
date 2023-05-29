@@ -71,7 +71,7 @@ galleryimages:
   - url: mongolian-lamb-noodles/mongolian-lamb-noodles-landscape-4.jpg
     alt: Beef with Broccoli on Crispy Noodles 7
 
-CrunchyFriedNoodles: CrunchyFriedNoodles
+CrunchyFriedNoodles: crunchy-fried-noodles
 HokkienNoodles:
 OriginalHoisinSauce: 
 OriginalOysterSauce: OriginalOysterSauce

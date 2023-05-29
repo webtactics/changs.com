@@ -76,7 +76,7 @@ CrunchyFriedNoodles:
 HokkienNoodles: HokkienNoodles
 OriginalHoisinSauce: OriginalHoisinSauce
 OriginalOysterSauce: 
-SesameOil: SesameOil
+SesameOil: sesame-oil
 SoySauceLight:
 SoySauceDark:
 TamariLightSoySauce: TamariLightSoySauce

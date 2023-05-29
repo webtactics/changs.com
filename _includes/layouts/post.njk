@@ -14,7 +14,10 @@ section: post
 
 
 <div class="blogdetailimage" align="center"><img src="{{ image }}?tr=w-800,h-1200" alt="{{ imageAlt }}" title="{{ imageAlt }}"></div>
-<div class="detailcontent">     
+<div class="detailcontent">    
+{% if SoySauceLight %}<span class="timecostmin">30 min:</span>{{ SoySauceLight }}</div>{% endif %}
+
+
 {{ layoutContent | safe }}</div>
 
 
@@ -57,58 +60,58 @@ section: post
 
 {% if CrunchyFriedNoodles %}
 <h3>CrunchyFriedNoodles</h3>
-{% include "components/products/seasame-oil.njk" %}
+{% include "components/products/crunchy-fried-noodles.njk" %}
 {% endif %}
  
  {% if HokkienNoodles %}
 <h3>HokkienNoodles</h3>
-{% include "components/products/seasame-oil.njk" %}
+{% include "components/products/hokkien-noodles.njk" %}
 {% endif %}
   
  {% if OriginalHoisinSauce %}
 <h3>OriginalHoisinSauce</h3>
-{% include "components/products/SesameOil.njk" %}
+{% include "components/products/original-hoisin-sauce.njk" %}
 {% endif %}
 
  {% if OriginalOysterSauce %}
 <h3>OriginalOysterSauce</h3>
-{% include "components/products/seasame-oil.njk" %}
+{% include "components/products/original-oyster-sauce.njk" %}
 {% endif %}
 
  {% if SesameOil %}
 <h3>SesameOil</h3>
-{% include "components/products/SesameOil.njk" %}
+{% include "components/products/sesame-oil.njk" %}
 {% endif %}
 
  {% if SoySauceLight %}
 <h3>SoySauceLight</h3>
-{% include "components/products/seasame-oil.njk" %}
+{% include "components/products/soy-sauce-light.njk" %}
 {% endif %}
 
 
  {% if SoySauceDark %}
 <h3>SoySauceDark</h3>
-{% include "components/products/SesameOil.njk" %}
+{% include "components/products/soy-sauce-dark.njk" %}
 {% endif %}
 
  {% if TamariLightSoySauce %}
 <h3>TamariLightSoySauce</h3>
-{% include "components/products/seasame-oil.njk" %}
+{% include "components/products/tamari-light-soy-sauce.njk" %}
 {% endif %}
 
  {% if TamariOysterSauce %}
 <h3>TamariOysterSauce</h3>
-{% include "components/products/seasame-oil.njk" %}
+{% include "components/products/tamari-oyster-sauce.njk" %}
 {% endif %}
 
  {% if VermicelliRiceNoodles %}
 <h3>VermicelliRiceNoodles</h3>
-{% include "components/products/seasame-oil.njk" %}
+{% include "components/products/vermicelli-rice-noodles.njk" %}
 {% endif %}
 
  {% if WokReadyNoodles %}
 <h3>WokReadyNoodles</h3>
-{% include "components/products/seasame-oil.njk" %}
+{% include "components/products/wok-ready-noodles.njk" %}
 {% endif %}
 
 
