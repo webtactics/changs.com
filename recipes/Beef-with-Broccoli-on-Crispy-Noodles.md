@@ -27,7 +27,7 @@ tags:
 
   - Featured
 
-image: https://ik.imagekit.io/webtactics/changs-media/recipes/Beef-with-Broccoli-on-Crispy-Noodles_H99MWsVad.jpg
+image: https://ik.imagekit.io/webtactics/changs-media/recipes/Beef-with-Broccoli-on-Crispy-Noodles_H99MWsVad.jpg?updatedAt=1685228839507
 imageAlt: Beef with Broccoli on Crispy Noodles
 description: A rich and tasty Chinese inspired stirfry
 serves: 4
