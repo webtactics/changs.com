@@ -68,16 +68,16 @@ Chang’s Oyster Sauce is gluten free.
 <div class="recipesingredient">
 <h3>Ingredients:</h3>
 <ul>
-<li>100g {% include "components/product-recipe-link/Changs-Vermicelli-Rice-Noodles.html" %}, cut into 4-6 cm lengths (or cheat and use <a title="Chang's Original Fried Noodles" href="products/Original-Fried-Noodles/" target="_blank" rel="noopener">Chang's Original Fried Noodles</a>)</li>
+<li>100g {% include "components/product-recipe-link/Changs-Vermicelli-Rice-Noodles.html" %}, cut into 4-6 cm lengths (or cheat and use {% include "components/product-recipe-link/Changs-Original-Fried-Noodles.html" %})</li>
 <li>1 ½ cups neutral oil</li>
 <li>400g sirloin, rump or fillet, trimmed of all fat and cut into thin strips across the grain</li>
 <li>300g broccoli florets</li>
 <li>1 clove garlic, finely chopped or crushed</li>
 <li>2cm piece of ginger, peeled and grated</li>
 <li>1 small can bamboo shoots</li>
-<li>2 tbsp. <a title="Chang's Original Oyster Sauce" href="products/Changs-Original-Oyster-Sauce-150ml/" target="_blank" rel="noopener">Chang's Original Oyster Sauce</a></li>
-<li>1 tbsp. <a title="Chang's Soy Sauce Light" href="products/Changs-Soy-Sauce-Light/" target="_blank" rel="noopener">Chang's Soy Sauce Light</a></li>
-<li>2 tbsp. <a title="Chang's Dark Soy Sauce" href="products/Changs-Soy-Sauce-Dark/" target="_blank" rel="noopener">Chang's Dark Soy Sauce</a></li>
+<li>2 tbsp. {% include "components/product-recipe-link/Changs-Original-Oyster-Sauce.html" %}</li>
+<li>1 tbsp. {% include "components/product-recipe-link/Changs-Soy-Sauce-Light.html" %}</li>
+<li>2 tbsp. {% include "components/product-recipe-link/Changs-Soy-Sauce-Dark.html" %}</li>
 <li>½ tsp. salt</li>
 <li>2/3 cup chicken stock or water</li>
 <li>1 tbsp. cornflour dissolved in 1 tablespoon of water</li>
@@ -85,7 +85,7 @@ Chang’s Oyster Sauce is gluten free.
 <h3>Marinade:</h3>
 <ul>
 <li>1 tbsp.Shaosing rice wine</li>
-<li>1 tsp. <a title="Chang's Soy Sauce Light" href="products/Changs-Soy-Sauce-Light/" target="_blank" rel="noopener">Chang's Soy Sauce Light</a></li>
+<li>1 tsp. {% include "components/product-recipe-link/Changs-Soy-Sauce-Light.html" %}</li>
 <li>½ tsp. sugar</li>
 <li>1 tsp. cornflour, heaped</li>
 </ul></div>
