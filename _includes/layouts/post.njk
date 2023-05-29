@@ -42,9 +42,11 @@ section: post
 </div>
 {% endif %}
 
-
-
-
+{% if galleryimages %}
+<div class="gallery">
+{% include "components/gallery.njk" %}
+</div>
+{% endif %}
 
  
   
