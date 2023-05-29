@@ -24,7 +24,6 @@ tags:
   - Tamari Oyster Sauce
   - Soy Sauce Dark
 
-
   - Featured
 
 image: https://ik.imagekit.io/webtactics/changs/recipes/beef-with-broccoli-on-crispy-noodles/beef-with-broccoli-on-crispy-noodles-1.jpg
@@ -74,12 +73,6 @@ galleryimages:
 
 ---
 
-Chang’s Oyster Sauce is a traditional sauce widely used in Cantonese cooking.
-
-Complex flavours make it suitable for stir-fried beef, pork or chicken as well as being very tasty as a dipping sauce for steamed fish.
-
-Chang’s Oyster Sauce is gluten free.
-
 
 
 <div class="recipesingredient">
@@ -109,7 +102,6 @@ Chang’s Oyster Sauce is gluten free.
 
 
 
-
 <div class="recipesmethod">
 <h3>Method:</h3>
 <ol>
@@ -122,9 +114,6 @@ Add the oyster, light soy and dark soy sauces and salt,stirring to coat the meat
 <li>If you’d like this dish to be gluten free, be sure select the Chang’s Rice Vermicelli and a gluten free chicken stock.</li>
 </ol>
 </div>
-
-<div class="gallerywrapper">{% include "components/recipes/gallery/Beef-with-Broccoli-on-Crispy-Noodles.html" %}</div>
-
 
 
 
