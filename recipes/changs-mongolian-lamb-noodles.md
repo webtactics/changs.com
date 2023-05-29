@@ -79,6 +79,7 @@ wok-ready-noodles: wok-ready-noodles
 hokkien-noodles: hokkien-noodles
 
 prodTamariLightSoySauce: tamari-light-soy-sauce
+prodSesameOil: sesame-oil
 
 ---
 
