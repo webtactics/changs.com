@@ -62,7 +62,6 @@ Complex flavours make it suitable for stir-fried beef, pork or chicken as well a
 
 Chang’s Oyster Sauce is gluten free.
 
-{% include "components/product-recipe-link/test.njk" %}
 
 
 <div class="recipesingredient">
@@ -104,4 +103,13 @@ Add the oyster, light soy and dark soy sauces and salt,stirring to coat the meat
 <li>To serve, place the noodles on a plate and the stir fry in the centre on top.</li>
 <li>If you’d like this dish to be gluten free, be sure select the Chang’s Rice Vermicelli and a gluten free chicken stock.</li>
 </ol>
+</div>
+
+<div class="gallerywrapper">{% include "components/recipes/gallery/Beef-with-Broccoli-on-Crispy-Noodles.html" %}</div>
+
+
+
+
+<div class="gallery">
+{% include "components/gallery.njk" %}
 </div>
