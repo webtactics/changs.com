@@ -53,12 +53,9 @@ section: post
 
 
 
-{% if prodTamariLightSoySauce %}
-{% set postslist = collections['tamari-light-soy-sauce'] %}
-{% include "components/postslist-sidebar.njk" %}
-{% endif %}
 
-{% if prodSesameOil %}
+
+{% if prodTamariLightSoySauce %}
 <h3>nunjucks</h3>
 {% include "components/products/sesame-oil.njk" %}
 {% endif %}
@@ -68,8 +65,34 @@ section: post
 {% include "components/products/sesame-oil.html" %}
 {% endif %}
   
+ {% if prodOriginalHoisinSauce %}
+<h3>HTML</h3>
+{% include "components/products/sesame-oil.html" %}
+{% endif %}
+
+ {% if proWokReadyNoodles %}
+<h3>HTML</h3>
+{% include "components/products/sesame-oil.html" %}
+{% endif %}
+
+ {% if prodSesameOilsss %}
+<h3>HTML</h3>
+{% include "components/products/sesame-oil.html" %}
+{% endif %}
+
+ {% if prodSesameOilxxx %}
+<h3>HTML</h3>
+{% include "components/products/sesame-oil.html" %}
+{% endif %}
+
+
+
+
+
+
+
   <div class="sidebarwrapper2">
-{% set postslist = collections['tamari-light-soy-sauce'] %}
+{% set postslist = collections['Featured'] %}
   {% include "components/postslist-sidebar.njk" %}
   </div>
   
