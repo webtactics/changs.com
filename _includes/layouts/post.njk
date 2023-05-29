@@ -51,43 +51,75 @@ section: post
 <div class="sidebarwrapper">
 <aside>
 
+CrunchyFriedNoodles: 
+HokkienNoodles: HokkienNoodles
+OriginalHoisinSauce: OriginalHoisinSauce
+OriginalOysterSauce: 
+SesameOil: SesameOil
+SoySauceLight:
+SoySauceDark:
+TamariLightSoySauce: TamariLightSoySauce
+TamariOysterSauce:
+VermicelliRiceNoodles:
+WokReadyNoodles: WokReadyNoodles
 
 
 
-
-{% if prodTamariLightSoySauce %}
-<h3>nunjucks</h3>
-{% include "components/products/sesame-oil.njk" %}
+{% if CrunchyFriedNoodles %}
+<h3>CrunchyFriedNoodles</h3>
+{% include "components/products/CrunchyFriedNoodles.njk" %}
 {% endif %}
  
- {% if prodSesameOil %}
-<h3>HTML</h3>
-{% include "components/products/sesame-oil.html" %}
+ {% if HokkienNoodles %}
+<h3>HokkienNoodles</h3>
+{% include "components/products/HokkienNoodles.njk" %}
 {% endif %}
   
- {% if prodOriginalHoisinSauce %}
-<h3>HTML</h3>
-{% include "components/products/sesame-oil.html" %}
+ {% if OriginalHoisinSauce %}
+<h3>OriginalHoisinSauce</h3>
+{% include "components/products/OriginalHoisinSauce.njk" %}
 {% endif %}
 
- {% if proWokReadyNoodles %}
-<h3>HTML</h3>
-{% include "components/products/sesame-oil.html" %}
+ {% if OriginalOysterSauce %}
+<h3>OriginalOysterSauce</h3>
+{% include "components/products/OriginalOysterSauce.njk" %}
 {% endif %}
 
- {% if prodSesameOilsss %}
-<h3>HTML</h3>
-{% include "components/products/sesame-oil.html" %}
+ {% if SesameOil %}
+<h3>SesameOil</h3>
+{% include "components/products/SesameOil.njk" %}
 {% endif %}
 
- {% if prodSesameOilxxx %}
-<h3>HTML</h3>
-{% include "components/products/sesame-oil.html" %}
+ {% if SoySauceLight %}
+<h3>SoySauceLight</h3>
+{% include "components/products/SoySauceLight.njk" %}
 {% endif %}
 
 
+ {% if SoySauceDark %}
+<h3>SoySauceDark</h3>
+{% include "components/products/SoySauceDark.njk" %}
+{% endif %}
 
+ {% if TamariLightSoySauce %}
+<h3>TamariLightSoySauce</h3>
+{% include "components/products/TamariLightSoySauce.njk" %}
+{% endif %}
 
+ {% if TamariOysterSauce %}
+<h3>TamariOysterSauce</h3>
+{% include "components/products/TamariOysterSauce.njk" %}
+{% endif %}
+
+ {% if VermicelliRiceNoodles %}
+<h3>VermicelliRiceNoodles</h3>
+{% include "components/products/VermicelliRiceNoodles.njk" %}
+{% endif %}
+
+ {% if WokReadyNoodles %}
+<h3>WokReadyNoodles</h3>
+{% include "components/products/WokReadyNoodles.njk" %}
+{% endif %}
 
 
 
