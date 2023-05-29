@@ -72,14 +72,12 @@ galleryimages:
 
 video: https://iframe.mediadelivery.net/embed/68279/3701e76e-de4b-44ba-877d-738a0d262b5c?autoplay=false
 
-tamari-light-soy-sauce: tamari-light-soy-sauce
-sesame-oil: sesame-oil
-original-hoisin-sauce: original-hoisin-sauce
-wok-ready-noodles: wok-ready-noodles
-hokkien-noodles: hokkien-noodles
-
 prodTamariLightSoySauce: tamari-light-soy-sauce
 prodSesameOil: sesame-oil
+prodOriginalHoisinSauce: original-hoisin-sauce
+proWokReadyNoodles: wok-ready-noodles
+prodHokkienNoodles: hokkien-noodles
+
 
 ---
 
