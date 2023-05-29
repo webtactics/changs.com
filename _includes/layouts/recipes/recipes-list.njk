@@ -39,8 +39,13 @@
 {% endif %}
  </article>
  </div>
- <div class="sidebarwrapper"><aside>{% set postslist = collections.Beef %}
-{% include "components/postslist-sidebar.njk" %}</aside></div>
+ <div class="sidebarwrapper"><aside>
+{% set postslist = collections.Beef %}
+{% include "components/postslist-sidebar.njk" %}
+{% set postslist = collections.Lamb %}
+{% include "components/postslist-sidebar.njk" %}
+</aside>
+</div>
  </div>
 </section>
 {% endblock %}
