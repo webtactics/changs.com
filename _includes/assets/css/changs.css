@@ -771,11 +771,11 @@ min-height:600px;
 
 .content-detail {
 position: relative;
-margin: -20vh auto 0 auto;
+margin: -40vh auto 0 auto;
 padding: 1rem;
 z-index: 2;
 max-width: 1280px;
-background-color: var(--white);
+background-color: transparent;
 min-height: 600px;
 }
 
