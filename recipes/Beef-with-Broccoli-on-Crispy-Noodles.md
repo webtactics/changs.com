@@ -128,8 +128,3 @@ Add the oyster, light soy and dark soy sauces and salt,stirring to coat the meat
 </ol>
 </div>
 
-
-
-<div class="gallery">
-{% include "components/gallery.njk" %}
-</div>
