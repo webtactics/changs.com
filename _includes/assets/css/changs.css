@@ -8,6 +8,7 @@
   --text: #333;
   --black: hsla(0,0%,0%,1);
   --black20: hsla(0,0%,0%,0.2);
+  --black10: hsla(0,0%,0%,0.1);
   --lightgrey: #ebebeb;
   --mattblack: hsla(214,12%,11%,1);
   --green: hsla(144, 80%, 22%, 1);
@@ -443,7 +444,7 @@ button.blogdetail, .button.blogdetail {margin:0;}
 }
 .topbar {
   position: fixed;
-  background-color: var(--black20);
+  background-color: var(--black10);
   width: 100%;
   padding: 0;
   top: 0;
@@ -505,7 +506,7 @@ padding: 0;
   display: flex;
   justify-content: center;
   font-size: 1.1rem;
-  color: var(--primary);
+  color: var(--black);
   background-color: transparent;
   text-decoration: none;
   font-weight: 400;
