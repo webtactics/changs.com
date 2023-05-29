@@ -27,7 +27,7 @@ tags:
 
   - Featured
 
-image: https://ik.imagekit.io/webtactics/changs-media/recipes/Beef-with-Broccoli-on-Crispy-Noodles_H99MWsVad.jpg?updatedAt=1685228839507
+image: https://ik.imagekit.io/webtactics/changs/recipes/beef-with-broccoli-on-crispy-noodles/beef-with-broccoli-on-crispy-noodles-1.jpg
 imageAlt: Beef with Broccoli on Crispy Noodles
 description: A rich and tasty Chinese inspired stirfry
 serves: 4
@@ -35,22 +35,40 @@ prep: 40 minutes
 makes: 
 difficulty: Easy
 imageFolders:
-  - name: hot-coconut-oil-massage
+  - name: mongolian-lamb-noodles
     count: 7
 galleryimages:
-  - url: hot-coconut-oil-massage/hot-coconut-oil-massage-1.jpg
+  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-1.jpg
     alt: Beef with Broccoli on Crispy Noodles 1
-  - url: hot-coconut-oil-massage/hot-coconut-oil-massage-2.jpg
+  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-2.jpg
     alt: Beef with Broccoli on Crispy Noodles 2
-  - url: hot-coconut-oil-massage/hot-coconut-oil-massage-3.jpg
+  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-3.jpg
     alt: Beef with Broccoli on Crispy Noodles 3
-  - url: hot-coconut-oil-massage/hot-coconut-oil-massage-4.jpg
+  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-4.jpg
     alt: Beef with Broccoli on Crispy Noodles 4
-  - url: hot-coconut-oil-massage/hot-coconut-oil-massage-5.jpg
+  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-5.jpg
     alt: Beef with Broccoli on Crispy Noodles 5
-  - url: hot-coconut-oil-massage/hot-coconut-oil-massage-6.jpg
+  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-6.jpg
     alt: Beef with Broccoli on Crispy Noodles 6
-  - url: hot-coconut-oil-massage/hot-coconut-oil-massage-7.jpg
+  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-7.jpg
+    alt: Beef with Broccoli on Crispy Noodles 7
+  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-8.jpg
+    alt: Beef with Broccoli on Crispy Noodles 1
+  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-9.jpg
+    alt: Beef with Broccoli on Crispy Noodles 2
+  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-10.jpg
+    alt: Beef with Broccoli on Crispy Noodles 3
+  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-11.jpg
+    alt: Beef with Broccoli on Crispy Noodles 4
+  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-12.jpg
+    alt: Beef with Broccoli on Crispy Noodles 5
+  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-landscape-1.jpg
+    alt: Beef with Broccoli on Crispy Noodles 6
+  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-landscape-2.jpg
+    alt: Beef with Broccoli on Crispy Noodles 7
+  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-landscape-3.jpg
+    alt: Beef with Broccoli on Crispy Noodles 6
+  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-landscape-4.jpg
     alt: Beef with Broccoli on Crispy Noodles 7
 
 
