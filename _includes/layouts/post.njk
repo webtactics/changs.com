@@ -28,19 +28,23 @@ section: post
 {% if time120 %}<div class="timecostwrapper"><span class="timecostmin">120 min:</span>{{ time120 }}</div>{% endif %}
 </div>	</div>	
 
-  <h3>Health Fund Rebates Available:</h3>
-  <p>AHM, BUPA, ARHG, CBHS, HBF, HCF, MEDIBANK, NIB</p>
+
+{% if video %}
+<div class="video">
+<h3>Making {{ title }} in 30 seconds!</h3>
+<div style="position: relative; padding-top: 100%;">
+<iframe src="{{ video }}" loading="lazy" style="border: none; position: absolute; top: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>
+</div>
+</div>
+{% endif %}
 
 
 
 
 
-
-
-
-<a class="button blogdetail" href="/booking/" class="return-link">Make a booking</a>    
+ 
   
-<a class="button blogdetail right" href="/treatments/" class="return-link">Return to the Treatments page</a>    
+  
 </div>
 </article>
 </div>
