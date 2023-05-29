@@ -13,3 +13,12 @@ class: products
 <h1>Featured</h1>
 {% set postslist = collections.Featured %}
 {% include "components/postslist.njk" %}
+
+<h1>tamari-light-soy-sauce</h1>
+{% set postslist = collections.tamari-light-soy-sauce %}
+{% include "components/postslist.njk" %}
+
+
+<h1>['tag here']</h1>
+{% set postslist = collections['tamari-light-soy-sauce'] %}
+{% include "components/postslist.njk" %}
