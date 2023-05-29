@@ -16,13 +16,14 @@ tags:
   - Festive
   - Kid friendly
 
-  - Crunchy Fried Noodles
-  - Original Oyster Sauce
-  - Rice Vermicelli Noodles
-  - Soy Sauce Light
-  - Tamari Light Soy Sauce
-  - Tamari Oyster Sauce
-  - Soy Sauce Dark
+  - crunchy-fried-noodles
+  - original-oyster-sauce
+  - vermicelli-rice-noodles
+  - soy-sauce-light
+  - tamari-light-soy-sauce
+  - tamari-oyster-sauce
+  - soy-sauce-dark
+
 
   - Featured
 
@@ -71,6 +72,14 @@ galleryimages:
     alt: Beef with Broccoli on Crispy Noodles 7
 
 
+
+crunchy-fried-noodles: crunchy-fried-noodles
+original-oyster-sauce: original-oyster-sauce
+vermicelli-rice-noodles: vermicelli-rice-noodles
+soy-sauce-light: soy-sauce-light
+tamari-light-soy-sauce: tamari-light-soy-sauce
+tamari-oyster-sauce: tamari-oyster-sauce
+soy-sauce-dark: soy-sauce-dark
 ---
 
 
