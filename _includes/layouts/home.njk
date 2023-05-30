@@ -6,15 +6,17 @@
 
 
 {% block hero %}
-{% include "components/hero-home.njk" %}
+{% include "components/hero-home.html" %}
 {% endblock %}
 
 {% block content %}
 <section role="main" class="content">  
 {{ layoutContent | safe }}
+
+
 <h3>Products</h3>
 {% set postslist = collections.products %}
-{% include "components/postslist.njk" %}
+{% include "components/postslist-products.html" %}
 <h3>Recipes</h3>
 {% set postslist = collections.recipes %}
 {% include "components/postslist.njk" %}
