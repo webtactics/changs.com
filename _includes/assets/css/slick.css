@@ -119,3 +119,35 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+
+.flex-caption {
+    background: rgba(255,255,255,0.75);
+    color: #000000;
+    font-size: 14px;
+    bottom: 40px;
+    left: 0px;
+    line-height: 18px;
+    padding: 20px;
+    position: absolute;
+    text-align: left;
+    width: 390px;
+    margin: 0;
+    border-radius: 0;
+    animation: fadeInUp 1.5s both;
+      animation-delay: 0s;
+    -webkit-animation-delay: .8s;
+    -moz-animation-delay: .8s;
+    animation-delay: .8s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    min-height: 218px;
+  }
+  .flex-caption.left {
+    left: 0px;
+    right: auto;
+    top: auto;
+  }
