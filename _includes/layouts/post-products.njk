@@ -77,7 +77,7 @@ section: post
 {% include "components/products/wok-ready-noodles.njk" %}
 
 <h3>WokReadyNoodles 2</h3>
-{% set postslist = collections.wok-ready-noodles %}
+{% set postslist = collections[wok-ready-noodles] %}
 {% include "components/postslist-products.html" %}
 {% endif %}
 
@@ -124,7 +124,7 @@ section: post
 </article>
 </div>
 <div class="sidebarwrapper">
-<aside>{% set postslist = collections.treatments %}{% include "components/postslist-sidebar.njk" %}</aside>
+<aside>{% set postslist = collections.wok-ready-noodles %}{% include "components/postslist-sidebar.njk" %}</aside>
 </div>
 </div>
 
