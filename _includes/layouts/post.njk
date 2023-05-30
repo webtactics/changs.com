@@ -61,14 +61,42 @@ section: post
 
 
 
+
+
+
+
+
+
+
+{% if CrispyNoodleSaladDressing %}
+<h3>CrispyNoodleSaladDressing</h3>
+{% include "components/products/crunchy-fried-noodles.njk" %}
+{% endif %}
+ 
+
 {% if CrunchyFriedNoodles %}
 <h3>CrunchyFriedNoodles</h3>
 {% include "components/products/crunchy-fried-noodles.njk" %}
 {% endif %}
  
- {% if HokkienNoodles %}
+{% if HokkienNoodles %}
 <h3>HokkienNoodles</h3>
 {% include "components/products/hokkien-noodles.njk" %}
+{% endif %}
+
+{% if GlutenFreeTamariLightSoySauce %}
+<h3>GlutenFreeTamariLightSoySauce</h3>
+{% include "components/products/hokkien-noodles.njk" %}
+{% endif %}
+
+{% if LongLifeNoodles %}
+<h3>LongLifeNoodles</h3>
+{% include "components/products/hokkien-noodles.njk" %}
+{% endif %}
+
+ {% if OriginalFriedNoodles %}
+<h3>OriginalFriedNoodles</h3>
+{% include "components/products/original-hoisin-sauce.njk" %}
 {% endif %}
   
  {% if OriginalHoisinSauce %}
@@ -90,7 +118,6 @@ section: post
 <h3>SoySauceLight</h3>
 {% include "components/products/soy-sauce-light.njk" %}
 {% endif %}
-
 
  {% if SoySauceDark %}
 <h3>SoySauceDark</h3>
