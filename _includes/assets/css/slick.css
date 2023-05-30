@@ -147,11 +147,20 @@
     min-height: 218px;
   }
   .flex-caption.left {
-    left: 30vw;
+    left: 25vw;
     right: auto;
     top: auto;
   }
-
+  .flex-caption.centre {
+    left: 40vw;
+    right: auto;
+    top: auto;
+  }
+  .flex-caption.right {
+    left: auto;
+    right: 25vw;
+    top: auto;
+  }
   /* Animation */
 
 @keyframes fadeInUp {
