@@ -813,6 +813,7 @@ ul.off-canvas-list > li.current > a, ul.off-canvas-list > li.active-class > a {
 
 }
 .hero {height: 100svh;height: 100vh;}
+.internalhero {height: 100svh;height: 100vh;}
 
 .slick-slider {
   position: relative;
