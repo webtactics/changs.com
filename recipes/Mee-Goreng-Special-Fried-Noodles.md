@@ -3,7 +3,8 @@ title: Mee Goreng Special Fried Noodles
 date: 2023-05-01
 tags:
   - Noodles Ingredient
-  - Lamb
+  - Seafood
+  - Poultry
   - Quick and Easy
   - Stir Frys
   - Main Meals
@@ -16,18 +17,18 @@ tags:
   - Spring
   - Kid friendly
 
-  - tamari-light-soy-sauce
+  - crispy-noodle-salad-dressing
+  - gluten-free-tamari-light-soy-sauce
+  - long-life-noodles
   - sesame-oil
-  - original-hoisin-sauce
   - wok-ready-noodles
-  - hokkien-noodles
 
   - Featured
 
 image: https://ik.imagekit.io/webtactics/changs/recipes/mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-1.jpg
 bgimage: https://ik.imagekit.io/webtactics/changs/tr:w-1600,h-800,f-auto/recipes/mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-landscape-1.jpg
-imageAlt: Chang’s Mongolian Lamb Noodles
-description: Indulge in the delicious flavours of Mongolian Lamb Noodles with this easy-to-follow recipe from Chang's. Thinly sliced lamb, savory sauce, and Chang's Hokkien noodles come together to create a mouth-watering dish that will satisfy your cravings. Get ready to enjoy a flavourful and satisfying meal in the comfort of your own home.
+imageAlt: Mee Goreng Special Fried Noodles
+description: This is Chang’s take on a classic Mee Goreng, which is the best-known dish in Singapore. Our version is a one wok meal that takes only 15 minutes to cook and has light but tasty flavours which makes it the perfect family friendly meal.
 serves: 4
 prep: 10 minutes 
 makes: 
@@ -38,43 +39,45 @@ imageFolders:
     count: 7
 galleryimages:
   - url: mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-1.jpg
-    alt: Chang’s Mongolian Lamb Noodles 1
+    alt: Mee Goreng Special Fried Noodles 1
   - url: mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-2.jpg
-    alt: Chang’s Mongolian Lamb Noodles 2
+    alt: Mee Goreng Special Fried Noodles 2
   - url: mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-3.jpg
-    alt: Chang’s Mongolian Lamb Noodles 3
+    alt: Mee Goreng Special Fried Noodles 3
   - url: mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-4.jpg
-    alt: Chang’s Mongolian Lamb Noodles 4
+    alt: Mee Goreng Special Fried Noodles 4
   - url: mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-5.jpg
-    alt: Chang’s Mongolian Lamb Noodles 5
+    alt: Mee Goreng Special Fried Noodles 5
   - url: mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-6.jpg
-    alt: Chang’s Mongolian Lamb Noodles 6
+    alt: Mee Goreng Special Fried Noodles 6
   - url: mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-7.jpg
-    alt: Chang’s Mongolian Lamb Noodles 7
+    alt: Mee Goreng Special Fried Noodles 7
   - url: mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-8.jpg
-    alt: Chang’s Mongolian Lamb Noodles 8
+    alt: Mee Goreng Special Fried Noodles 8
   - url: mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-landscape-1.jpg
-    alt: Chang’s Mongolian Lamb Noodles 13
+    alt: Mee Goreng Special Fried Noodles 13
   - url: mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-landscape-2.jpg
-    alt: Chang’s Mongolian Lamb Noodles 14
+    alt: Mee Goreng Special Fried Noodles 14
 
 
 video:
 
+CrispyNoodleSaladDressing: 'crispy-noodle-salad-dressing'
 CrunchyFriedNoodles:
-HokkienNoodles: hokkien-noodles
+HokkienNoodles:
+GlutenFreeTamariLightSoySauce: 'gluten-free-tamari-light-soy-sauce'
+LongLifeNoodles: 'long-life-noodles'
 OriginalFriedNoodles:
-OriginalHoisinSauce: original-hoisin-sauce
+OriginalHoisinSauce:
 OriginalOysterSauce:
-SesameOil: sesame-oil
+SesameOil: 'sesame-oil'
 SoySauceLight:
 SoySauceDark:
-TamariLightSoySauce: tamari-light-soy-sauce
+TamariLightSoySauce:
 TamariOysterSauce:
 VermicelliRiceNoodles:
 WokReadyNoodles: 'wok-ready-noodles'
 
-productname: 'wok-ready-noodles'
 
 ---
 
@@ -83,34 +86,19 @@ productname: 'wok-ready-noodles'
 <div class="recipesingredient">
 
 <h3>Ingredients:</h3>
-<h4>Lamb:</h4>
 <ul>
-<li>400g lamb backstrap fillet/tender fillets, thinly sliced</li>
-<li>2 tablespoons {% include "components/product-recipe-link/Changs-Tamari-Light-Soy-Sauce.html" %}</li>
-<li>2 tablespoons rice wine vinegar</li>
-<li>4 large garlic cloves, minced</li>
-<li>3cm piece ginger, minced</li>
-<li>&frac12; teaspoon bicarb soda</li>
-</ul>
-<h4>Stir Fry:</h4>
-<ul>
-<li>1 large brown onion, cut into 3cm pieces</li>
-<li>3 tablespoons cooking oil</li>
-<li>5 green onions, cut into 5cm lengths</li>
-</ul>
-<h4>Sauce:</h4>
-<ul>
-<li>&frac12; cup water</li>
-<li>1 teaspoon Chinese five spice powder</li>
-<li>1 teaspoon corn flour (corn starch)</li>
-<li>2 tablespoons sweet chilli sauce</li>
-<li>2 tablespoons {% include "components/product-recipe-link/Changs-Pure-Sesame-Oil.html" %}</li>
-<li>3 tablespoons {% include "components/product-recipe-link/Changs-Hoisin-Sauce.html" %}</li>
-<li>3 tablespoons {% include "components/product-recipe-link/Changs-Tamari-Light-Soy-Sauce.html" %}</li>
-</ul>
-<h4>Noodles:</h4>
-<ul>
-<li>1 packet {% include "components/product-recipe-link/Changs-Shelf-Fresh-Noodles-Hokkien-Style.html" %}<br /> (OR gluten-free alternative, use 3 packets of {% include "components/product-recipe-link/Changs-Wok-Ready-Noodles.html" %})</li>
+<li>1 pkt <a title="Chang's Long Life Noodles" href="products/Changs-Long-Life-Noodles/" target="_blank" rel="noopener">Chang's Long Life Noodles</a> (gluten free swap <a title="Chang's Wok-Ready Noodles" href="products/Wok-Ready-Noodles/" target="_blank" rel="noopener">Chang's Wok-Ready Noodles</a>)</li>
+<li>1 x 300g chicken breast, thinly sliced</li>
+<li>12-16 large green prawns, raw (optional to peel)</li>
+<li>&frac14; cup <a title="Chang's Soy Sauce" href="products/Changs-Soy-Sauce-Dark/" target="_blank" rel="noopener">Chang's Soy Sauce</a> or <a title="Chang's Tamari Light Soy Sauce" href="products/Changs-Tamari-Light-Soy-Sauce/" target="_blank" rel="noopener">Chang's Tamari Light Soy Sauce</a></li>
+<li>&frac12; cup <a title="Chang's Crispy Noodle Salad Dressing" href="products/Crispy-Noodle-Salad-Dressing/" target="_blank" rel="noopener">Chang's Crispy Noodle Salad Dressing</a></li>
+<li>2 tablespoons <a title="Chang's Pure Sesame Oil" href="products/Changs-Pure-Sesame-Oil/" target="_blank" rel="noopener">Chang's Pure Sesame Oil</a></li>
+<li>2 tablespoons cooking oil</li>
+<li>1 large brown onion, sliced</li>
+<li>4 green onions, sliced on the diagonal</li>
+<li>4 garlic, cloves, minced</li>
+<li>1 large bunch Chinese broccoli leaves, finely sliced</li>
+<li>2 large carrots, shredded</li>
 </ul>
 
 </div>
@@ -121,12 +109,14 @@ productname: 'wok-ready-noodles'
 
 <h3>Method:</h3>
 <ol>
-<li>In a large bowl combine the lamb ingredients. Cover and stand for 15 minutes.</li>
-<li>In a separate bowl, add the sauce ingredients and whisk to combine. Set aside.</li>
-<li>In a wok, over high heat, add the cooking oil, onion, green onions and stir fry for 2 minutes until they begin to colour. Remove from heat and set aside.</li>
-<li>In the same wok, add the lamb along with its marinade and cook over high heat for 3 minutes, stirring frequently.</li>
-<li>Add the onions and then the noodles to the wok and pour the sauce over the noodles. Toss to combine. Cook for 1 minute or until the sauce begins to thicken. Remove from heat and serve.</li>
+<li>Bring water to boil in the wok and cook the noodles according to packet instructions. Drain and set aside. Wipe dry the wok.</li>
+<li>Heat half the cooking oil in the same wok and add the carrots and brown onion. Cook for 3 minutes until softens. Remove from wok and set aside.</li>
+<li>Add the remaining cooking oil, heat and add the chicken to the wok and stir fry for 3 minutes. Add the prawns and garlic and cook for a further 3 minutes.</li>
+<li>Add to the wok half of the Crispy Noodle Salad Dressing to coat the chicken and prawns and bring to boil.</li>
+<li>Next add the remaining ingredients. First the broccoli leaves, green onions, carrots and onions. Stir fry for a minute and then add the noodles. Pour over the Tamari Soy Sauce and the remaining Crispy Noodle Salad Dressing.</li>
+<li>Stir to combine well and once noodles are coated turn off heat and allow sitting for a minute. Drizzle with sesame oil and garnish with toasted sesame seeds and extra slices of green onions. Serve immediately.</li>
 </ol>
+<p><em>Note: Make this dish GLUTEN FREE by using <a title="Chang's Thai Style Rice Noodles" href="products/Changs-Thai-Style-Rice-Noodles/" target="_blank" rel="noopener">Chang's Thai Style Rice Noodles</a> or <a title="Chang's Wok-Ready Noodles" href="products/Wok-Ready-Noodles/" target="_blank" rel="noopener">Chang's Wok-Ready Noodles</a>.</em></p>
 
 </div>
 
