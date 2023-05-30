@@ -125,7 +125,7 @@
     background: rgba(255,255,255,0.75);
     color: #000000;
     font-size: 14px;
-    bottom: 40px;
+    bottom: 40vh;
     left: 0px;
     line-height: 18px;
     padding: 20px;
@@ -147,7 +147,7 @@
     min-height: 218px;
   }
   .flex-caption.left {
-    left: 0px;
+    left: 30vw;
     right: auto;
     top: auto;
   }
