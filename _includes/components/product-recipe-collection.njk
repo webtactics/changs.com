@@ -1,6 +1,6 @@
-<div class="photo-gallery grid-5-columns">
-{% for item in productname %}
-<div class="img">
+<div class="productname">
+{% for post in productname %}
+<div class="divwrapper">
 {% set postslist = collections[productname] %}
 {% include "components/postslist-products.html" %}
 </div>
