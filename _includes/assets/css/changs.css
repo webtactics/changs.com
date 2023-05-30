@@ -805,32 +805,16 @@ ul.off-canvas-list > li.current > a, ul.off-canvas-list > li.active-class > a {
 
 
 .hero {height: 100svh;height: 100vh;}
-.homebooklogo {
-  position: absolute;
-  z-index: 2;
-  top: 22vh;
-  height: 130px;
+
+.sliderWrapper {
   width: 100%;
-  text-align: center;
-  display: flex;
-align-items: center;
-justify-content: center;
-align-content: center;
+  max-width: 1170px;
+  position: relative;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
-.homebooklogo img { 
-text-align: center;
-display: flex;
-align-items: center;
-justify-content: center;
-align-content: center;}
-.homebookingbutton {
-  position: absolute;
-  z-index: 2;
-  top: 50vh;
-  height: 100px;
-  width: 100%;
-  text-align: center;
-}
+
 .content {
 position: relative;
 margin: -20vh auto 0 auto;
