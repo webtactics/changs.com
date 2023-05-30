@@ -90,7 +90,7 @@ section: post
 
 
 <h3>WokReadyNoodles 4</h3>
-{% set postslist = collections['{{ WokReadyNoodles }}'] %}
+{% set postslist = collections[WokReadyNoodles] %}
 {% include "components/postslist-products.html" %}
 
 
@@ -119,10 +119,7 @@ section: post
   {% endif %}
 
 
- {% if WokReadyNoodles %}
-<h3>WokReadyNoodles 6</h3>
-{% include "components/products/{{ WokReadyNoodles }}.njk" %}
-{% endif %}
+
 
 <h3>WokReadyNoodles 7</h3>
 {% set postslist = collections[productname] %}
