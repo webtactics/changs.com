@@ -2,17 +2,6 @@
 title: Chang's Wok-Ready Noodles
 author: Paul Goldsmith
 date: 2023-04-19
-CrunchyFriedNoodles:
-HokkienNoodles:
-OriginalHoisinSauce:
-OriginalFriedNoodles:
-OriginalOysterSauce:
-SesameOil:
-SoySauceLight:
-SoySauceDark:
-TamariLightSoySauce:
-TamariOysterSauce:
-VermicelliRiceNoodles:
 WokReadyNoodles: wok-ready-noodles
 tags:
   - noodles
