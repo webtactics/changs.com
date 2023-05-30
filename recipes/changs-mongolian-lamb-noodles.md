@@ -83,7 +83,9 @@ SoySauceDark:
 TamariLightSoySauce: tamari-light-soy-sauce
 TamariOysterSauce:
 VermicelliRiceNoodles:
-WokReadyNoodles: wok-ready-noodles
+WokReadyNoodles: 'wok-ready-noodles'
+
+productname: 'wok-ready-noodles'
 
 ---
 
