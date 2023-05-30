@@ -24,8 +24,8 @@ tags:
 
   - Featured
 
-image: https://ik.imagekit.io/webtactics/changs/recipes/mongolian-lamb-noodles/mongolian-lamb-noodles-1.jpg
-bgimage: https://ik.imagekit.io/webtactics/changs-media/tr:w-1600,h-800,f-auto/slider/Mongolian-Lamb-Noodles-landscape-1600x800_wr5Ca0XEl.jpg?updatedAt=1685410886795
+image: https://ik.imagekit.io/webtactics/changs/recipes/mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-1.jpg
+bgimage: https://ik.imagekit.io/webtactics/changs/tr:w-1600,h-800,f-auto/recipes/mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-landscape-1.jpg
 imageAlt: Chang’s Mongolian Lamb Noodles
 description: Indulge in the delicious flavours of Mongolian Lamb Noodles with this easy-to-follow recipe from Chang's. Thinly sliced lamb, savory sauce, and Chang's Hokkien noodles come together to create a mouth-watering dish that will satisfy your cravings. Get ready to enjoy a flavourful and satisfying meal in the comfort of your own home.
 serves: 4
@@ -34,43 +34,32 @@ makes:
 cooking: 15 minutes
 difficulty: Easy
 imageFolders:
-  - name: mongolian-lamb-noodles
+  - name: mee-goreng-special-fried-noodles
     count: 7
 galleryimages:
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-1.jpg
+  - url: mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-1.jpg
     alt: Chang’s Mongolian Lamb Noodles 1
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-2.jpg
+  - url: mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-2.jpg
     alt: Chang’s Mongolian Lamb Noodles 2
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-3.jpg
+  - url: mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-3.jpg
     alt: Chang’s Mongolian Lamb Noodles 3
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-4.jpg
+  - url: mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-4.jpg
     alt: Chang’s Mongolian Lamb Noodles 4
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-5.jpg
+  - url: mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-5.jpg
     alt: Chang’s Mongolian Lamb Noodles 5
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-6.jpg
+  - url: mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-6.jpg
     alt: Chang’s Mongolian Lamb Noodles 6
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-7.jpg
+  - url: mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-7.jpg
     alt: Chang’s Mongolian Lamb Noodles 7
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-8.jpg
+  - url: mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-8.jpg
     alt: Chang’s Mongolian Lamb Noodles 8
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-9.jpg
-    alt: Chang’s Mongolian Lamb Noodles 9
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-10.jpg
-    alt: Chang’s Mongolian Lamb Noodles 10
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-11.jpg
-    alt: Chang’s Mongolian Lamb Noodles 11
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-12.jpg
-    alt: Chang’s Mongolian Lamb Noodles 12
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-landscape-1.jpg
+  - url: mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-landscape-1.jpg
     alt: Chang’s Mongolian Lamb Noodles 13
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-landscape-2.jpg
+  - url: mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-landscape-2.jpg
     alt: Chang’s Mongolian Lamb Noodles 14
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-landscape-3.jpg
-    alt: Chang’s Mongolian Lamb Noodles 15
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-landscape-4.jpg
-    alt: Chang’s Mongolian Lamb Noodles 16
 
-video: https://iframe.mediadelivery.net/embed/68279/3701e76e-de4b-44ba-877d-738a0d262b5c?autoplay=false
+
+video:
 
 CrunchyFriedNoodles:
 HokkienNoodles: hokkien-noodles
