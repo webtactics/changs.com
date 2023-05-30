@@ -17,8 +17,8 @@ permalink: "recipes/main-ingredients/beef/"
 
 
 {% for post in collections.Seafood %}
-<h3>Beef</h3>
-    <a href="{{ page.url }}">{{ post.data.title }}</a>
+{% set postslist = collections.Seafood %}
+{% include "components/postslist.njk" %}
 {% endfor %}
 
 
