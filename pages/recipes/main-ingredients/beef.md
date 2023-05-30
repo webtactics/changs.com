@@ -17,8 +17,7 @@ permalink: "recipes/main-ingredients/beef/"
 
 
 {% for post in collections.Seafood %}
-{% set postslist = collections.Seafood %}
-{% include "components/postslist.njk" %}
+{% include "components/products/wok-ready-noodles-collection.njk" %}
 {% endfor %}
 
 
