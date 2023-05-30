@@ -7,6 +7,7 @@
 	--red: #D90000;
   --text: #333;
   --black: hsla(0,0%,0%,1);
+  --black50: hsla(0,0%,0%,0.5);
   --black20: hsla(0,0%,0%,0.2);
   --black10: hsla(0,0%,0%,0.1);
   --lightgrey: #ebebeb;
@@ -444,7 +445,7 @@ button.blogdetail, .button.blogdetail {margin:0;}
 }
 .topbar {
   position: fixed;
-  background-color: var(--black10);
+  background-color: var(--black50);
   width: 100%;
   padding: 0;
   top: 0;
