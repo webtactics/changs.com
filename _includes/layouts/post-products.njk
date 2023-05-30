@@ -124,7 +124,13 @@ section: post
 {% include "components/products/{{ WokReadyNoodles }}.njk" %}
 {% endif %}
 
-
+<h3>WokReadyNoodles 7</h3>
+{% set postslist = collections[productname] %}
+{% include "components/postslist-products.html" %}
+<h3>WokReadyNoodles 8</h3>
+{% for item in collections[productname] %}
+           {% include "components/postslist-products.html" %}
+        {% endfor %}
 
 
 
