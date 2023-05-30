@@ -1,19 +1,6 @@
 
 
 
-CrunchyFriedNoodles: CrunchyFriedNoodles
-HokkienNoodles: HokkienNoodles
-OriginalHoisinSauce: OriginalHoisinSauce
-OriginalOysterSauce: OriginalOysterSauce
-SesameOil: SesameOil
-SoySauceLight: SoySauceLight
-SoySauceDark: SoySauceDark
-TamariLightSoySauce: TamariLightSoySauce
-TamariOysterSauce: TamariOysterSauce
-VermicelliRiceNoodles: VermicelliRiceNoodles
-WokReadyNoodles: WokReadyNoodles
-
-
 
 
 
@@ -28,3 +15,20 @@ TamariLightSoySauce: tamari-light-soy-sauce
 TamariOysterSauce: tamari-oyster-sauce
 VermicelliRiceNoodles: vermicelli-rice-noodles
 WokReadyNoodles: wok-ready-noodles
+
+
+CrispyNoodleSaladDressing: 'crispy-noodle-salad-dressing'
+CrunchyFriedNoodles:
+HokkienNoodles:
+GlutenFreeTamariLightSoySauce: 'gluten-free-tamari-light-soy-sauce'
+LongLifeNoodles: 'long-life-noodles'
+OriginalFriedNoodles:
+OriginalHoisinSauce:
+OriginalOysterSauce:
+SesameOil: 'sesame-oil'
+SoySauceLight:
+SoySauceDark:
+TamariLightSoySauce:
+TamariOysterSauce:
+VermicelliRiceNoodles:
+WokReadyNoodles: 'wok-ready-noodles'

@@ -16,26 +16,24 @@
 {% if page.url == "/recipes/main-ingredients/beef/" %}
 {% set postslist = collections.Beef %}
 {% include "components/postslist.njk" %}
-{% endif %}
-{% if page.url == "/products/noodles/" %}
-{% set postslist = collections.noodles %}
+{% elif page.url == "/recipes/main-ingredients/lamb/" %}
+{% set postslist = collections.Lamb %}
 {% include "components/postslist.njk" %}
-{% endif %}
-{% if page.url == "/products/noodles/" %}
-{% set postslist = collections.Beef %}
+{% elif page.url == "/recipes/main-ingredients/noodles-ingredients/" %}
+{% set postslist = collections.Noodles %}
 {% include "components/postslist.njk" %}
-{% endif %}
-{% if page.url == "products/sauces/" %}
-{% set postslist = collections.sauces %}
+{% elif page.url == "/recipes/main-ingredients/seafood/" %}
+{% set postslist = collections.Seafood %}
 {% include "components/postslist.njk" %}
-{% endif %}
-{% if page.url == "products/gluten-free-products/" %}
-{% set postslist = collections.gluten-free %}
+{% elif page.url == "/recipes/main-ingredients/pork/" %}
+{% set postslist = collections.Pork %}
 {% include "components/postslist.njk" %}
-{% endif %}
-{% if page.url == "products/tamari-wheat-free-sauces/" %}
-{% set postslist = collections.noodles %}
-{% include "components/tamari.njk" %}
+{% elif page.url == "/recipes/main-ingredients/poultry-based-recipes/" %}
+{% set postslist = collections.Poultry %}
+{% include "components/postslist.njk" %}
+{% elif page.url == "/recipes/main-ingredients/vegetarian/" %}
+{% set postslist = collections.Vegetarian %}
+{% include "components/postslist.njk" %}
 {% endif %}
  </article>
  </div>
@@ -43,6 +41,10 @@
 {% set postslist = collections.Beef %}
 {% include "components/postslist-sidebar.njk" %}
 {% set postslist = collections.Lamb %}
+{% include "components/postslist-sidebar.njk" %}
+{% set postslist = collections.Seafood %}
+{% include "components/postslist-sidebar.njk" %}
+{% set postslist = collections.Noodles %}
 {% include "components/postslist-sidebar.njk" %}
 </aside>
 </div>
