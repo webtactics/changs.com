@@ -21,11 +21,13 @@
 
 
 {% set css %}
-    {% include "assets/css/changs.css" %}
-     {% include "assets/css/lightbox-gallery.css" %}
+ {% include "assets/css/slick.css" %}
+  {% include "assets/css/lightbox-gallery.css" %}
+  {% include "assets/css/changs.css" %}
+
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet"> 
