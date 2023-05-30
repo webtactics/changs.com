@@ -587,7 +587,7 @@ ul.second-level li {
 
 ul.second-level li a {
   display: block;
-  padding: 0.5rem 1rem;
+
   color: var(--primary);
   width: 160px;
   text-align: center;
@@ -595,7 +595,7 @@ ul.second-level li a {
 }
 ul.second-level li a:hover {
   display: block;
-  padding: 0.5rem 1rem;
+
   color: var(--white);
   background-color: var(--primary);
   text-align: center;
