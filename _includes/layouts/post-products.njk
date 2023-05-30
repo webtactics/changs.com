@@ -105,16 +105,7 @@ section: post
  <div class="gallery">
 {% include "components/gallery.njk" %}
 </div>
-  {% if tags %}
-    <div class="NewsSummaryPrice detail"><h4>Tags</h4>
-    {% for tag in tags %}
-      {%- if tag != "post" -%}
-        {% set tagUrl %}/changs/{{ tag }}/{% endset %}
-       <div class="tag"><a href="{{ tag | slugify }}" rel="tag">{{ tag }}</a></div>
-      {%- endif -%}
-    {% endfor %}
-    </div>
-  {% endif %}
+
 
 
 
