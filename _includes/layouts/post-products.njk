@@ -84,10 +84,12 @@ section: post
 {% set postslist = collections['Featured'] %}
   {% include "components/postslist-sidebar.njk" %}
 
-<h3>WokReadyNoodles 3</h3>
-{% set postslist = collections['wok-ready-noodles'] %}
-{% include "components/postslist-products.html" %}
 
+{% if productname %}
+<div class="gallery">
+{% include "components/product-recipe-collection.njk" %}
+</div>
+{% endif %}
 
 
 
