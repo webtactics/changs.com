@@ -11,7 +11,7 @@ section: post
 
 <div class="item blogdetail">
 <h1 class="heading-text">{{ title }}</h1>
-
+{% if GTIN %}<div class="timecostwrapper"><span class="timecostmin">GTIN:</span>{{ GTIN }}</div>{% endif %}
 
 <div class="blogdetailimage" align="center"><img src="{{ image }}/tr:w-1000,h-1000" alt="{{ imageAlt }}" title="{{ imageAlt }}"></div>
 <div class="detailcontent">     
