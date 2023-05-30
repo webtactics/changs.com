@@ -2,6 +2,7 @@
 title: Chang's Wok-Ready Noodles
 author: Paul Goldsmith
 date: 2023-04-19
+permalink: "/products/changs-wok-ready-noodles/"
 WokReadyNoodles: wok-ready-noodles-collection
 productname: wok-ready-noodles
 tags:
