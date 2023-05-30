@@ -1,6 +1,7 @@
 ---
 title: Chang’s Mongolian Lamb Noodles
 date: 2023-05-01
+permalink: "/recipes/changs-mongolian-lamb-noodles/"
 tags:
   - Noodles Ingredient
   - Lamb
