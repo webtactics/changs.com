@@ -125,7 +125,7 @@
     background: rgba(255,255,255,0.75);
     color: #000000;
     font-size: 14px;
-    bottom: 30vh;
+    bottom: 25vh;
     left: 0px;
     line-height: 18px;
     padding: 20px;
@@ -134,7 +134,7 @@
     width: 390px;
     margin: 0;
     border-radius: 0;
-    animation: fadeInUp 1.5s both;
+    animation: fadeInUp 1s both;
       animation-delay: 0s;
     -webkit-animation-delay: .8s;
     -moz-animation-delay: .8s;
