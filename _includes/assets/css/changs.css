@@ -805,7 +805,7 @@ ul.off-canvas-list > li.current > a, ul.off-canvas-list > li.active-class > a {
 
 
 .content {
-position: relative;
+
 margin: -20vh auto 0 auto;
 padding: 1rem;
 z-index: 2;
