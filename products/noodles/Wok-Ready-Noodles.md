@@ -3,6 +3,7 @@ title: Chang's Wok-Ready Noodles
 author: Paul Goldsmith
 date: 2023-04-19
 WokReadyNoodles: wok-ready-noodles-collection
+productname: wok-ready-noodles
 tags:
   - noodles
   - gluten-free
