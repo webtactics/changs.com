@@ -17,6 +17,7 @@ tags:
   - Kid friendly
 
   - crunchy-fried-noodles
+  - original-fried-noodles
   - original-oyster-sauce
   - vermicelli-rice-noodles
   - soy-sauce-light
@@ -74,14 +75,14 @@ galleryimages:
 CrunchyFriedNoodles:
 HokkienNoodles:
 OriginalHoisinSauce:
-OriginalFriedNoodles:
-OriginalOysterSauce: original-oyster-sauce
+OriginalFriedNoodles: 'original-fried-noodles'
+OriginalOysterSauce: 'original-oyster-sauce'
 SesameOil:
 SoySauceLight:
-SoySauceDark: soy-sauce-dark
-TamariLightSoySauce: tamari-light-soy-sauce
-TamariOysterSauce: tamari-oyster-sauce
-VermicelliRiceNoodles: vermicelli-rice-noodles
+SoySauceDark: 'soy-sauce-dark'
+TamariLightSoySauce: 'tamari-light-soy-sauce'
+TamariOysterSauce: 'tamari-oyster-sauce'
+VermicelliRiceNoodles: 'vermicelli-rice-noodles'
 WokReadyNoodles:
 
 ---
