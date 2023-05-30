@@ -17,7 +17,7 @@ permalink: "recipes/main-ingredients/beef/"
 
 
 
-{% include "components/products/wok-ready-noodles-collection.njk" %}
+{% include "components/products/wok-ready-noodles-collection-for.njk" %}
 
 
 
