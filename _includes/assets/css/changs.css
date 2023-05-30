@@ -804,16 +804,12 @@ ul.off-canvas-list > li.current > a, ul.off-canvas-list > li.active-class > a {
 
 
 
-.hero {height: 100svh;height: 100vh;}
-
 .sliderWrapper {
   width: 100%;
-  max-width: 1170px;
   position: relative;
   padding: 0;
-  margin-left: auto;
-  margin-right: auto;
 }
+.hero {height: 100svh;height: 100vh;}
 
 .content {
 position: relative;
