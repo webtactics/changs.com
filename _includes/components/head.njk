@@ -21,10 +21,9 @@
 
 
 {% set css %}
+ {% include "assets/css/changs.css" %}
  {% include "assets/css/slick.css" %}
   {% include "assets/css/lightbox-gallery.css" %}
-  {% include "assets/css/changs.css" %}
-
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
 
