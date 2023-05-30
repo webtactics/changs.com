@@ -319,7 +319,7 @@ padding:5px;
   -o-transition: all 0.6s;
   transition: all 0.6s;
 }
-.topbar:hover .hamburger-icon:before {
+.hamburger:hover .hamburger-icon:before {
   background: var(--primary);
     box-shadow: 0 8px 0 0 var(--primary), 0 16px 0 0 var(--primary);
       -webkit-transition: all 0.6s;
