@@ -1,6 +1,6 @@
 /* Slider */
 
-.hero, internalhero {height:100vh;}
+.hero, .internalhero {height:100vh;}
 .slick-slider
 {
     position: relative;
