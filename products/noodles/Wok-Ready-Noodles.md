@@ -14,8 +14,19 @@ description: Chang’s Wok-Ready noodles are 99% fat free and convenient for qui
 metadescription: Chang’s Wok-Ready noodles are 99% fat free and convenient for quick meals.  No soaking or boiling required, just add straight to a stir fry for instant perfect results every time.
 GTIN: 9300777092705
 
-producttag: wok-ready-noodles
 
+CrunchyFriedNoodles:
+HokkienNoodles:
+OriginalHoisinSauce:
+OriginalFriedNoodles:
+OriginalOysterSauce:
+SesameOil:
+SoySauceLight:
+SoySauceDark:
+TamariLightSoySauce:
+TamariOysterSauce:
+VermicelliRiceNoodles:
+WokReadyNoodles: wok-ready-noodles
 
 ---
 
