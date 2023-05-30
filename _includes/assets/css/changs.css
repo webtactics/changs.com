@@ -7,17 +7,11 @@
 	--red: #D90000;
   --text: #333;
   --black: hsla(0,0%,0%,1);
-  --black70: hsla(0,0%,0%,0.7);
-  --black50: hsla(0,0%,0%,0.5);
-  --black20: hsla(0,0%,0%,0.2);
-  --black10: hsla(0,0%,0%,0.1);
+  --black60: hsla(0,0%,0%,0.55);
   --lightgrey: #ebebeb;
   --mattblack: hsla(214,12%,11%,1);
   --green: hsla(144, 80%, 22%, 1);
 
-
-  --midnight: hsla(210,29%,24%,1);
-  --clouds: hsla(192,15%,94%,1);
 }
 
 /* makes sizing simpler */
@@ -442,7 +436,7 @@ button.blogdetail, .button.blogdetail {margin:0;}
 }
 .topbar {
   position: fixed;
-  background-color: var(--black70);
+  background-color: var(--black60);
   width: 100%;
   padding: 0;
   top: 0;
