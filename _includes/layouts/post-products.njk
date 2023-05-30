@@ -111,8 +111,8 @@ section: post
     <div class="NewsSummaryPrice detail"><h4>Tags</h4>
     {% for tag in tags %}
       {%- if tag != "post" -%}
-        {% set tagUrl %}/treatments/{{ tag }}/{% endset %}
-       <div class="tag"><a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a></div>
+        {% set tagUrl %}/changs/{{ tag }}/{% endset %}
+       <div class="tag"><a href="{{ tag | slugify }}" rel="tag">{{ tag }}</a></div>
       {%- endif -%}
     {% endfor %}
     </div>
