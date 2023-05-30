@@ -25,7 +25,7 @@ tags:
   - Featured
 
 image: https://ik.imagekit.io/webtactics/changs/recipes/mongolian-lamb-noodles/mongolian-lamb-noodles-1.jpg
-bgimage: https://ik.imagekit.io/webtactics/changs/recipes/mongolian-lamb-noodles/mongolian-lamb-noodles-landscape-3.jpg
+bgimage: https://ik.imagekit.io/webtactics/changs-media/tr:w-1600,h-800,f-auto/slider/Mongolian-Lamb-Noodles-landscape-1600x800_wr5Ca0XEl.jpg?updatedAt=1685410886795
 imageAlt: Chang’s Mongolian Lamb Noodles
 description: Indulge in the delicious flavours of Mongolian Lamb Noodles with this easy-to-follow recipe from Chang's. Thinly sliced lamb, savory sauce, and Chang's Hokkien noodles come together to create a mouth-watering dish that will satisfy your cravings. Get ready to enjoy a flavourful and satisfying meal in the comfort of your own home.
 serves: 4
