@@ -41,7 +41,7 @@ header.classList.toggle('scrolled', !entries[0].isIntersecting)
   }, {rootMargin: "200px 0px 0px 0px"});
 navObserver.observe(scrollWatcher)
 
-
-
+// passive event listener
+document.addEventListener('touchstart', onTouchStart, {passive: true});
 
 // Mobile menu toggle
