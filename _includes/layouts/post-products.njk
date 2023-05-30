@@ -1,5 +1,5 @@
 ---
-layout: layouts/detail.njk
+layout: layouts/detail-products.njk
 section: post
 ---
 
@@ -17,6 +17,8 @@ section: post
 <div class="detailcontent">     
 {{ layoutContent | safe }}</div>
 
+
+<div>{% set postslist = collections."[ {{ producttag }} ]" %}{% include "components/postslist.njk" %}</div>
 
  <div class="NewsSummaryPrice detail"> 
  <h4>Pricing</h4>
