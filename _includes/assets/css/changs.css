@@ -990,7 +990,7 @@ grid-template-columns: 2fr 1fr;}
 
 .detailcontent {
   padding: 1rem 1rem 2rem;
-  background-color: var(--primary60);
+  background-color: var(--primary50);
 }
 .NewsSummaryPrice.detail {
   font-size: 0.85rem;
