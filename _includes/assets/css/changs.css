@@ -644,14 +644,6 @@ width: 140px;
 
 
 
-
-
-
-
-
-
-
-
 ul.menusocial li {
   float: right;
   margin: 0 1rem 0 0;
@@ -1081,3 +1073,8 @@ grid-template-columns: 2fr 1fr;}
 
 
 .video, .gallery {margin: 2rem 0;}
+
+.recipesingredient ul li::marker {
+  color: var(--primary);
+  font-size: 1.5em;
+}
