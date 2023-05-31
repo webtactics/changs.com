@@ -1074,8 +1074,14 @@ grid-template-columns: 2fr 1fr;}
 
 .video, .gallery {margin: 2rem 0;}
 
+.recipesingredient ul  {
+ 
+  font-size: 1rem;
+  padding:0 2rem;
+}
+
 .recipesingredient ul li::marker {
   color: var(--primary);
-  font-size: 1.5em;
-  padding:0 2rem;
+  font-size: 1rem;
+
 }
