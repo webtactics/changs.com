@@ -989,8 +989,8 @@ grid-template-columns: 2fr 1fr;}
 
 
 .detailcontent {
-  text-align: justify;
-  margin: 1rem 0 2rem 0;
+  padding: 1rem 1rem 2rem;
+  background-color: var(--primary60);
 }
 .NewsSummaryPrice.detail {
   font-size: 0.85rem;
