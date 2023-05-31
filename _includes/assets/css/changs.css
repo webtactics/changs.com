@@ -934,14 +934,6 @@ text-align: center;
 
 
 
-
-
-@media (max-width: 1024px) {
-  .grid-2-columns-2x1 {
-    grid-template-columns: 1fr;
-  }
-  }
-
 .grid-detailpage-sidebar-summary {
   grid-template-columns: 1fr 4fr;}
 
