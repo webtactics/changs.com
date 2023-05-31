@@ -57,6 +57,7 @@ body {
 padding: 0;
 margin: 0;
 font-family: Tahoma, Verdana, "Segoe Print", sans-serif;
+font-size: 16px;
 color: var(--text);
 background-color: var(--white);
 background-image: url('https://ik.imagekit.io/webtactics/changs/images/assets/bg/Chang-pattern-191x500-40.png');
