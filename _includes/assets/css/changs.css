@@ -104,6 +104,7 @@ h1.heading-text {
   font-size: 3rem;
   text-align: left;
   text-transform: capitalize;
+  background-color: var(--white);
   margin:1rem 0 2rem 0;
 }
 
