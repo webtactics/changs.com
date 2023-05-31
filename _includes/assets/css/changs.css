@@ -961,7 +961,7 @@ grid-template-columns: 2fr 1fr;}
     margin: 0 0 1rem 0;
   }
 
-}
+
 .newssumbutton {margin:-2rem 0 0 0;}
 
 .NewsSummaryHome {
@@ -1075,13 +1075,13 @@ grid-template-columns: 2fr 1fr;}
 
 .video, .gallery {margin: 2rem 0;}
 
-.recipesingredient ul  {
+.recipesingredient ul,  .recipesmethod ol  {
  
   font-size: 15px;
   padding:0 1rem 1rem;
 }
 
-.recipesingredient ul li::marker {
+.recipesingredient ul li::marker, .recipesmethod ol li::marker {
   color: red;
   font-size: 15px;
 
