@@ -89,7 +89,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(EleventyRenderPlugin);
 };
 
-
+    // add eleventyGoogleFonts plugin
+const eleventyGoogleFonts = require("eleventy-google-fonts");
+module.exports = function(eleventyConfig) {
+  eleventyConfig.addPlugin(eleventyGoogleFonts);
+};
 
 
   // Don't process folders with static assets e.g. images
