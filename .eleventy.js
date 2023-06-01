@@ -82,6 +82,15 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addPlugin(metagen);
 };
 
+    // add EleventyRenderPlugin plugin
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
+
+module.exports = function(eleventyConfig) {
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
+};
+
+
+
 
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy("favicon.ico");
