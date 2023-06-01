@@ -10,39 +10,7 @@ Chang's Seafood Recipes
 
 # Thank you!
 
-<!-- Include the modal partial -->
-
-
-<!-- Rest of the page content -->
-
- <h1 id="thank-you!" tabindex="-1">Thank you!</h1>
-        <div class="modal">
-          <div class="modal-content">
-            <button class="modal-close">×</button>
-            <h2>Modal Title</h2>
-            <p>Modal content goes here...</p>
-          </div>
-        </div>
-        <p>
-          <button class="open-modal">Open Modal</button>
-        </p>
-        <script>
-          document.addEventListener('DOMContentLoaded', function () {
-            const modal = document.querySelector('.modal');
-            const modalClose = document.querySelector('.modal-close');
-            const openModalButton = document.querySelector('.open-modal');
-
-            openModalButton.addEventListener('click', function () {
-              modal.style.display = 'block';
-              document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
-            });
-
-            modalClose.addEventListener('click', function () {
-              modal.style.display = 'none';
-              document.body.style.overflow = ''; // Restore scrolling when modal is closed
-            });
-          });
-        </script>
+{% fortawesomeBrand 'facebook', "social-icon" %}
 
 
  
