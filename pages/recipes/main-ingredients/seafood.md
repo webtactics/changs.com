@@ -9,25 +9,25 @@ permalink: "recipes/main-ingredients/seafood/"
 Chang's Seafood Recipes
 
 # Thank you!
-  <button class="link-like" data-a11y-dialog-show="my-dialog">
-          Open the dialog window
-        </button>
-
-    <!-- 1. The dialog container -->
-
-  <!-- 2. The dialog overlay -->
-  <div data-a11y-dialog-hide></div>
-  <!-- 3. The actual dialog -->
-  <div role="document">
-    <!-- 4. The close button -->
-    <button type="button" data-a11y-dialog-hide aria-label="Close dialog">
-      &times;
-    </button>
-    <!-- 5. The dialog title -->
-    <h1 id="my-dialog">Your dialog title</h1>
-    <!-- 6. Dialog content -->
-  </div>
-
+<div
+  id="your-dialog-id"
+  aria-hidden="true"
+aria-labelledby="your-dialog-title-id"
+  >
+  <div
+    data-a11y-dialog-hide
+tabindex="-1"
+  ></div>
+- <div role="dialog" aria-labelledby="your-dialog-title-id">
+    <div role="document">
+      <button type="button" data-a11y-dialog-hide aria-label="Close dialog">
+        &times;
+      </button>
+      <h1 id="your-dialog-title-id">Your dialog title</h1>
+      <!-- Your content here -->
+    </div>
+- </div>
+</div>
 
 
  
