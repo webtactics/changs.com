@@ -14,11 +14,7 @@ Chang's Seafood Recipes
         </button>
 
     <!-- 1. The dialog container -->
-<div
-  id="your-dialog-id"
-  aria-labelledby="your-dialog-title-id"
-  aria-hidden="true"
->Open</div>
+
   <!-- 2. The dialog overlay -->
   <div data-a11y-dialog-hide></div>
   <!-- 3. The actual dialog -->
@@ -28,7 +24,7 @@ Chang's Seafood Recipes
       &times;
     </button>
     <!-- 5. The dialog title -->
-    <h1 id="your-dialog-title-id">Your dialog title</h1>
+    <h1 id="my-dialog">Your dialog title</h1>
     <!-- 6. Dialog content -->
   </div>
 </div>
