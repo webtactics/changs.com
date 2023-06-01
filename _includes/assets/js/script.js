@@ -45,15 +45,6 @@ navObserver.observe(scrollWatcher)
 document.addEventListener('touchstart', onTouchStart, {passive: true});
 
 
-// "Show the dialog" button opens the <dialog> modally
-import A11yDialog from 'a11y-dialog'
 
-var dialogEl = document.getElementById('my-dialog')
-var dialog = new A11yDialog(dialogEl)
-
-dialog.on('show', function (dialogEl, event) {
-  // console.log(dialogEl)
-  // console.log(event)
-})
 
 // Mobile menu toggle

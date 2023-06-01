@@ -1,6 +1,6 @@
 {
   "name": "changs.com",
-  "version": "1.0.4",
+  "version": "2.0.1",
   "description": "Chang's Flavours of Asia",
   "scripts": {
     "build": "npx @11ty/eleventy",

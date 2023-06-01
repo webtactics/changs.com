@@ -1,46 +1,14 @@
-
-<div
-      class="dialog-container"
-      id="my-dialog"
-      aria-hidden="true"
-      aria-labelledby="my-dialog-title"
-      aria-describedby="my-dialog-description"
-    >
-      <div class="dialog-overlay" data-a11y-dialog-hide></div>
-      <div class="dialog-content" role="document">
-        <button
-          data-a11y-dialog-hide
-          class="dialog-close"
-          aria-label="Close this dialog window"
-        >
-          <svg class="svg-icon" viewBox="0 0 20 20">
-            <path
-              fill="currentcolor"
-              d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"
-            ></path>
-          </svg>
-        </button>
-
-        <h1 id="my-dialog-title">Subscribe to our newsletter</h1>
-
-        <p id="my-dialog-description">
-          Fill in your email address to receive our newsletter!
-        </p>
-
-        <form>
-          <label for="email">Email (required)</label>
-          <input
-            type="email"
-            name="EMAIL"
-            id="email"
-            placeholder="john.doe@gmail.com"
-            required
-          />
-          <button type="submit" name="button">Sign up</button>
-        </form>
-      </div>
-    </div>
-
+<div x-data="modal">
+  <div x-show="isOpen" class="modal">
+<div class="modal">
+  <div class="modal-content">
+    <button class="modal-close">&times;</button>
+    <h2>Modal Title</h2>
+    <p>Modal content goes here...</p>
+  </div>
+</div>
+  </div>
+</div>
 
 
 {% set js %}
@@ -49,19 +17,22 @@
 <script>{{ js | jsmin | safe }}</script>
 
 <script type="text/javascript" src="https://changsvideo.b-cdn.net/js/combined.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/a11y-dialog@7/dist/a11y-dialog.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@2"></script>
 <script>
-// "Show the dialog" button opens the <dialog> modally
-import A11yDialog from 'a11y-dialog'
-
-var dialogEl = document.getElementById('my-dialog')
-var dialog = new A11yDialog(dialogEl)
-
-dialog.on('show', function (dialogEl, event) {
-  // console.log(dialogEl)
-  // console.log(event)
-})
+  document.addEventListener('DOMContentLoaded', function () {
+    Alpine.data('modal', () => ({
+      isOpen: false,
+      open() {
+        this.isOpen = true;
+      },
+      close() {
+        this.isOpen = false;
+      },
+    }));
+  });
 </script>
+
+
 <script>
 $('.home-slide').slick({
 autoplay: true,
