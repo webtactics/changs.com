@@ -19,13 +19,7 @@ Chang's Seafood Recipes
 
 
 
-<div class="modal modal-open">
-  <div class="modal-content">
-    <button class="modal-close">×</button>
-    <h2>Modal Title</h2>
-    <p>Modal content goes here...</p>
-  </div>
-</div>
+
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
