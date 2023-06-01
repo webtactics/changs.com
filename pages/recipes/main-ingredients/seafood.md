@@ -18,19 +18,24 @@ Chang's Seafood Recipes
 <button class="open-modal">Open Modal</button>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const modal = document.querySelector('.modal');
-    const modalClose = document.querySelector('.modal-close');
-    const openModalButton = document.querySelector('.open-modal');
+document.addEventListener('DOMContentLoaded', function () {
+  const modal = document.querySelector('.modal');
+  const modalOverlay = document.querySelector('.modal-overlay');
+  const modalClose = document.querySelector('.modal-close');
+  const openModalButton = document.querySelector('.open-modal');
 
-    openModalButton.addEventListener('click', function () {
-      modal.classList.add('modal-open');
-    });
-
-    modalClose.addEventListener('click', function () {
-      modal.classList.remove('modal-open');
-    });
+  openModalButton.addEventListener('click', function () {
+    modal.classList.add('modal-open');
+    modalOverlay.classList.add('modal-overlay-active');
+    document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
   });
+
+  modalClose.addEventListener('click', function () {
+    modal.classList.remove('modal-open');
+    modalOverlay.classList.remove('modal-overlay-active');
+    document.body.style.overflow = ''; // Restore scrolling when modal is closed
+  });
+});
 </script>
 
  
