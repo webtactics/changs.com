@@ -10,7 +10,7 @@ Chang's Seafood Recipes
 
 # Thank you!
 
-{% fortawesomeBrand 'facebook', "social-icon" %}
+
 
 
  
