@@ -10,6 +10,27 @@ Chang's Seafood Recipes
 
 # Thank you!
 
-<button x-on:click="modal.open()">Open Modal</button>
+<!-- Include the modal partial -->
+{% include "components/modal.njk" %}
+
+<!-- Rest of the page content -->
+
+<button class="open-modal">Open Modal</button>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const modal = document.querySelector('.modal');
+    const modalClose = document.querySelector('.modal-close');
+    const openModalButton = document.querySelector('.open-modal');
+
+    openModalButton.addEventListener('click', function () {
+      modal.classList.add('modal-open');
+    });
+
+    modalClose.addEventListener('click', function () {
+      modal.classList.remove('modal-open');
+    });
+  });
+</script>
 
  
