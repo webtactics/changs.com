@@ -11,7 +11,7 @@ Chang's Seafood Recipes
 # Thank you!
 
 <!-- Include the modal partial -->
-{% include "components/modal.njk" %}
+
 
 <!-- Rest of the page content -->
 
