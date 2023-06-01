@@ -15,31 +15,38 @@ Chang's Seafood Recipes
 
 <!-- Rest of the page content -->
 
-<button class="open-modal">Open Modal</button>
+<p><button class="open-modal">Open Modal</button></p>
+
+
+
+<div class="modal modal-open">
+  <div class="modal-content">
+    <button class="modal-close">×</button>
+    <h2>Modal Title</h2>
+    <p>Modal content goes here...</p>
+  </div>
+</div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-  const modal = document.querySelector('.modal');
-  const modalOverlay = document.querySelector('.modal-overlay');
-  const modalClose = document.querySelector('.modal-close');
-  const openModalButton = document.querySelector('.open-modal');
+  document.addEventListener('DOMContentLoaded', function () {
+    const modal = document.querySelector('.modal');
+    const modalOverlay = document.querySelector('.modal-overlay');
+    const modalClose = document.querySelector('.modal-close');
+    const openModalButton = document.querySelector('.open-modal');
 
-  openModalButton.addEventListener('click', function () {
-    modal.classList.add('modal-open');
-    modalOverlay.style.display = 'block';
-    document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
+    openModalButton.addEventListener('click', function () {
+      modal.classList.add('modal-open');
+      modalOverlay.style.display = 'block';
+      document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
+    });
+
+    modalClose.addEventListener('click', function () {
+      modal.classList.remove('modal-open');
+      modalOverlay.style.display = 'none';
+      document.body.style.overflow = ''; // Restore scrolling when modal is closed
+    });
   });
-
-  modalClose.addEventListener('click', function () {
-    modal.classList.remove('modal-open');
-    modalOverlay.style.display = 'none';
-    document.body.style.overflow = ''; // Restore scrolling when modal is closed
-  });
-});
-
-
-
-
 </script>
+
 
  
