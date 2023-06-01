@@ -1091,7 +1091,7 @@ text-align: center;
   font-size: 15px;
 
 }
-
+ /* Styles for the modal */
 .modal-overlay {
   display: none;
   position: fixed;
@@ -1134,4 +1134,12 @@ text-align: center;
 /* Add additional styles for modal content */
 .modal-content {
   /* Add your custom styles here */
+}
+
+.modal-overlay-active {
+  pointer-events: none;
+}
+
+.modal-open .modal-overlay-active {
+  pointer-events: auto;
 }
