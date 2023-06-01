@@ -89,16 +89,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(EleventyRenderPlugin);
 };
 
-    // add eleventyGoogleFonts plugin
-const eleventyGoogleFonts = require("eleventy-google-fonts");
-module.exports = function(eleventyConfig) {
-  eleventyConfig.addPlugin(eleventyGoogleFonts);
-};
-const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
 
-module.exports = function (eleventyConfig) {
-  eleventyConfig.addPlugin(lazyImagesPlugin);
-};
 
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy("favicon.ico");
