@@ -24,31 +24,19 @@ document.addEventListener('DOMContentLoaded', function () {
   const modalClose = document.querySelector('.modal-close');
   const openModalButton = document.querySelector('.open-modal');
 
-  openModalButton.addEventListener('click', function (event) {
-    event.stopPropagation(); // Prevent click event from propagating to underlying elements
+  openModalButton.addEventListener('click', function () {
     modal.classList.add('modal-open');
-    modalOverlay.classList.add('modal-overlay-active');
+    modalOverlay.style.display = 'block';
     document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
   });
 
   modalClose.addEventListener('click', function () {
     modal.classList.remove('modal-open');
-    modalOverlay.classList.remove('modal-overlay-active');
-    document.body.style.overflow = ''; // Restore scrolling when modal is closed
-  });
-
-  // Prevent click events on the modal from propagating to the underlying elements
-  modal.addEventListener('click', function (event) {
-    event.stopPropagation();
-  });
-
-  // Close the modal when clicking outside of it
-  modalOverlay.addEventListener('click', function () {
-    modal.classList.remove('modal-open');
-    modalOverlay.classList.remove('modal-overlay-active');
+    modalOverlay.style.display = 'none';
     document.body.style.overflow = ''; // Restore scrolling when modal is closed
   });
 });
+
 
 
 
