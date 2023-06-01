@@ -1087,7 +1087,7 @@ text-align: center;
 }
 
 .recipesingredient ul li::marker, .recipesmethod ol li::marker {
-  color: red;
+  color: var(--primary);
   font-size: 15px;
 
 }
@@ -1211,15 +1211,13 @@ text-align: center;
  
 
  
- .link-like,
+ .link-like
  a {
    color: #2984c2;
  }
  
  .link-like:hover,
- .link-like:active,
- a:hover,
- a:active {
+ .link-like:active {
    color: #e50050;
  }
  
