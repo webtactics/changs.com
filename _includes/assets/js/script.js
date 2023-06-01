@@ -46,24 +46,14 @@ document.addEventListener('touchstart', onTouchStart, {passive: true});
 
 
 // "Show the dialog" button opens the <dialog> modally
-showButton.addEventListener('click', () => {
-  favDialog.showModal();
-});
+import A11yDialog from 'a11y-dialog'
 
-// "Favorite animal" input sets the value of the submit button
-selectEl.addEventListener('change', (e) => {
-  confirmBtn.value = selectEl.value;
-});
+var dialogEl = document.getElementById('my-dialog')
+var dialog = new A11yDialog(dialogEl)
 
-// "Cancel" button closes the dialog without submitting because of [formmethod="dialog"], triggering a close event.
-favDialog.addEventListener('close', (e) => {
-  outputBox.value = favDialog.returnValue === 'default' ? "No return value." : `ReturnValue: ${favDialog.returnValue}.`; // Have to check for "default" rather than empty string
-});
-
-// Prevent the "confirm" button from the default behavior of submitting the form, and close the dialog with the `close()` method, which triggers the "close" event.
-confirmBtn.addEventListener('click', (event) => {
-  event.preventDefault(); // We don't want to submit this fake form
-  favDialog.close(selectEl.value); // Have to send the select box value here.
-});
+dialog.on('show', function (dialogEl, event) {
+  // console.log(dialogEl)
+  // console.log(event)
+})
 
 // Mobile menu toggle
