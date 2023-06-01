@@ -27,8 +27,11 @@
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
 
-  {% eleventyGoogleFonts 'https://fonts.googleapis.com/css2?family=Trocchi&display=swap' %}
 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet"> 
 
 
   {# Uncomment below if you want to include minified inline JavaScript #}
