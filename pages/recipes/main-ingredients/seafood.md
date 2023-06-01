@@ -27,7 +27,7 @@ Chang's Seafood Recipes
     <h1 id="my-dialog">Your dialog title</h1>
     <!-- 6. Dialog content -->
   </div>
-</div>
+
 
 
  
