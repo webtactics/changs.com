@@ -876,7 +876,7 @@ text-align: center;
   }
 
   .grid-2-columns-2x1 {
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 5fr 2fr;
   }   
 
   .grid-3-columns {
