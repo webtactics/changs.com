@@ -923,7 +923,7 @@ min-height: 600px;
   .detailcontent {background-color: var(--white);padding:1rem 1rem 2rem;margin: 0 0 0 4rem;}
    
   
-  
+  .video, .gallery {margin: 2rem 0;background-color: var(--white);padding:1rem;}
 
   
 
@@ -1091,7 +1091,7 @@ text-align: center;
 }
 
 
-.video, .gallery {margin: 2rem 0;}
+
 
 .recipesingredient ul,  .recipesmethod ol  {
  
