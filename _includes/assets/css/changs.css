@@ -830,9 +830,9 @@ min-height: 600px;
 
 }
 
-.detailwrapper {padding:1rem;}
-.sidebarwrapper {background-color: var(--white);padding:1rem;}
 
+.sidebarwrapper {background-color: var(--white);padding:1rem;}
+.blogdetailimage {background-color: var(--white);padding:1rem;}
 
 .footer {
   background-color: var(--primary);
