@@ -10,5 +10,7 @@ permalink: /
 ---
 # Chang's Flavours of Asia
 
+### Chang’s is more than just a brand with great products, it’s a lifelong passion to share our love for food and Asian cooking with Australians.
+
 
 
