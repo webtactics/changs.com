@@ -48,3 +48,7 @@ document.addEventListener('touchstart', onTouchStart, {passive: true});
 
 
 // Mobile menu toggle
+
+searchBox({
+  container: document.querySelector('#searchbox'),
+});
