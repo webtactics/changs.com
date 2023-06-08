@@ -841,11 +841,11 @@ min-height: 600px;
 
 @media (min-width: 1025px) {
   .grid-2-columns {
-    grid-template-columns: repeat(2, 1fr);  gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .grid-2-columns-2x1 {
-    grid-template-columns: 5fr 2fr;
+    grid-template-columns: 5fr 2fr; gap: 2rem;
   }   
 
   .grid-3-columns {
