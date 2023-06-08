@@ -87,12 +87,12 @@ WokReadyNoodles: 'wok-ready-noodles'
 
 <h3>Ingredients:</h3>
 <ul>
-<li>1 pkt <a title="Chang's Long Life Noodles" href="products/Changs-Long-Life-Noodles/" target="_blank" rel="noopener">Chang's Long Life Noodles</a> (gluten free swap <a title="Chang's Wok-Ready Noodles" href="products/Wok-Ready-Noodles/" target="_blank" rel="noopener">Chang's Wok-Ready Noodles</a>)</li>
+<li>1 pkt {% include "components/product-recipe-link/Changs-Long-Life-Noodles.html" %} (gluten free swap {% include "components/product-recipe-link/Changs-Wok-Ready-Noodles.html" %})</li>
 <li>1 x 300g chicken breast, thinly sliced</li>
 <li>12-16 large green prawns, raw (optional to peel)</li>
-<li>&frac14; cup <a title="Chang's Soy Sauce" href="products/Changs-Soy-Sauce-Dark/" target="_blank" rel="noopener">Chang's Soy Sauce</a> or <a title="Chang's Tamari Light Soy Sauce" href="products/Changs-Tamari-Light-Soy-Sauce/" target="_blank" rel="noopener">Chang's Tamari Light Soy Sauce</a></li>
+<li>&frac14; cup <a title="Chang's Soy Sauce" href="products/Changs-Soy-Sauce-Dark/" target="_blank" rel="noopener">Chang's Soy Sauce</a> or {% include "components/product-recipe-link/Changs-Tamari-Light-Soy-Sauce.html" %}</li>
 <li>&frac12; cup <a title="Chang's Crispy Noodle Salad Dressing" href="products/Crispy-Noodle-Salad-Dressing/" target="_blank" rel="noopener">Chang's Crispy Noodle Salad Dressing</a></li>
-<li>2 tablespoons <a title="Chang's Pure Sesame Oil" href="products/Changs-Pure-Sesame-Oil/" target="_blank" rel="noopener">Chang's Pure Sesame Oil</a></li>
+<li>2 tablespoons {% include "components/product-recipe-link/Changs-Pure-Sesame-Oil.html" %}</li>
 <li>2 tablespoons cooking oil</li>
 <li>1 large brown onion, sliced</li>
 <li>4 green onions, sliced on the diagonal</li>
