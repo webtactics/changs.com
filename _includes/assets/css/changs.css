@@ -845,7 +845,7 @@ min-height: 600px;
   }
 
   .grid-2-columns-2x1 {
-    grid-template-columns: 5fr 2fr; gap: 2rem;
+    grid-template-columns: 3fr 1fr; gap: 2rem;
   }   
 
   .grid-3-columns {
