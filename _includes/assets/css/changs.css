@@ -841,7 +841,7 @@ min-height: 600px;
 
 @media (min-width: 1025px) {
   .grid-2-columns {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);  gap: 2rem;
   }
 
   .grid-2-columns-2x1 {
@@ -919,7 +919,7 @@ min-height: 600px;
 
   .detailwrapper {background-color: var(--white);padding:2rem;}
   .sidebarwrapper {background-color: var(--white);padding:1rem;}
-  .blogdetailimage {background-color: var(--white);padding:1rem;}
+  .blogdetailimage {background-color: var(--white);padding:2rem;}
   .detailcontent {background-color: var(--white);padding:1rem 1rem 2rem;margin: 0 0 0 4rem;}
    
   
