@@ -10,8 +10,8 @@ eleventyNavigation:
   order: 2
 ---
 
-<div class="wrapper">
-  <h1>Going from 0 to auto, the easy way</h1>
+
+ 
 
   <div class="accordion">
 
@@ -83,11 +83,6 @@ eleventyNavigation:
     </div>
   </div>
 
-  <h2>Some other content here</h2>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deleniti dignissimos in est aliquid provident aliquam et blanditiis pariatur eum possimus, iure, fuga voluptatibus id atque dolores repellendus. Tempora, ducimus.</p>
-  <p>Praesentium similique, voluptatum alias iusto a modi at voluptates hic delectus magnam architecto saepe mollitia iure consequuntur earum temporibus eveniet porro nobis dolor, facilis placeat perspiciatis! Minus labore ea omnis!</p>
-  <p>Voluptates, nesciunt saepe maiores adipisci ipsa iure veritatis error, in possimus architecto eos sequi quasi! Excepturi cumque voluptatem ab ratione? Possimus atque quisquam aut expedita molestiae id. Explicabo, voluptates magnam?</p>
-  <p>Deserunt, exercitationem. Tenetur, fugit pariatur. Voluptatibus sint cupiditate maxime similique quae quam officia voluptas asperiores esse sunt! Nisi obcaecati harum culpa magni est, ipsum ea excepturi, voluptatem assumenda, itaque quia?</p>
-  <p>Quo saepe placeat porro, molestias iste perferendis est temporibus ipsa totam libero voluptas! Necessitatibus eius dolorem corporis dolorum, unde assumenda dicta esse. Possimus minima id voluptate atque unde perspiciatis dignissimos.</p>
+
 
 </div>
