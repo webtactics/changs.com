@@ -43,48 +43,6 @@ eleventyNavigation:
       </div>
     </div>
 
-    <div class="accordion-panel">
-      <h2 id="panel3-title">
-        <button class="accordion-trigger" aria-expanded="false" aria-controls="accordion1-content">
-          Tell me more
-        </button>
-      </h2>
-      <div class="accordion-content" role="region" aria-labelledby="panel1-title" aria-hidden="true" class="accordion-content" id="panel3-content">
-        <div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, amet!</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-panel">
-      <h2 id="panel4-title">
-        <button class="accordion-trigger" aria-expanded="false" aria-controls="accordion1-content">
-          Lorem ipsum dolor sit
-        </button>
-      </h2>
-      <div class="accordion-content" role="region" aria-labelledby="panel4-title" aria-hidden="true" class="accordion-content" id="panel4-content">
-        <div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nulla possimus obcaecati hic cumque amet totam, labore placeat. Laudantium consequatur expedita nihil ipsam at porro!</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-panel">
-      <h2 id="panel5-title">
-        <button class="accordion-trigger" aria-expanded="false" aria-controls="accordion5-content">
-          Consectetur adipisicing
-        </button>
-      </h2>
-      <div class="accordion-content" role="region" aria-labelledby="panel5-title" aria-hidden="true" class="accordion-content" id="panel3-content">
-        <div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, amet!</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
 </div>
 
 <div class="quick-example">
