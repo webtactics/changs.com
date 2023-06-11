@@ -1152,6 +1152,7 @@ text-align: center;
   grid-template-rows: 0fr;
   transition: grid-template-rows 500ms;
 }
+.quick-example:hover {cursor:pointer;}
 
 .quick-example > div {
   overflow: hidden;
