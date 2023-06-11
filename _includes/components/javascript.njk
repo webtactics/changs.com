@@ -5,7 +5,16 @@
 {% endset %}
 <script>{{ js | jsmin | safe }}</script>
 
-
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: '0FBM0RHOCP',
+    apiKey: '41d5ce3abfdb3c4a4fe1f9db62e9ec2c',
+    siteId: '6f1db309-11cb-449e-8e82-0ca4841fd654',
+    branch: 'master',
+    selector: 'div#search',
+  });
+</script>
 
 
 <script>
