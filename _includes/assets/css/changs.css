@@ -1161,3 +1161,17 @@ text-align: center;
 .quick-example:hover {
   grid-template-rows: 1fr;
 }
+
+#content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: 1s;
+  overflow: hidden;
+}
+#content .inside {
+  min-height: 0;
+}
+#content.expanded {
+  background: red;
+  grid-template-rows: 1fr;
+}

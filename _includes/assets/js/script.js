@@ -85,3 +85,11 @@ function toggleAccordion(panelToActivate) {
   }
 }
 
+// toggle
+
+
+
+toggle.onclick = () => {
+  content.classList.toggle("expanded");
+};
+
