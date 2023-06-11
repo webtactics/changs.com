@@ -10,7 +10,7 @@ eleventyNavigation:
   order: 2
 ---
 
-
+<div id="search"></div>
  
 
   <div class="accordion">
