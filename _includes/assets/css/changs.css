@@ -1060,35 +1060,72 @@ text-align: center;
 /* Mobile menu styles */
 
  /* Styles for the accordion */
- .accordion {
-  border: none;
-  margin-bottom: 0;
+ .accordion-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 500ms;
 }
 
-.accordion input[type="checkbox"] {
-  display: none;
+.accordion-content[aria-hidden="false"] {
+  grid-template-rows: 1fr;
 }
 
-.accordion label {
+.accordion-content > div {
+  overflow: hidden;
+}
+
+/* other styles */
+
+
+.wrapper {
+  width: min(65ch, 100% - 4rem);
+  margin-inline: auto;
+}
+
+.accordion {
+  background: #121212;
+  color: #effeef;
+  padding: 1rem;
+}
+
+.accordion-panel {
+  padding: 1rem;
+  border: 1px solid;
+}
+
+.accordion h2 {
+  position: relative;
+}
+
+.accordion-trigger {
+  background: transparent;
+  border: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.accordion-trigger::before,
+.accordion-trigger::after {
+  position: absolute;
+  right: 1em;
+  content: "";
   display: block;
-  padding: 0.5rem;;
-  background-color: #f4f4f4;
-  cursor: pointer;
-  font-size: 0.9rem;
+  width: 1em;
+  height: 5px;
+  background: currentcolor;
+  transition: transform 500ms;
 }
 
-.accordion label:hover {
-  background-color: #eaeaea;
+.accordion-trigger::after {
+  rotate: 90deg;
+  translate: 0 -1.5em;
 }
 
-.accordion input[type="checkbox"]:checked ~ div {
-  display: block;
+.accordion-trigger[aria-expanded="true"]::before,
+.accordion-trigger[aria-expanded="true"]::after {
+  transform: rotate(45deg);
 }
 
-.accordion div {
-  display: none;
-  padding: 0;
-}
 
 
 
