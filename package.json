@@ -33,6 +33,8 @@
   },
   "dependencies": {
     "eleventy-favicon": "^1.1.3",
-    "eleventy-plugin-metagen": "^1.7.11"
+    "eleventy-plugin-metagen": "^1.7.11",
+    "algoliasearch": "^4.17.2",
+    "instantsearch.js": "^4.56.1"
   }
 }
