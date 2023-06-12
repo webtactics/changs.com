@@ -5,6 +5,9 @@
 {% endset %}
 <script>{{ js | jsmin | safe }}</script>
 
+  <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.10.5/dist/algoliasearch-lite.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.53.0"></script>
+
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
 <script type="text/javascript">
   algoliasearchNetlify({
@@ -47,7 +50,37 @@ window.onclick = function(event) {
 }
 </script>
 
+<script>
+const accordion = document.querySelector(".accordion");
 
+accordion.addEventListener("click", (e) => {
+  const activePanel = e.target.closest(".accordion-panel");
+  if (!activePanel) return;
+  toggleAccordion(activePanel);
+});
+
+function toggleAccordion(panelToActivate) {
+  const activeButton = panelToActivate.querySelector("button");
+  const activePanel = panelToActivate.querySelector(".accordion-content");
+  const activePanelIsOpened = activeButton.getAttribute("aria-expanded");
+
+  if (activePanelIsOpened === "true") {
+    panelToActivate
+      .querySelector("button")
+      .setAttribute("aria-expanded", false);
+
+    panelToActivate
+      .querySelector(".accordion-content")
+      .setAttribute("aria-hidden", true);
+  } else {
+    panelToActivate.querySelector("button").setAttribute("aria-expanded", true);
+
+    panelToActivate
+      .querySelector(".accordion-content")
+      .setAttribute("aria-hidden", false);
+  }
+}
+</script>
 <script>
 $('.home-slide').slick({
 autoplay: true,
@@ -62,4 +95,9 @@ fade: true,
  cssEase: 'ease'
     
   });
+  </script>
+<script>
+  toggle.onclick = () => {
+  content.classList.toggle("expanded");
+};
   </script>
