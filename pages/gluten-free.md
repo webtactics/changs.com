@@ -64,9 +64,7 @@ eleventyNavigation:
 </div>
 
 
-<button id="toggle">
-    Toggle Content
-</button>
+
 
 <div id="content">
     <div class="inside"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla necessitatibus iusto laborum autem placeat aspernatur inventore eius deleniti reprehenderit? Numquam commodi totam mollitia quod iure quibusdam corrupti eos quos perspiciatis?</div>
