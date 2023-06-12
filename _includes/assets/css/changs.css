@@ -1162,16 +1162,16 @@ text-align: center;
   grid-template-rows: 1fr;
 }
 
-.contentf {
+#content {
   display: grid;
   grid-template-rows: 0fr;
   transition: 1s;
   overflow: hidden;
 }
-.contentf .inside {
+#content .inside {
   min-height: 0;
 }
-.contentf.expanded {
+#content.expanded {
   background: red;
   grid-template-rows: 1fr;
   transition: grid-template-rows 500ms;
