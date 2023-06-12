@@ -97,7 +97,13 @@ fade: true,
   });
   </script>
 <script>
-  .togglebutton.onclick = () => {
-  content.classList.toggle("expanded");
+toggle.onclick = () => {
+    content.classList.toggle("expanded");
 };
-  </script>
+
+</script>
+<script>
+  searchBox({
+  container: document.querySelector('#search'),
+});
+</script>
