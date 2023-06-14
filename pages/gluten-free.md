@@ -12,9 +12,7 @@ eleventyNavigation:
 
 
 
- <div id="searchbox"></div>
-          <div id="hits"></div>
-          <div id="pagination"></div>
+ <div id="searchbox">
  
 
   <div class="accordion">
