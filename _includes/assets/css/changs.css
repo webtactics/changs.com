@@ -1176,3 +1176,101 @@ text-align: center;
   grid-template-rows: 1fr;
   transition: grid-template-rows 500ms;
 }
+/* Searchbox */
+#searchbox div.ais-SearchBox {
+  width: 100%;
+  max-width: 100%;
+}
+
+#searchbox input.ais-SearchBox-input {
+  width: var(--input-width);
+  border: none;
+  border-bottom: #eee solid 4px;
+  box-shadow: none;
+  border-radius: 0;
+  font-size: 1.3em;
+  padding-left: 34px;
+  padding-bottom: 6px;
+  font-weight: 500;
+  color: #3a4570;
+}
+
+#searchbox input.ais-SearchBox-input::placeholder {
+  color: #ccc;
+}
+
+#searchbox .ais-SearchBox-submit {
+  position: relative;
+  bottom: 30px;
+  outline: none;
+}
+
+#searchbox .ais-SearchBox-submitIcon {
+  height: 18px;
+  width: 18px;
+}
+
+#searchbox .ais-SearchBox-reset {
+  position: relative;
+  bottom: 30px;
+  left: var(--input-width);
+  outline: none;
+}
+
+#searchbox .ais-SearchBox-resetIcon {
+  height: 14px;
+  width: 14px;
+}
+
+.ais-SearchBox-input:focus {
+  outline: none;
+}
+
+/* Hits */
+.hit-title {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.hit-title > .price {
+  display: flex;
+  margin-top: 5px;
+  height: 16px;
+  font-weight: normal;
+  border: 1px solid grey;
+  padding: 2px 6px;
+  border-radius: 250px;
+  font-size: 0.9em;
+  align-items: center;
+}
+
+main h4 {
+  font-size: 1em;
+  color: #222;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  line-height: 1.5;
+}
+
+mark {
+  background-color: #dfe2ee;
+}
+
+.ais-Hits-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.ais-Hits-item img {
+  object-fit: contain;
+  width: 80px;
+  min-width: 80px;
+  max-height: 80px;
+  margin-right: 25px;
+}
