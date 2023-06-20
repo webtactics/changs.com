@@ -1,5 +1,24 @@
+One
+
+
 --text: #0c0f12;
 --background: #e0e4eb;
+--primary-button: #e31f26;
+--secondary-button: #ffff00;
+--accent: #000000;
+
+2
+
+--text: #060404;
+--background: #fbf9f9;
+--primary-button: #e31f26;
+--secondary-button: #ffff00;
+--accent: #000000;
+
+3 pink
+
+--text: #040103;
+--background: #f6e4ef;
 --primary-button: #e31f26;
 --secondary-button: #ffff00;
 --accent: #000000;
