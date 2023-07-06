@@ -1,86 +1,86 @@
+{% set navPages = collections.all | eleventyNavigation %}
+  {% macro renderNavListItem(entry) -%}
+  <li{% if entry.url == page.url %} class="active-class"{% endif %}>
+    <a href="{{ entry.url }}" title="{{ entry.title }}" alt="{{ entry.title }}">{{ entry.title }}</a>
+  {% if entry.url == "/products/" %}
+      <ul class="accordion-menu">
+        <li>
+          <a href="/products/noodles/" title="Vegetarian Recipes" alt="Vegetarian Recipes">Noodles</a>
+        </li>
+        <li>
+          <a href="/recipes/main-ingredients/noodles-ingredients/" title="Noodles Recipes" alt="Noodles Recipes">Sauces</a>
+        </li>
+        <li>
+          <a href="/recipes/main-ingredients/seafood/" title="Seafood Recipes" alt="Seafood Recipes">Gluten Free</a>
+        </li>
+        <li>
+          <a href="/recipes/main-ingredients/poultry-based-recipes/" title="Poultry Recipes" alt="Poultry Recipes">Tamari</a>
+        </li>
+        <!-- Add more fly-out items here as needed -->
+      </ul>
+    {% endif %}
+  {% if entry.url == "/recipes/" %}
+      <ul class="accordion-menu">
+        <li>
+          <a href="/recipes/main-ingredients/" title="Vegetarian Recipes" alt="Vegetarian Recipes">Main Ingredient Selection</a>
+        </li>
+<ul class="second-level-accordion-menu">
+        <li>
+          <a href="/recipes/main-ingredients/vegetarian/" title="Vegetarian Recipes" alt="Vegetarian Recipes">Vegetarian Recipes</a>
+        </li>
+        <li>
+          <a href="/recipes/main-ingredients/noodles-ingredients/" title="Noodles Recipes" alt="Noodles Recipes">Noodles Recipes</a>
+        </li>
+        <li>
+          <a href="/recipes/main-ingredients/seafood/" title="Seafood Recipes" alt="Seafood Recipes">Seafood Recipes</a>
+        </li>
+        <li>
+          <a href="/recipes/main-ingredients/poultry-based-recipes/" title="Poultry Recipes" alt="Poultry Recipes">Poultry Recipes</a>
+        </li>
+          <li>
+          <a href="/recipes/main-ingredients/pork/" title="Pork Recipes" alt="Pork Recipes">Pork Recipes</a>
+        </li>
+          <li>
+          <a href="/recipes/main-ingredients/lamb/" title="Lamb Recipes" alt="Lamb Recipes">Lamb Recipes</a>
+        </li>
+          <li>
+          <a href="/recipes/main-ingredients/beef/" title="Beef Recipes" alt="Beef Recipes">Beef Recipes</a>
+        </li>
+        <!-- Add more fly-out items here as needed -->
+      </ul>
+
+
+        <li>
+          <a href="/recipes/main-ingredients/noodles-ingredients/" title="Noodles Recipes" alt="Noodles Recipes">Soup & Salad</a>
+        </li>
+        <li>
+          <a href="/recipes/main-ingredients/seafood/" title="Seafood Recipes" alt="Seafood Recipes">Gluten Free</a>
+        </li>
+        <li>
+          <a href="/recipes/main-ingredients/poultry-based-recipes/" title="Poultry Recipes" alt="Poultry Recipes">Main Meals</a>
+        </li>
+          <li>
+          <a href="/recipes/main-ingredients/poultry-based-recipes/" title="Poultry Recipes" alt="Poultry Recipes">Main Meals</a>
+        </li>
+          <li>
+          <a href="/recipes/main-ingredients/poultry-based-recipes/" title="Poultry Recipes" alt="Poultry Recipes">Main Meals</a>
+        </li>
+          <li>
+          <a href="/recipes/main-ingredients/poultry-based-recipes/" title="Poultry Recipes" alt="Poultry Recipes">Main Meals</a>
+        </li>
+          <li>
+          <a href="/recipes/main-ingredients/poultry-based-recipes/" title="Poultry Recipes" alt="Poultry Recipes">Main Meals</a>
+        </li>
+        <!-- Add more fly-out items here as needed -->
+      </ul>
+    {% endif %}
+
+
+  </li>
+  {%- endmacro %}
+
 <ul class="off-canvas-list">
 <li><a href="/" title="Home" alt="Home">Home</a></li>
-<li>
- <div class="accordion">
-    <input type="checkbox" id="accordion-1" />
-    <label for="accordion-1">Products</label>
-    <div>
-      <ul class="second">
-           <li>
-          <a href="/products/" title="Vegetarian Recipes" alt="Vegetarian Recipes">Products</a>
-        </li>
-       <li>
-          <a href="/recipes/main-ingredients/vegetarian/" title="Vegetarian Recipes" alt="Vegetarian Recipes">Vegetarian Recipes</a>
-        </li>
-        <li>
-          <a href="/recipes/main-ingredients/noodles-ingredients/" title="Noodles Recipes" alt="Noodles Recipes">Noodles Recipes</a>
-        </li>
-        <li>
-          <a href="/recipes/main-ingredients/seafood/" title="Seafood Recipes" alt="Seafood Recipes">Seafood Recipes</a>
-        </li>
-        <li>
-          <a href="/recipes/main-ingredients/poultry-based-recipes/" title="Poultry Recipes" alt="Poultry Recipes">Poultry Recipes</a>
-        </li>
-        </ul>
-    </div>
-  </div>
-</li>
-<li><a href="/gluten-free/" title="Gluten Free" alt="Gluten Free">Gluten Free</a></li>
-<li>
- <div class="accordion">
-    <input type="checkbox" id="accordion-2" />
-    <label for="accordion-2">Recipes</label>
-    <div>
-      <ul class="second">
-          <li>
-          <a href="/recipes/" title="Vegetarian Recipes" alt="Vegetarian Recipes">Recipes</a>
-        </li>
-       <li>
-          <a href="/recipes/main-ingredients/vegetarian/" title="Vegetarian Recipes" alt="Vegetarian Recipes">Vegetarian Recipes</a>
-        </li>
-        <li>
-          <a href="/recipes/main-ingredients/noodles-ingredients/" title="Noodles Recipes" alt="Noodles Recipes">Noodles Recipes</a>
-        </li>
-        <li>
-          <a href="/recipes/main-ingredients/seafood/" title="Seafood Recipes" alt="Seafood Recipes">Seafood Recipes</a>
-        </li>
-        <li>
-          <a href="/recipes/main-ingredients/poultry-based-recipes/" title="Poultry Recipes" alt="Poultry Recipes">Poultry Recipes</a>
-        </li>
-          <li>
-          <a href="/recipes/main-ingredients/pork/" title="Pork Recipes" alt="Pork Recipes">Pork Recipes</a>
-        </li>
-          <li>
-          <a href="/recipes/main-ingredients/lamb/" title="Lamb Recipes" alt="Lamb Recipes">Lamb Recipes</a>
-        </li>
-          <li>
-          <a href="/recipes/main-ingredients/beef/" title="Beef Recipes" alt="Beef Recipes">Beef Recipes</a>
-        </li>
-           <li>
-          <a href="/recipes/main-ingredients/vegetarian/" title="Vegetarian Recipes" alt="Vegetarian Recipes">Vegetarian Recipes</a>
-        </li>
-        <li>
-          <a href="/recipes/main-ingredients/noodles-ingredients/" title="Noodles Recipes" alt="Noodles Recipes">Noodles Recipes</a>
-        </li>
-        <li>
-          <a href="/recipes/main-ingredients/seafood/" title="Seafood Recipes" alt="Seafood Recipes">Seafood Recipes</a>
-        </li>
-        <li>
-          <a href="/recipes/main-ingredients/poultry-based-recipes/" title="Poultry Recipes" alt="Poultry Recipes">Poultry Recipes</a>
-        </li>
-          <li>
-          <a href="/recipes/main-ingredients/pork/" title="Pork Recipes" alt="Pork Recipes">Pork Recipes</a>
-        </li>
-          <li>
-          <a href="/recipes/main-ingredients/lamb/" title="Lamb Recipes" alt="Lamb Recipes">Lamb Recipes</a>
-        </li>
-          <li>
-          <a href="/recipes/main-ingredients/beef/" title="Beef Recipes" alt="Beef Recipes">Beef Recipes</a>
-        </li>
-        </ul>
-    </div>
-  </div>
-</li>
-<li><a href="/changstv/" title="Contact" alt="Contact">Chang's TV</a></li>
+{%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
 <li><a href="/contact/" title="Contact" alt="Contact">Contact</a></li>
 </ul>
