@@ -18,7 +18,6 @@ eleventyNavigation:
 
 
 <div class="quick-example">
-<h2>What is Gluten?</h2>
   <div>
     this is amazing!
   </div>
