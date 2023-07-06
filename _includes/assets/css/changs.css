@@ -1134,17 +1134,10 @@ text-align: center;
 
 /* The styles */
 
-body {
-  margin: 0;
-  padding: 16px 0;
-  background: #e3e5e7;
-  font-family: sans-serif;
-  color: #333;
-}
+
 
 .accordion {
-  min-width: 320px;
-  width: 80%;
+  width: auto;
   margin: 0 auto;
   background: white;
 }
@@ -1212,11 +1205,11 @@ body {
 }
 
 .accordion-content h2 {
-  padding-bottom: 0.75em;
+  padding-bottom: 0.75rem;
 }
 
 .accordion-content p {
-  padding-bottom: 1.5em;
+  padding-bottom: 1.5rem;
 }
 
 .accordion-content p:last-of-type {
