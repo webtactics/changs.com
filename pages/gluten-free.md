@@ -12,40 +12,10 @@ eleventyNavigation:
 
 
 
- <div class="searchbox"></div>
+ <div id="searchbox"></div>
  
 
-  <div class="accordion">
 
-    <div class="accordion-panel">
-      <h2 id="panel1-title">
-        <button class="accordion-trigger" aria-expanded="true" aria-controls="accordion1-content">
-          Grid is awesome
-        </button>
-      </h2>
-      <div class="accordion-content" role="region" aria-labelledby="panel1-title" aria-hidden="false" id="panel1-content">
-        <div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, amet!</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-panel">
-      <h2 id="panel2-title">
-        <button class="accordion-trigger" aria-expanded="false" aria-controls="accordion1-content">
-          It's full of neat tricks
-        </button>
-      </h2>
-      <div class="accordion-content" role="region" aria-labelledby="panel2-title" aria-hidden="true" id="panel2-content">
-        <div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium harum autem delectus mollitia ab assumenda nemo facilis ea aliquam deleniti earum recusandae, eius, atque explicabo, expedita alias laboriosam labore iste.</p>
-          <p>Doloremque adipisci ea error ad architecto tempore ullam dolores voluptatibus. Perferendis debitis rem, aliquam, in laborum expedita iure soluta, sed blanditiis repellat eveniet minus cumque minima! Debitis numquam harum consequuntur?</p>
-          <p>Provident, tempore sit. Eaque nam eius assumenda iste rem, ipsam quisquam cumque. Nobis rerum quod, saepe dolore distinctio voluptate sit excepturi iusto quaerat tempora reiciendis adipisci sed perspiciatis qui maiores.</p>
-        </div>
-      </div>
-    </div>
-
-</div>
 
 <div class="quick-example">
 <h2>What is Gluten?</h2>
