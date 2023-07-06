@@ -28,194 +28,13 @@ eleventyNavigation:
 <p><strong>Phone</strong>: 1800 638 363</p>
 
 
-<div class="glutenpad">
-
-
-
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-         <div class="detailaccordion">
-       <img src="https://www.changs.com/uploads/images/assets/bg/accordian-products.png">&nbsp;&nbsp;What is gluten?</div>
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
-<p>Gluten is a protein which is found in wheat, rye, barley, triticale and oats and for many people, ingesting too much gluten disagrees with them, causing various aches and pains.</p>
-<p>Being gluten intolerant is different to having an allergy to gluten, which is coeliac disease. Visit <a title="Coeliac Australia" href="http://www.coeliac.org.au" target="_blank">Coeliac Australia</a> for more information.</p>
-<p>If you’re interested in cooking without gluten, you can find our <a href="gluten-free-products" title="Gluten Free Products">gluten free</a> and <a href="products/wheat-free-sauces" title="Wheat Free Sauces">tamari ranges</a> here and <a href="gluten-free-recipes" title="Gluten Free Recipes">recipe ideas here</a>.</p>
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            <div class="detailaccordion">
-       <img src="https://www.changs.com/uploads/images/assets/bg/accordian-products.png">&nbsp;&nbsp;What foods contain gluten?</div>
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-      <div class="panel-body">
-<p>Because gluten is found in wheat, rye, barley, triticale and oats, there are a number of foods gluten intolerant people should avoid, including the obvious such as pastas, breads and cereals, some meat products including sausages, smallgoods, meat pies and other processed meats, condiments including some mustards, salad dressings, sauces (with the exception of Chang’s sauces!), and relishes.&nbsp; Also be aware of snacks including chips and some lollies and alcoholic drinks such as beer!</p>
-<p>For a comprehensive list, you can visit the <a title="Victorian Governmen" href="http://www.betterhealth.vic.gov.au/bhcv2/bhcarticles.nsf/pages/Gluten-free_diet" target="_blank">Victorian Government’s Better Health</a> website.</p>
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingThree">
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-               <div class="detailaccordion">
-       <img src="https://www.changs.com/uploads/images/assets/bg/accordian-products.png">&nbsp;&nbsp;Is gluten-free the same as wheat-free?</div>
-        </a>
-      </h4>
-    </div>
-    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-      <div class="panel-body">
-<p>No. Although some people use gluten-free and wheat-free interchangeably they are not the same thing.&nbsp; Gluten is a protein found in wheat, barley and rye, so all wheat contains gluten, but not all gluten is from wheat.</p>
-      </div>
-    </div>
-  </div>
-  
-   <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingFour">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-            <div class="detailaccordion">
-       <img src="https://www.changs.com/uploads/images/assets/bg/accordian-products.png">&nbsp;&nbsp;What is coeliac disease?</div>  
-        </a>
-      </h4>
-    </div>
-    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-      <div class="panel-body">
-<p>Put simply, coeliac disease is an allergy to wheat. The immune system reacts abnormally to gluten causing damage to the small bowel.&nbsp; For more information, visit <a title="Coeliac Australia" href="http://www.coeliac.org.au" target="_blank">Coeliac Australia</a>.</p>
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingFive">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-             <div class="detailaccordion">
-       <img src="https://www.changs.com/uploads/images/assets/bg/accordian-products.png">&nbsp;&nbsp;Who has coeliac disease?</div>
-        </a>
-      </h4>
-    </div>
-    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-      <div class="panel-body">
-<p>According to Coeliac Australia, approximately 1 in 70 Australians of all ages are affected by coeliac disease, however 80% are currently undiagnosed.</p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingSix">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-             <div class="detailaccordion">
-       <img src="https://www.changs.com/uploads/images/assets/bg/accordian-products.png">&nbsp;&nbsp;Which Chang’s products are gluten free?</div>
-        </a>
-      </h4>
-    </div>
-    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
-      <div class="panel-body">
-<p>All of Chang’s sauces are gluten free and many of our noodle varieties are gluten free also. <br>Check out our gluten free and tamari products here, and remember to have a look at our tasty gluten free recipes too!</p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingSeven">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
-             <div class="detailaccordion">
-       <img src="https://www.changs.com/uploads/images/assets/bg/accordian-products.png">&nbsp;&nbsp;How will I know which products are gluten free?</div>
-        </a>
-      </h4>
-    </div>
-    <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
-      <div class="panel-body">
-<p>All our gluten free products are clearly labelled. As well as our gluten free noodle range all Chang’s sauces are gluten free and we have a special wheat free tamari range too.</p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingEight">
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
-             <div class="detailaccordion">
-       <img src="https://www.changs.com/uploads/images/assets/bg/accordian-products.png">&nbsp;&nbsp;Is all Asian food gluten free?</div>
-        </a>
-      </h4>
-    </div>
-    <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
-      <div class="panel-body">
-<p>No, but it is very easy to make a gluten free version of all your favourite dishes. Rice can be used to make noodles, wrappers, dumplings, pancakes and many other products. Substitute wheat noodles for rice noodles, use rice flower and soya products for your gluten free Asian feast! Chang’s has a large gluten free range including noodles and all of our sauces</p>
-      </div>
-    </div>
-  </div>
-  
-</div>
-<h3>What gluten free Asian dishes can I cook?</h3>
-<p>There are lots of choices! We have a huge range of gluten free recipe suggestions and you can substitute gluten free alternatives in almost all of our other dishes. What are you going to cook first?</p></div>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="quick-example">
-  <div>
-    this is amazing!
-  </div>
-</div>
-<h2>What is Gluten?</h2>
-<div class="quick-example">
-  <div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi corrupti, sint distinctio deserunt vel unde consequatur sequi nobis necessitatibus quis ad officiis doloremque ab, blanditiis facere possimus obcaecati voluptate sed!</p>
-    <p>Voluptas, ipsa porro? Ex nostrum culpa magnam magni officiis laboriosam fugit molestias amet reiciendis sunt facere, debitis odit neque totam natus ad aliquam minus, sed repellat eveniet, et impedit ipsa.</p>
-    
-
-  </div>
-</div>
-
-	
 
 <div class="accordion">
+
   <div class="accordion-item">
     <input id="accordion-trigger-1" class="accordion-trigger-input" type="checkbox"></input>
   <label class="accordion-trigger" for="accordion-trigger-1">What is Gluten?
@@ -227,8 +46,7 @@ eleventyNavigation:
 <p>Gluten is a protein which is found in wheat, rye, barley, triticale and oats and for many people, ingesting too much gluten disagrees with them, causing various aches and pains.</p>
 <p>Being gluten intolerant is different to having an allergy to gluten, which is coeliac disease. Visit <a title="Coeliac Australia" href="http://www.coeliac.org.au" target="_blank">Coeliac Australia</a> for more information.</p>
 <p>If you’re interested in cooking without gluten, you can find our <a href="gluten-free-products" title="Gluten Free Products">gluten free</a> and <a href="products/wheat-free-sauces" title="Wheat Free Sauces">tamari ranges</a> here and <a href="gluten-free-recipes" title="Gluten Free Recipes">recipe ideas here</a>.</p>
-      
-          </div>
+      </div>
         </div>
       </div>
     </section>
@@ -244,12 +62,12 @@ eleventyNavigation:
           <div class="accordion-content">
 <p>Because gluten is found in wheat, rye, barley, triticale and oats, there are a number of foods gluten intolerant people should avoid, including the obvious such as pastas, breads and cereals, some meat products including sausages, smallgoods, meat pies and other processed meats, condiments including some mustards, salad dressings, sauces (with the exception of Chang’s sauces!), and relishes.  Also be aware of snacks including chips and some lollies and alcoholic drinks such as beer!</p>
 <p>For a comprehensive list, you can visit the <a title="Victorian Governmen" href="http://www.betterhealth.vic.gov.au/bhcv2/bhcarticles.nsf/pages/Gluten-free_diet" target="_blank">Victorian Government’s Better Health</a> website.</p>
-     
-          </div>
+     </div>
         </div>
       </div>
     </section>
   </div>
+
   <div class="accordion-item">
     <input id="accordion-trigger-3" class="accordion-trigger-input" type="checkbox"></input>
   <label class="accordion-trigger" for="accordion-trigger-3">Is gluten-free the same as wheat-free?
@@ -258,12 +76,8 @@ eleventyNavigation:
       <div class="accordion-animation">
         <div class="accordion-transform-wrapper">
           <div class="accordion-content">
-          
-
-       <p>No. Although some people use gluten-free and wheat-free interchangeably they are not the same thing.  Gluten is a protein found in wheat, barley and rye, so all wheat contains gluten, but not all gluten is from wheat.</p>
-
-
-          </div>
+           <p>No. Although some people use gluten-free and wheat-free interchangeably they are not the same thing.  Gluten is a protein found in wheat, barley and rye, so all wheat contains gluten, but not all gluten is from wheat.</p>
+</div>
         </div>
       </div>
     </section>
@@ -277,10 +91,8 @@ eleventyNavigation:
       <div class="accordion-animation">
         <div class="accordion-transform-wrapper">
           <div class="accordion-content">
-        
 <p>Put simply, coeliac disease is an allergy to wheat. The immune system reacts abnormally to gluten causing damage to the small bowel.  For more information, visit <a title="Coeliac Australia" href="http://www.coeliac.org.au" target="_blank">Coeliac Australia</a>.</p>
-      
-          </div>
+      </div>
         </div>
       </div>
     </section>
@@ -294,10 +106,8 @@ eleventyNavigation:
       <div class="accordion-animation">
         <div class="accordion-transform-wrapper">
           <div class="accordion-content">
-        
 <p>According to Coeliac Australia, approximately 1 in 70 Australians of all ages are affected by coeliac disease, however 80% are currently undiagnosed.</p>
-      
-          </div>
+      </div>
         </div>
       </div>
     </section>
@@ -311,10 +121,39 @@ eleventyNavigation:
       <div class="accordion-animation">
         <div class="accordion-transform-wrapper">
           <div class="accordion-content">
-        
 <p>All of Chang’s sauces are gluten free and many of our noodle varieties are gluten free also. <br />Check out our gluten free and tamari products here, and remember to have a look at our tasty gluten free recipes too!</p>
-      
-          </div>
+      </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+   <div class="accordion-item">
+    <input id="accordion-trigger-7" class="accordion-trigger-input" type="checkbox"></input>
+  <label class="accordion-trigger" for="accordion-trigger-7">How will I know which products are gluten free?
+    </label>
+    <section class="accordion-animation-wrapper">
+      <div class="accordion-animation">
+        <div class="accordion-transform-wrapper">
+          <div class="accordion-content">
+<p>All our gluten free products are clearly labelled. As well as our gluten free noodle range all Chang’s sauces are gluten free and we have a special wheat free tamari range too.</p>
+      </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+   <div class="accordion-item">
+    <input id="accordion-trigger-8" class="accordion-trigger-input" type="checkbox"></input>
+  <label class="accordion-trigger" for="accordion-trigger-8">Is all Asian food gluten free?
+    </label>
+    <section class="accordion-animation-wrapper">
+      <div class="accordion-animation">
+        <div class="accordion-transform-wrapper">
+          <div class="accordion-content">
+<p>No, but it is very easy to make a gluten free version of all your favourite dishes. Rice can be used to make noodles, wrappers, dumplings, pancakes and many other products. Substitute wheat noodles for rice noodles, use rice flower and soya products for your gluten free Asian feast! Chang’s has a large gluten free range including noodles and all of our sauces</p>
+      </div>
         </div>
       </div>
     </section>
@@ -323,6 +162,7 @@ eleventyNavigation:
 </div>
 
 
-
+<h3>What gluten free Asian dishes can I cook?</h3>
+<p>There are lots of choices! We have a huge range of gluten free recipe suggestions and you can substitute gluten free alternatives in almost all of our other dishes. What are you going to cook first?</p>
 
 
