@@ -1167,6 +1167,7 @@ text-align: center;
   transition: box-shadow var(--transitionLength) var(--transitionTiming);
   z-index: 1;
   cursor: pointer;
+  background-color: var(--primary60);
 }
 
 
