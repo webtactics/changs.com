@@ -149,7 +149,7 @@ font-style: normal;
     color: var(--primary);
   }
 
-.container {background: transparent; }
+.container {background: transparent;margin:2rem; }
   .content-title { background: #ebebeb; display: flex;
         align-items: center;
         justify-content: center;}
