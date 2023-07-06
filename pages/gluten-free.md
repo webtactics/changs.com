@@ -252,24 +252,74 @@ eleventyNavigation:
   </div>
   <div class="accordion-item">
     <input id="accordion-trigger-3" class="accordion-trigger-input" type="checkbox"></input>
-  <label class="accordion-trigger" for="accordion-trigger-3">Accordion item 3
+  <label class="accordion-trigger" for="accordion-trigger-3">Is gluten-free the same as wheat-free?
     </label>
     <section class="accordion-animation-wrapper">
       <div class="accordion-animation">
         <div class="accordion-transform-wrapper">
           <div class="accordion-content">
-            <h2>Accordion content</h2>
-            <p>This accordion content can be any height. It does not require fixed max-height, or any ways of transitioning height with Javascript.</p>
-            <p>This should function smoothly in newest Webkit/Chromium browsers.</p>
+          
 
-            <p>Here's a Finnish flag:</p>
+       <p>No. Although some people use gluten-free and wheat-free interchangeably they are not the same thing.  Gluten is a protein found in wheat, barley and rye, so all wheat contains gluten, but not all gluten is from wheat.</p>
 
-<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAkAAAAFgBAMAAACh8NuuAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAKlBMVEX////e5OwgSX4ALWoAL2ze5Ovf5e3BzNscRnzf5ewhSn8EMm4ALmv////PM6ATAAAAAWJLR0QN9rRh9QAAAAd0SU1FB+cCAhELDOD6RtYAAAKFSURBVHja7d0xcVBRFEXRj4NoSByQJgJS0kYDGqjpUBIRKekwhYQ9f+YNcyasbeDdtwyc6zrbl6fXW319OHzAeoAAAQIEaDhAgAABAjQcIECAAAEaDhAgQIAADQcIECBAgIYDBAgQIEDDAQIECBCg4QABAgQI0HCAAAECBGg4QIAAAQI0HCBAgAABGg4QIECAAA0HCBAgQICGAwQIECBAwwECBAgQoOEAAQIECNBwgAABAgRoOECAAAECNBwgQIAAARoOECBAgAANBwgQIECAhgMECBAgQMMBAgQIEKDhAAECBAjQcIAAAQIEaLjPB/R2tu8/7wG9/Dh8wOmux7O9f9wD+vPr8AGnu54P9/se0LfT75/uuvef/y9AEaAIUAQoAhQBigBFgCJAEaAIUAQoAhQBigBFgCJAEaAIUAQoAhQBigBFgCJAEaAIUAQoAhQBigBFgCJAEaAIUAQoAhQBigBFgCJAEaAIUAQoAhQBigBFgCJAEaAIUAQoAhQBigBFgCJAEaAIUAQoAhQBigBFgCJAEaAIUAQoAhQBigBFgCJAEaAIUAQoAhQBigBFgCJAEaAIUAQoAhQBigBFgCJAEaAIUGT8qMaPzGfFfJYBthhgM+H3bwMECBAgQMMBAgQIEKDhAAECBAjQcIAAAQIEaDhAgAABAjQcIECAAAEaDhAgQIAADQcIECBAgIYDBAgQIEDDAQIECBCg4QABAgQI0HCAAAECBGg4QIAAAQI0HCBAgAABGg4QIECAAA0HCBAgQICGAwQIECBAwwECBAgQoOEAAQIECNBwgAABAgRoOECAAAECNBwgQIAAARoOECBAgAANBwgQIECAhgMECBAgQMN9OqC/3wKWKCuAqRoAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMDItMDJUMTU6MTE6MTIrMDI6MDCZoNeHAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTAyLTAyVDE1OjExOjEyKzAyOjAw6P1vOwAAAABJRU5ErkJggg==" alt="Finnish flag"></p>
+
           </div>
         </div>
       </div>
     </section>
   </div>
+
+ <div class="accordion-item">
+    <input id="accordion-trigger-4" class="accordion-trigger-input" type="checkbox"></input>
+  <label class="accordion-trigger" for="accordion-trigger-4">What is coeliac disease?
+    </label>
+    <section class="accordion-animation-wrapper">
+      <div class="accordion-animation">
+        <div class="accordion-transform-wrapper">
+          <div class="accordion-content">
+        
+<p>Put simply, coeliac disease is an allergy to wheat. The immune system reacts abnormally to gluten causing damage to the small bowel.  For more information, visit <a title="Coeliac Australia" href="http://www.coeliac.org.au" target="_blank">Coeliac Australia</a>.</p>
+      
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+ <div class="accordion-item">
+    <input id="accordion-trigger-5" class="accordion-trigger-input" type="checkbox"></input>
+  <label class="accordion-trigger" for="accordion-trigger-5">Who has coeliac disease?
+    </label>
+    <section class="accordion-animation-wrapper">
+      <div class="accordion-animation">
+        <div class="accordion-transform-wrapper">
+          <div class="accordion-content">
+        
+<p>According to Coeliac Australia, approximately 1 in 70 Australians of all ages are affected by coeliac disease, however 80% are currently undiagnosed.</p>
+      
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+ <div class="accordion-item">
+    <input id="accordion-trigger-6" class="accordion-trigger-input" type="checkbox"></input>
+  <label class="accordion-trigger" for="accordion-trigger-6">Which Chang’s products are gluten free?
+    </label>
+    <section class="accordion-animation-wrapper">
+      <div class="accordion-animation">
+        <div class="accordion-transform-wrapper">
+          <div class="accordion-content">
+        
+<p>All of Chang’s sauces are gluten free and many of our noodle varieties are gluten free also. <br />Check out our gluten free and tamari products here, and remember to have a look at our tasty gluten free recipes too!</p>
+      
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
 </div>
 
 
