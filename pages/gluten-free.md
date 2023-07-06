@@ -12,7 +12,7 @@ eleventyNavigation:
 
 
 
- <div id="searchbox"></div>
+ <div id="search"></div>
  
 
 
