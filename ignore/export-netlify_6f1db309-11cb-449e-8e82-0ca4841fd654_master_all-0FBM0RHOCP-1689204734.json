@@ -1,0 +1,66 @@
+{
+  "settings": {
+    "minWordSizefor1Typo": 4,
+    "minWordSizefor2Typos": 8,
+    "hitsPerPage": 20,
+    "maxValuesPerFacet": 100,
+    "searchableAttributes": [
+      "unordered(title)",
+      "unordered(description)",
+      "unordered(content)",
+      "url",
+      "unordered(image)"
+    ],
+    "numericAttributesToIndex": null,
+    "attributesToRetrieve": null,
+    "distinct": true,
+    "unretrievableAttributes": null,
+    "optionalWords": null,
+    "attributesForFaceting": [
+      "lang",
+      "keywords",
+      "authors",
+      "category"
+    ],
+    "attributesToSnippet": [
+      "content:20",
+      "description:20"
+    ],
+    "attributesToHighlight": [
+      "hierarchy",
+      "content",
+      "description"
+    ],
+    "paginationLimitedTo": 1000,
+    "attributeForDistinct": "url",
+    "exactOnSingleWordQuery": "attribute",
+    "ranking": [
+      "typo",
+      "geo",
+      "words",
+      "filters",
+      "proximity",
+      "attribute",
+      "exact",
+      "custom"
+    ],
+    "customRanking": [
+      "asc(urlDepth)",
+      "asc(position)",
+      "desc(dateModified)",
+      "desc(datePublished)"
+    ],
+    "separatorsToIndex": "",
+    "removeWordsIfNoResults": "none",
+    "queryType": "prefixLast",
+    "highlightPreTag": "<em>",
+    "highlightPostTag": "</em>",
+    "snippetEllipsisText": "...",
+    "alternativesAsExact": [
+      "ignorePlurals",
+      "singleWordSynonym"
+    ]
+  },
+  "rules": [],
+  "synonyms": []
+}
