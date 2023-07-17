@@ -2,6 +2,7 @@
 	--primary: hsla(358,78%,51%,1);
   --primary50: hsla(358,78%,51%,0.5);
   --primary30: hsla(358,78%,51%,0.3);
+  --primary10: hsla(358,78%,51%,0.1);
   --white: hsla(0,0%,100%,1);
   --white50: hsla(0,0%,100%,0.5);
 	--red: #D90000;
@@ -1167,13 +1168,13 @@ text-align: center;
   transition: box-shadow var(--transitionLength) var(--transitionTiming);
   z-index: 1;
   cursor: pointer;
-  background-color: var(--primary50);
+  background-color: var(--primary10);
   color:var(--primary);
 }
 
 .accordion-trigger:hover {
-  background-color: var(--primary);
-  color:var(--primary50);
+  background-color: var(--white);
+  color:var(--primary);
 }
 
 .accordion-trigger-input:focus-visible ~ .accordion-trigger {
