@@ -1145,8 +1145,8 @@ text-align: center;
 }
 
 .accordion-item {
-  border-top: 2px solid #676767;
-  border-bottom: 2px solid #676767;
+  border-top: 2px solid var(--primary);
+  border-bottom: 2px solid var(--text);
   margin-bottom: -2px;
   overflow: hidden;
 }
@@ -1197,10 +1197,7 @@ text-align: center;
   transform: rotate(135deg);
   transition: transform var(--transitionLength) var(--transitionTiming);
 }
-.accordion-trigger::after:hover {
-  transform: rotate(360deg);
-  transition: transform var(--transitionLength) var(--transitionTiming);
-  border: 2px solid var(--primary);}
+
 
 .accordion-trigger-input:checked ~ .accordion-trigger::after {
   transform: rotate(135deg) rotateX(180deg) rotateY(180deg) translateY(4px) translateX(-4px);
