@@ -66,7 +66,7 @@ body {
 padding: 0;
 margin: 0;
 font-family: Tahoma, Verdana, "Segoe Print", sans-serif;
-font-size: 16px;
+font-size: 1rem;
 line-height: 1.6;
 color: var(--text);
 background-color: var(--white);
@@ -321,7 +321,7 @@ padding:5px;
     height: 4px;
     margin:0px;
     background: var(--white);
-    box-shadow: 0 8px 0 0 var(--white), 0 16px 0 0 var(--white);
+    box-shadow: 0 8px 0 0 var(--white), 0 1rem 0 0 var(--white);
     -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
   -ms-transition: all 0.6s;
@@ -330,7 +330,7 @@ padding:5px;
 }
 .hamburger:hover .hamburger-icon:before {
   background: var(--primary);
-    box-shadow: 0 8px 0 0 var(--primary), 0 16px 0 0 var(--primary);
+    box-shadow: 0 8px 0 0 var(--primary), 0 1rem 0 0 var(--primary);
       -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
     -ms-transition: all 0.6s;
@@ -340,7 +340,7 @@ padding:5px;
 
 .scrolled  .hamburger-icon:before {
 background: var(--white);
-  box-shadow: 0 8px 0 0 var(--white), 0 16px 0 0 var(--white);
+  box-shadow: 0 8px 0 0 var(--white), 0 1rem 0 0 var(--white);
     -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
   -ms-transition: all 0.6s;
@@ -349,7 +349,7 @@ background: var(--white);
 }
 .scrolled:hover  .hamburger-icon:before {
   background: var(--black);
-    box-shadow: 0 8px 0 0 var(--black), 0 16px 0 0 var(--black);
+    box-shadow: 0 8px 0 0 var(--black), 0 1rem 0 0 var(--black);
       -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
     -ms-transition: all 0.6s;
@@ -1164,16 +1164,16 @@ text-align: center;
 .accordion-trigger {
   display: block;
   position: relative;
-  padding: 16px;
+  padding: 1rem;
   transition: box-shadow var(--transitionLength) var(--transitionTiming);
   z-index: 1;
   cursor: pointer;
-  background-color: var(--primary10);
+  background-color: var(--white);
   color:var(--primary);
 }
 
 .accordion-trigger:hover {
-  background-color: var(--white);
+  background-color: var(--primary10);
   color:var(--primary);
 }
 
@@ -1185,7 +1185,7 @@ text-align: center;
 .accordion-trigger::after {
   display: block;
   position: absolute;
-  right: 16px;
+  right: 1rem;
   top: 18px;
   content: '';
   width: 8px;
@@ -1207,8 +1207,8 @@ text-align: center;
 }
 
 .accordion-content {
-  padding: 16px;
-  background: #f8f8f8;
+  padding: 1rem;
+  background-color: var(--primary10);
 }
 
 .accordion-content h2 {
