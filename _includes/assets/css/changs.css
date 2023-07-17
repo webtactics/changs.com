@@ -3,6 +3,7 @@
   --primary50: hsla(358,78%,51%,0.5);
   --primary30: hsla(358,78%,51%,0.3);
   --primary10: hsla(358,78%,51%,0.1);
+  --primary5: hsla(358,78%,51%,0.05);
   --white: hsla(0,0%,100%,1);
   --white50: hsla(0,0%,100%,0.5);
 	--red: #D90000;
@@ -1174,7 +1175,7 @@ text-align: center;
 
 .accordion-trigger:hover {
   background-color: var(--primary10);
-  color:var(--primary);
+  color:var(--black);
 }
 
 .accordion-trigger-input:focus-visible ~ .accordion-trigger {
@@ -1208,7 +1209,7 @@ text-align: center;
 
 .accordion-content {
   padding: 1rem;
-  background-color: var(--primary10);
+  background-color: var(--primary5);
 }
 
 .accordion-content h2 {
