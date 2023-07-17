@@ -1197,6 +1197,10 @@ text-align: center;
   transform: rotate(135deg);
   transition: transform var(--transitionLength) var(--transitionTiming);
 }
+.accordion-trigger::after:hover {
+  transform: rotate(360deg);
+  transition: transform var(--transitionLength) var(--transitionTiming);
+  border: 2px solid var(--primary);}
 
 .accordion-trigger-input:checked ~ .accordion-trigger::after {
   transform: rotate(135deg) rotateX(180deg) rotateY(180deg) translateY(4px) translateX(-4px);
