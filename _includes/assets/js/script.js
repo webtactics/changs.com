@@ -52,14 +52,7 @@ document.addEventListener('touchstart', onTouchStart, {passive: true});
 
 
 // Accordion
-$(".accordianNav h3.dropArrow").click(function() {
-  $("h3.dropArrow").removeClass("active");
-  $(".accordianNav ul ul").slideUp();
-  if (!$(this).next().is(":visible")) {
-      $(this).next().slideDown();
-      $(this).addClass("active");
-  }
-})
+
 
 
 // toggle
