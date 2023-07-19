@@ -11,8 +11,9 @@ eleventyNavigation:
 ---
 
 
-
+<div class="page-search-wrapper">
  <div id="search"></div>
+ </div>
  
 <h1>Gluten Free</h1>
 <h2 class="glutentitle">Products and Recipes</h2>
