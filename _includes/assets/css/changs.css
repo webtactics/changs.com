@@ -1066,7 +1066,6 @@ text-align: center;
 .accordianNav {
   /*  this width is arbitrary and here for display only */
   max-width: 100%;
-  background: #222;
   margin: 0;
   padding: 0;
   border-radius: 0;
@@ -1075,14 +1074,14 @@ text-align: center;
 .accordianNav a,
 .accordianNav h3 {
   display: block;
-  line-height: 2.5em;
-  color: #757575;
+  line-height: 1.4;
+  color: var(--black);
   letter-spacing: 2px;
   position: relative;
   z-index: 1;
   cursor: pointer;
-  padding-left: 1em;
-  font-size: 1em;
+  padding-left: 1rem;
+  font-size: 1rem;
   font-weight: 100;
 }
 
@@ -1135,12 +1134,12 @@ text-align: center;
 }
 
 .accordianNav .dropArrow.active {
-  color: white;
+  color: var(--white);
 }
 
 .accordianNav .dropArrow.active:after {
   transform: rotate(-135deg);
-  border-color: #fff;
+  border-color: var(--white);
 }
 
 
