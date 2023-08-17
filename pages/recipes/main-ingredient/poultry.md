@@ -8,6 +8,10 @@ permalink: "recipes/main-ingredient/poultry-based-recipes/"
 ---
 Chang's Poultry Based Recipes
 
+<script async src="https://cse.google.com/cse.js?cx=94dea8fae08aa4379">
+</script>
+<div class="gcse-search"></div>
+
 # Thank you!
 
 Add a few line breaks in here to test:-
