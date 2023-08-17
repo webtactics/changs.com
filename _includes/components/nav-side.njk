@@ -3,24 +3,14 @@
   <li{% if entry.url == page.url %} class="active-class"{% endif %}>
     <a href="{{ entry.url }}" title="{{ entry.title }}" alt="{{ entry.title }}">{{ entry.title }}</a>
 
-  {% if entry.url == "/products/" %}
-      <ul class="second">
-        <li>
-          <a href="/products/noodles/" title="Vegetarian Recipes" alt="Vegetarian Recipes">Noodles</a>
-        </li>
-        <li>
-          <a href="/recipes/main-ingredient/noodles-ingredients/" title="Noodles Recipes" alt="Noodles Recipes">Sauces</a>
-        </li>
-        <li>
-          <a href="/recipes/main-ingredient/seafood/" title="Seafood Recipes" alt="Seafood Recipes">Gluten Free</a>
-        </li>
-        <li>
-          <a href="/recipes/main-ingredient/poultry-based-recipes/" title="Poultry Recipes" alt="Poultry Recipes">Tamari</a>
-        </li>
-       
+
+    {% if entry.children.length %}
+      <ul class="second-level">
+        {% for child in entry.children %}
+          {{ renderNavListItem(child) }}
+        {% endfor %}
       </ul>
     {% endif %}
-
 
 </li>
   {%- endmacro %}
