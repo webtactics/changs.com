@@ -39,38 +39,38 @@ imageFolders:
   - name: 
     count: 
 galleryimages:
-  - url: 
-    alt: 
-  - url: 
-    alt: 
-  - url: 
-    alt: 
-  - url: 
-    alt: 
-  - url: 
-    alt: 
-  - url: 
-    alt: 
-  - url: 
-    alt: 
-  - url: 
-    alt: 
-  - url: 
-    alt: 
-  - url: 
-    alt: 
-  - url: 
-    alt: 
-  - url: 
-    alt: 
-  - url: 
-    alt: 
-  - url: 
-    alt: 
-  - url: 
-    alt: 
-  - url: 
-    alt: 
+  - url:
+    alt:
+  - url:
+    alt:
+  - url:
+    alt:
+  - url:
+    alt:
+  - url:
+    alt:
+  - url:
+    alt:
+  - url:
+    alt:
+  - url:
+    alt:
+  - url:
+    alt:
+  - url:
+    alt:
+  - url:
+    alt:
+  - url:
+    alt:
+  - url:
+    alt:
+  - url:
+    alt:
+  - url:
+    alt:
+  - url:
+    alt:
 
 CrunchyFriedNoodles:
 HokkienNoodles:
