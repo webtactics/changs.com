@@ -36,41 +36,41 @@ prep: 40 minutes
 makes: 
 difficulty: Easy
 imageFolders:
-  - name: mongolian-lamb-noodles
-    count: 7
+  - name: 
+    count: 
 galleryimages:
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-1.jpg
-    alt: Beef with Broccoli on Crispy Noodles 1
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-2.jpg
-    alt: Beef with Broccoli on Crispy Noodles 2
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-3.jpg
-    alt: Beef with Broccoli on Crispy Noodles 3
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-4.jpg
-    alt: Beef with Broccoli on Crispy Noodles 4
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-5.jpg
-    alt: Beef with Broccoli on Crispy Noodles 5
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-6.jpg
-    alt: Beef with Broccoli on Crispy Noodles 6
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-7.jpg
-    alt: Beef with Broccoli on Crispy Noodles 7
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-8.jpg
-    alt: Beef with Broccoli on Crispy Noodles 1
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-9.jpg
-    alt: Beef with Broccoli on Crispy Noodles 2
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-10.jpg
-    alt: Beef with Broccoli on Crispy Noodles 3
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-11.jpg
-    alt: Beef with Broccoli on Crispy Noodles 4
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-12.jpg
-    alt: Beef with Broccoli on Crispy Noodles 5
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-landscape-1.jpg
-    alt: Beef with Broccoli on Crispy Noodles 6
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-landscape-2.jpg
-    alt: Beef with Broccoli on Crispy Noodles 7
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-landscape-3.jpg
-    alt: Beef with Broccoli on Crispy Noodles 6
-  - url: mongolian-lamb-noodles/mongolian-lamb-noodles-landscape-4.jpg
-    alt: Beef with Broccoli on Crispy Noodles 7
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+  - url: 
+    alt: 
 
 CrunchyFriedNoodles:
 HokkienNoodles:
