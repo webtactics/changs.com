@@ -25,7 +25,7 @@ tags:
 
   - Featured
 
-image: https://ik.imagekit.io/webtactics/changs/recipes/mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-1.jpg
+image: https://ik.imagekit.io/webtactics/changs/img/recipes/mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-1.jpg
 bgimage: https://ik.imagekit.io/webtactics/changs/tr:w-1600,h-800,f-auto/recipes/mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-landscape-1.jpg
 imageAlt: Mee Goreng Special Fried Noodles
 description: This is Chang’s take on a classic Mee Goreng, which is the best-known dish in Singapore. Our version is a one wok meal that takes only 15 minutes to cook and has light but tasty flavours which makes it the perfect family friendly meal.
