@@ -35,42 +35,7 @@ serves: 4
 prep: 40 minutes 
 makes: 
 difficulty: Easy
-imageFolders:
-  - name: 
-    count: 
-galleryimages:
-  - url:
-    alt:
-  - url:
-    alt:
-  - url:
-    alt:
-  - url:
-    alt:
-  - url:
-    alt:
-  - url:
-    alt:
-  - url:
-    alt:
-  - url:
-    alt:
-  - url:
-    alt:
-  - url:
-    alt:
-  - url:
-    alt:
-  - url:
-    alt:
-  - url:
-    alt:
-  - url:
-    alt:
-  - url:
-    alt:
-  - url:
-    alt:
+
 
 CrunchyFriedNoodles:
 HokkienNoodles:
