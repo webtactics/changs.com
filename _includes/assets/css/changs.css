@@ -925,7 +925,7 @@ min-height: 600px;
   .detailwrapper {}
   .sidebarwrapper {background-color: var(--white);padding:1rem;}
 
-  .tem .blogdetail {background-color: var(--white);padding:2rem;}
+  .item.blogdetail {background-color: var(--white);padding:2rem;}
   .blogdetailimage {background-color: var(--white);padding:0;}
   .detailcontent {background-color: var(--white);padding:1rem 1rem 2rem;margin: 0 0 0 4rem;}
    
