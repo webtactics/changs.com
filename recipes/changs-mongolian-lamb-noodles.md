@@ -36,7 +36,6 @@ cooking: 15 minutes
 difficulty: Easy
 imageFolders:
   - name: mongolian-lamb-noodles
-    count: 7
 galleryimages:
   - url: mongolian-lamb-noodles/mongolian-lamb-noodles-1.jpg
     alt: Chang’s Mongolian Lamb Noodles 1
