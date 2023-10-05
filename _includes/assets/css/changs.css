@@ -1307,7 +1307,7 @@ text-align: center;
 }
 
 .accordion-trigger:hover {
-  background-color: var(--primary10);
+  background-color: var(--white);
   color:var(--black);
 }
 
