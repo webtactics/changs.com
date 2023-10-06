@@ -1214,18 +1214,10 @@ text-align: center;
 
 .tag ul {
   display: flex;
-  align-items: stretch; /* Default */
-  justify-content: space-between;
-  width: 100%;
-  background: var(--black);
-  margin: 0;
-  padding: 0;
+  list-style: none; /* removes the bullet points from the list */
 }
-.tag ul > li {
-  display: block;
-  flex: 0 1 auto; /* Default */
-  list-style-type: none;
-  background: var(--primary);
+.tag li {
+  margin-right: 20px; /* adds spacing between each list item */
 }
 
 
