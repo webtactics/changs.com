@@ -1214,6 +1214,7 @@ text-align: center;
 
 .tag ul {
   display: flex;
+  flex-wrap: wrap;
 
 }
 .tag ul li {
