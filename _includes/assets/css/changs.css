@@ -818,22 +818,10 @@ background-color:var(--white);
 min-height:600px;
 }
 
-.content-detail {
-position: relative;
-margin: -40vh auto 0 auto;
-padding: 0;
-z-index: 2;
-width: calc(100vw - 6em);
-max-width: 1440px;
-background-color: transparent;
-min-height: 600px;
-}
 
 
-.internal .content {
-  margin: -40vh auto 4rem auto;
 
-  }
+
 
 
 @media (max-width: 1024px) {
