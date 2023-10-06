@@ -15,9 +15,10 @@ section: post
 
 <div class="blogdetailimage" align="center"><img src="{{ image }}?tr=w-800,h-1200" alt="{{ imageAlt }}" title="{{ imageAlt }}"></div>
 <div class="detailcontent">    
-{% if SoySauceLight %}<span class="timecostmin">30 min:</span>{{ SoySauceLight }}</div>{% endif %}
+{% if SoySauceLight %}<div><span class="timecostmin">30 min:</span>{{ SoySauceLight }}</div>{% endif %}
 
-{{ layoutContent | safe }}</div>
+{{ layoutContent | safe }}
+</div>
 
 
 
@@ -36,7 +37,16 @@ section: post
 </div>
 {% endif %}
 
- 
+{% if tags %}
+<div class="NewsSummaryPrice detail"><h4>Tags</h4>
+{% for tag in tags %}
+  {%- if tag != "post" -%}
+    {% set tagUrl %}/tagged/{{ tag }}/{% endset %}
+   <div class="tag"><a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a></div>
+  {%- endif -%}
+{% endfor %}
+</div>
+{% endif %}
   
   
 </div>
@@ -44,16 +54,6 @@ section: post
 </div>
 <div class="sidebarwrapper">
 <aside>
-
-
-
-
-
-
-
-
-
-
 
 
 {% if CrispyNoodleSaladDressing %}
@@ -150,13 +150,3 @@ section: post
 </div>
 
 
-  {% if tags %}
-    <div class="NewsSummaryPrice detail"><h4>Tags</h4>
-    {% for tag in tags %}
-      {%- if tag != "post" -%}
-        {% set tagUrl %}/tagged/{{ tag }}/{% endset %}
-       <div class="tag"><a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a></div>
-      {%- endif -%}
-    {% endfor %}
-    </div>
-  {% endif %}
