@@ -817,7 +817,7 @@ min-height:600px;
 .content-detail {
 position: relative;
 margin: -40vh auto 0 auto;
-padding: 1rem;
+padding: 0;
 z-index: 2;
 width: calc(100vw - 6em);
 max-width: 1440px;
