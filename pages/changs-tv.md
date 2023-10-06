@@ -11,4 +11,9 @@ eleventyNavigation:
   order: 4
 ---
 
- <div id="searchbox"></div>
+
+<div id="search"></div>
+
+<div style="position: relative; padding-top: 100%;">
+<iframe src="https://iframe.mediadelivery.net/embed/68279/3701e76e-de4b-44ba-877d-738a0d262b5c?autoplay=false" loading="lazy" style="border: none; position: absolute; top: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe>
+</div>
