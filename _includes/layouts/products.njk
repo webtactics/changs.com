@@ -10,6 +10,10 @@ class: products
 {% set postslist = collections.products %}
 {% include "components/postslist.njk" %}
 
+<h1>Noodles Ingredient</h1>
+{% set postslist = collections[Noodles Ingredient] %}
+{% include "components/postslist.njk" %}
+
 <h1>Featured</h1>
 {% set postslist = collections.Featured %}
 {% include "components/postslist.njk" %}
