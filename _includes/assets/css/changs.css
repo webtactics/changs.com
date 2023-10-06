@@ -806,7 +806,7 @@ ul.off-canvas-list > li.current > a, ul.off-canvas-list > li.active-class > a {
 .content {
 position: relative;
 margin: -10vh auto 0 auto;
-padding: 1rem;
+padding: 2rem;
 z-index: 2;
 width: calc(100vw - 6em);
 max-width: 1440px;
