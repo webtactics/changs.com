@@ -1214,10 +1214,14 @@ text-align: center;
 
 .tag ul {
   display: flex;
-  list-style: none; /* removes the bullet points from the list */
+
 }
-.tag li {
-  margin-right: 20px; /* adds spacing between each list item */
+.tag ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+.tag ul li:last-child {
+  margin-right: 0;
 }
 
 
