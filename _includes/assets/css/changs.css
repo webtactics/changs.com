@@ -1209,6 +1209,34 @@ text-align: center;
   font-size: 15px;
 
 }
+
+ /* Styles for the tag box section */
+
+.tag ul {
+  display: flex;
+  align-items: stretch; /* Default */
+  justify-content: space-between;
+  width: 100%;
+  background: var(--black);
+  margin: 0;
+  padding: 0;
+}
+.tag ul > li {
+  display: block;
+  flex: 0 1 auto; /* Default */
+  list-style-type: none;
+  background: var(--primary);
+}
+
+
+
+
+
+
+
+
+
+
  /* Styles for the modal */
  .quick-example {
   margin: 1rem;
