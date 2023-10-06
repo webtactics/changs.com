@@ -39,14 +39,14 @@ section: post
 
 {% if tags %}
   <div class="tag"><h4>Tags</h4>
+  <ul>
 {% for tag in tags %}
-<ul>
   {%- if tag != "post" -%}
     {% set tagUrl %}/tagged/{{ tag }}/{% endset %}
    <li><a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a></li>
   {%- endif -%}
-</ul>
 {% endfor %}
+  </ul>
 </div>
 {% endif %}
   
