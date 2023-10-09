@@ -28,13 +28,10 @@
     "clean-css": "^5.3.2",
     "html-minifier": "^4.0.0",
     "luxon": "^3.2.1",
-    "markdown-it-anchor": "^8.6.6",
     "uglify-js": "^3.17.4"
   },
   "dependencies": {
     "algoliasearch": "^4.17.2",
-    "eleventy-favicon": "^1.1.3",
-    "eleventy-plugin-metagen": "^1.7.11",
     "instantsearch.js": "^4.56.1"
   }
 }
