@@ -11,12 +11,31 @@ eleventyNavigation:
   order: 5
 ---
 
-<h1 class="glutentitle">Products and Recipes</h1>
-<p>Whether you choose to avoid gluten for lifestyle or health reasons, going gluten-free doesn&rsquo;t mean missing out. Chang&rsquo;s has a great range of <a title="Gluten Free" href="gluten-free-products">gluten free</a> and <a title="Wheat-free-sauces" href="products/wheat-free-sauces">wheat free (tamari) products</a> options just for you!</p>
-<p>An Australian laboratory has independently tested all of our gluten-free products so if the label says &lsquo;Gluten Free&rsquo; you can be worry free.</p>
-<h3>Do you have questions about the world of &lsquo;gluten free&rsquo;?</h3>
-<p>We have the answers. And if you&rsquo;d like more information, visit <a title="Coeliac Australia" href="http://www.coeliac.org.au" target="_blank" rel="noopener">Coeliac Australia</a> who has everything there is to know about being gluten free or coeliac.</p>
-<p><strong>Please note:<br /></strong>Foods carrying a gluten-free claim must have been tested and found to contain &ldquo;<strong>No detectable</strong>&rdquo; gluten. By law, however, the manufacturer is still required to list ALL ingredients, which can cause confusion.</p>
-<p>In the manufacture of Chang&rsquo;s Soy based sauces, gluten is first completely removed from the wheat flour by fermentation. This leaves starch, (which is the extract of wheat left). All Chang&rsquo;s sauces have been tested and found to contain NO detectable gluten.</p>
-<p>Chang&rsquo;s Soy sauce has been tested for 3-MCPD and 1,3-DCP by Australian Laboratory. This sauce is naturally brewed, therefore does not contain these chemicals.</p>
-<p><strong>Phone</strong>: 1800 638 363</p>
+
+<div class="grid-2-columns-5x7">
+<div class="about-left">
+<img src="https://www.changs.com/uploads/images/assets/polaroid.jpg" alt="Elaine with her grandfather Henry KH Pow." title="Elaine with her grandfather Henry KH Pow.">
+</div>
+<div class="about-right">
+<h1>About Us</h1>
+<p>Chang’s is proudly a third-generation Australian owned family business, with father and daughter team Patrick and Elaine Pow heading the Sydney-based company and involved in every aspect of the business day-to-day.</p>
+<p>Chang’s is more than just a brand with great products, it’s a lifelong passion to share our love for food and Asian cooking with Australians. We travel throughout the Asia Pacific region discovering what’s new, delicious and authentic to create and share must-try recipes and flavours here in Australia.</p>
+<p>We believe meals are not simply about mouthwatering food, they’re about family, friends, stories, love and laughter.</p>
+<p>Over the past 50 years, Chang’s has become an Australian household name – with special thanks, of course, going to the famous Chang’s Crispy Noodle Salad. This all-time classic remains a staple at summer BBQs, meals and parties around the country. Many people have created their own take on this dish of course, but we reckon the original is still the best!</p>
+</div>
+</div>
+<div class="grid-2-columns-5x7">
+<div class="about-left">
+<div class="aboutimageone"> <a href="/products"><img src="https://www.changs.com/uploads/images/assets/190829-Original-Fried-Noodles.jpg" alt="Chang's Original Fried Noodles" title="Chang's Original Fried Noodles"></a> </div>
+</div>
+<div class="about-right">
+<h3>Our products</h3>
+<p>We are passionate about providing high-quality Asian noodles and sauces to Australian homes to help bring your favourite Asian dishes to life.</p>
+<p>We have a huge range of noodles and sauces available at your local supermarket – check out our full range here.</p>
+<p>We were also one of the first grocery manufacturers to offer gluten-free alternatives, and today, all Chang’s sauces are free of gluten plus we have a tamari range for those with more serious wheat allergies. &nbsp;</p>
+<p>If there is an Asian noodle or sauce variety you feel we’re missing, we’d love for you to let us know. You can email us at <a href="mailto:service@changs.com">service@changs.com</a></p>
+</div>
+</div>
+
+
+
