@@ -1390,5 +1390,5 @@ text-align: center;
 
 aside {  position: -webkit-sticky; /* Safari */
   position: sticky;
-  top: 0;
+  top: 3rem;
 }
