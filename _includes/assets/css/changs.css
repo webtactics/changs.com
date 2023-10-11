@@ -1387,3 +1387,5 @@ text-align: center;
 .accordion-content img {
   max-width: 100%;
 }
+
+aside {position: sticky;}
