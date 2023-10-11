@@ -1402,23 +1402,26 @@ aside {  position: -webkit-sticky; /* Safari */
 }
 
 #menu_vert li {
-  list-style: none;
-  margin: 0 0 8px;
-  padding: 0;
-  background: var(--white);
-  color: var(--red);
-  width: 100%;
-  border: 1px solid var(--white);
-  border-radius: 8px;
+
 }
 
-#menu_vert li:hover {
-  list-style: none;
-  margin: 0 0 8px;
-  padding: 0;
+
+
+div#menu_vert a {
+  display: block;
+  padding: 2em 0 2em 0em;
+  background: var(--white);
+  color: var(--red);
+  text-align: center;
+  font-family: 'Trocchi', serif;
+  border-radius: 8px;
+  font-size: 18px;
+  min-height: 1em;
+  text-decoration: none;
+}
+
+div#menu_vert a:hover {
   background: var(--red);
   color: var(--white);
-  width: 100%;
-  border: 1px solid var(--white);
-  border-radius: 8px;
+  text-decoration: none;
 }
