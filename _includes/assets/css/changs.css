@@ -1402,14 +1402,15 @@ aside {  position: -webkit-sticky; /* Safari */
 }
 
 #menu_vert li {
-
+margin: 0 0 0.75rem;
+padding: 0;
 }
 
 
 
 div#menu_vert a {
   display: block;
-  padding: 2em 0 2em 0em;
+  padding: 2em 0;
   background: var(--white);
   color: var(--red);
   text-align: center;
