@@ -1388,4 +1388,7 @@ text-align: center;
   max-width: 100%;
 }
 
-aside {position: sticky;}
+aside {  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
