@@ -1392,3 +1392,33 @@ aside {  position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 3rem;
 }
+
+/* sidebar nav */
+
+#menu_vert ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#menu_vert li {
+  list-style: none;
+  margin: 0 0 8px;
+  padding: 0;
+  background: var(--white);
+  color: var(--red);
+  width: 100%;
+  border: 1px solid var(--white);
+  border-radius: 8px;
+}
+
+#menu_vert li:hover {
+  list-style: none;
+  margin: 0 0 8px;
+  padding: 0;
+  background: var(--red);
+  color: var(--white);
+  width: 100%;
+  border: 1px solid var(--white);
+  border-radius: 8px;
+}
