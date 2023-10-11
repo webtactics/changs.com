@@ -17,7 +17,7 @@ eleventyNavigation:
 <img src="https://www.changs.com/uploads/images/assets/polaroid.jpg" alt="Elaine with her grandfather Henry KH Pow." title="Elaine with her grandfather Henry KH Pow.">
 </div>
 <div class="about-right">
-<h1>About Us</h1>
+<h2>About Us</h2>
 <p>Chang’s is proudly a third-generation Australian owned family business, with father and daughter team Patrick and Elaine Pow heading the Sydney-based company and involved in every aspect of the business day-to-day.</p>
 <p>Chang’s is more than just a brand with great products, it’s a lifelong passion to share our love for food and Asian cooking with Australians. We travel throughout the Asia Pacific region discovering what’s new, delicious and authentic to create and share must-try recipes and flavours here in Australia.</p>
 <p>We believe meals are not simply about mouthwatering food, they’re about family, friends, stories, love and laughter.</p>
