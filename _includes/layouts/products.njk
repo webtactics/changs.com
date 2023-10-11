@@ -7,22 +7,6 @@ class: products
 
 {{ layoutContent | safe }}
 
+
 {% set postslist = collections.products %}
-{% include "components/postslist.njk" %}
-
-<h1>Noodles Ingredient</h1>
-{% set postslist = collections[Noodles Ingredient] %}
-{% include "components/postslist.njk" %}
-
-<h1>Featured</h1>
-{% set postslist = collections.Featured %}
-{% include "components/postslist.njk" %}
-
-<h1>tamari-light-soy-sauce</h1>
-{% set postslist = collections.tamari-light-soy-sauce %}
-{% include "components/postslist.njk" %}
-
-
-<h1>['tag here']</h1>
-{% set postslist = collections['tamari-light-soy-sauce'] %}
 {% include "components/postslist.njk" %}
