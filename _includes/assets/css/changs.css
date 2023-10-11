@@ -1390,7 +1390,7 @@ text-align: center;
 
 aside {  position: -webkit-sticky; /* Safari */
   position: sticky;
-  top: 3rem;
+  top: 4rem;
 }
 
 /* sidebar nav */
@@ -1402,7 +1402,7 @@ aside {  position: -webkit-sticky; /* Safari */
 }
 
 #menu_vert li {
-margin: 0 0 0.75rem;
+margin: 0 0 1rem;
 padding: 0;
 }
 
