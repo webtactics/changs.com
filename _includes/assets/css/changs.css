@@ -1426,3 +1426,10 @@ div#menu_vert a:hover {
   color: var(--white);
   text-decoration: none;
 }
+
+.newslettersidebar {
+background: var(--black);
+padding:1rem;
+margin-top: 1rem;
+
+}
