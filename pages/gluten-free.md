@@ -1,5 +1,5 @@
 ---
-layout: layouts/default.njk
+layout: layouts/2-column.html
 title: Chang's Gluten Free Products and Recipes
 description: This is a sample meta description. If one is not present in your page/post's front matter, the default metadata.description will be used instead.
 section: gluten-free
