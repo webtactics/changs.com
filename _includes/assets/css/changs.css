@@ -156,7 +156,11 @@ font-weight: 700;
 color: var(--primary);
 }
 
-.container {background: transparent; }
+.container {
+  background-image: url('https://ik.imagekit.io/webtactics/changs/images/assets/bg/Chang-pattern-191x500-yellow-30.png');
+  background-repeat: repeat;}
+
+
   .content-title { background: #ebebeb; display: flex;
         align-items: center;
         justify-content: center;}
