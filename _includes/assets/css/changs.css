@@ -142,17 +142,19 @@ h1.heading-text {
   font-size: 1.5625rem;
 }
 
-p {font-family: 'Open Sans', sans-serif;
+p {
+font-family: 'Open Sans', sans-serif;
 font-style: normal;
-  font-weight: normal;
-  color: #333333;
-  text-rendering: optimizeLegibility;}
+font-weight: 400;
+color: var(--text);
+text-rendering: optimizeLegibility;
+margin-bottom: 1rem;}
 
 
-  strong {
-    font-weight: 700;
-    color: var(--primary);
-  }
+strong {
+font-weight: 700;
+color: var(--primary);
+}
 
 .container {background: transparent; }
   .content-title { background: #ebebeb; display: flex;
