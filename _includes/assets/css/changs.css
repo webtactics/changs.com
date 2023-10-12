@@ -157,7 +157,7 @@ color: var(--primary);
 }
 
 .container {
-  background-image: url('https://ik.imagekit.io/webtactics/changs/images/assets/bg/Chang-pattern-191x500-yellow-30.png');
+  background-image: url('https://ik.imagekit.io/webtactics/changs/images/assets/bg/Chang-pattern-191x500-30.png');
   background-repeat: repeat;}
 
 
@@ -1062,15 +1062,7 @@ text-align: center;
   background: #000000 url(https://ik.imagekit.io/webtactics/gtm/assets/to-top_pZCu6b8pa.png?updatedAt=1683952481082) no-repeat center center;
   text-indent: -9999px;
 }
-.scrollToTop:hover {
-  padding: 0;
-  border: none;
-  background: transparent;
-  width: 40px;
-  height: 40px;
-  background: #000000 url(https://ik.imagekit.io/webtactics/gtm/assets/to-top_pZCu6b8pa.png?updatedAt=1683952481082) no-repeat center center;
-  text-indent: -9999px;
-}
+
 
 
 /* Mobile menu styles */
