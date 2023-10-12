@@ -22,7 +22,7 @@ tags:
   - long-life-noodles
   - sesame-oil
   - wok-ready-noodles
-  - Wok-Ready Noodles
+  - Wok Ready Noodles
 
   - Featured
 
@@ -75,8 +75,8 @@ SoySauceLight:
 SoySauceDark:
 TamariLightSoySauce:
 TamariOysterSauce:
-VermicelliRiceNoodles:
-WokReadyNoodles: 'wok-ready-noodles'
+VermicelliRiceNoodles: 
+WokReadyNoodles: 'WokReadyNoodles'
 
 
 ---
