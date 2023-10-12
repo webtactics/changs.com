@@ -6,12 +6,13 @@ permalink: "/products/changs-wok-ready-noodles/"
 WokReadyNoodles: wok-ready-noodles-collection
 productname: wok-ready-noodles
 tags:
-  - noodles
-  - gluten-free
-  - coles
-  - iga
+  - Noodles
+  - Gluten-Free
+  - Coles
+  - IGA
 image: https://ik.imagekit.io/webtactics/changs-media/products/Wok-Ready-Noodles_Dxen6n1Dd.webp
 sumimage: https://ik.imagekit.io/webtactics/changs-media/products/Wok-Ready-Noodles-300x200_0zdbZdX_5.webp
+bgimage: https://ik.imagekit.io/webtactics/changs/tr:w-1600,h-800,f-auto/img/recipes/mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-landscape-1.jpg
 imageAlt: Chang's Wok-Ready Noodles
 description: Chang’s Wok-Ready noodles are 99% fat free and convenient for quick meals.  No soaking or boiling required, just add straight to a stir fry for instant perfect results every time.
 metadescription: Chang’s Wok-Ready noodles are 99% fat free and convenient for quick meals.  No soaking or boiling required, just add straight to a stir fry for instant perfect results every time.

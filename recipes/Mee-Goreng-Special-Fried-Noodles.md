@@ -35,8 +35,7 @@ prep: 10 minutes
 makes: 
 cooking: 15 minutes
 difficulty: Easy
-imageFolders:
-  - name: mee-goreng-special-fried-noodles
+
 galleryimages:
   - url: mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-1.jpg
     alt: Mee Goreng Special Fried Noodles 1

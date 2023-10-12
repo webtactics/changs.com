@@ -45,8 +45,7 @@ prep: 10 minutes
 makes: 
 cooking: 15 minutes
 difficulty: Easy
-imageFolders:
-  - name: mongolian-lamb-noodles
+
 galleryimages:
   - url: mongolian-lamb-noodles/mongolian-lamb-noodles-1.jpg
     alt: Chang’s Mongolian Lamb Noodles 1
@@ -83,18 +82,49 @@ galleryimages:
 
 video: https://iframe.mediadelivery.net/embed/68279/3701e76e-de4b-44ba-877d-738a0d262b5c?autoplay=false
 
-CrunchyFriedNoodles:
-HokkienNoodles: hokkien-noodles
-OriginalFriedNoodles:
-OriginalHoisinSauce: original-hoisin-sauce
-OriginalOysterSauce:
-SesameOil: sesame-oil
-SoySauceLight:
-SoySauceDark:
-TamariLightSoySauce: tamari-light-soy-sauce
-TamariOysterSauce:
-VermicelliRiceNoodles:
-WokReadyNoodles: 'wok-ready-noodles'
+Black-Bean-Sauce:
+Chinese-Black-Pepper-Sauce:
+Crispy-Noodle-Salad-Dressing: 
+Changs-Crunchy-Fried-Noodles:
+Delicious-Mongolian-Style-Stir-Fry-Sauce:
+Egg-Noodles:
+Fish-Sauce:
+Gluten-Free-Fried-Noodles:
+Hoisin-Sauce:
+Hokkien-Style-Shelf-Fresh-Noodles: Hokkien-Style-Shelf-Fresh-Noodles
+Japanese-Ponzu-Sauce:
+Japanese-Teriyaki-Sauce:
+Japanese-Tonkatsu-Sauce:
+Japanese-Yakitori-Sauce:
+Kecap-Manis-Sweet-Soy-Sauce:
+Long-Life-Noodles:
+Master-Stock:
+Organic-Ramen-Noodles:
+Organic-Soba-Noodles:
+Original-Chinese-Sate-Sauce:
+Original-Fish-Sauce:
+Original-Fried-Noodles:
+Original-Hoisin-Sauce: Original-Hoisin-Sauce
+Original-Hot-Chilli-Sauce:
+Original-Oyster-Sauce:
+Savoury-Black-Bean-Stir-Fry-Sauce:
+Sesame-Oil: Sesame-Oil
+Soy-Sauce-Dark:
+Soy-Sauce-Light:
+Spicy-Sichuan-Style-Stir-Fry-Sauce:
+Sweet-Manchurian-Stir-Fry-Sauce:
+Tamari-Black-Bean-Sauce:
+Tamari-Hoisin-Sauce:
+Tamari-Light-Soy-Sauce: Tamari-Light-Soy-Sauce
+Tamari-Oyster-Sauce:
+Tasty-Sichuan-Style-Stir-Fry-Sauce:
+Thai-Style-Rice-Noodles:
+Traditional-Super-Lo-Cal-Noodles:
+Vermicelli-Rice-Noodles:
+Wok-Ready-Noodles: Wok-Ready-Noodles
+
+
+
 
 
 
