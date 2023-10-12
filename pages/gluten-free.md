@@ -15,8 +15,7 @@ eleventyNavigation:
  <div id="search"></div>
  </div>
  
-<h1>Gluten Free</h1>
-<h2 class="glutentitle">Products and Recipes</h2>
+
 
 <p>Whether you choose to avoid gluten for lifestyle or health reasons, going gluten-free doesn’t mean missing out. Chang’s has a great range of <a title="Gluten Free" href="gluten-free-products">gluten free</a> and <a title="Wheat-free-sauces" href="products/wheat-free-sauces">wheat free (tamari) products</a> options just for you!</p>
 <p>An Australian laboratory has independently tested all of our gluten-free products so if the label says ‘Gluten Free’ you can be worry free.</p>
