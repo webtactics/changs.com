@@ -35,7 +35,7 @@ products:
     url: /products/shelf-fresh-noodles-hokkien-style/
   - name: Chang's Wok Ready Noodles
     url: /products/wok-ready-noodles/
-    
+
 image: https://ik.imagekit.io/webtactics/changs/img/recipes/mongolian-lamb-noodles/mongolian-lamb-noodles-1.jpg
 bgimage: https://ik.imagekit.io/webtactics/changs-media/tr:w-1600,h-800,f-auto/slider/Mongolian-Lamb-Noodles-landscape-1600x800_wr5Ca0XEl.jpg?updatedAt=1685410886795
 imageAlt: Chang’s Mongolian Lamb Noodles
@@ -96,7 +96,7 @@ TamariOysterSauce:
 VermicelliRiceNoodles:
 WokReadyNoodles: 'wok-ready-noodles'
 
-productname: 'wok-ready-noodles'
+
 
 ---
 
