@@ -1,5 +1,5 @@
 ---
-layout: layouts/about.html
+layout: layouts/2-column.html
 title: We believe meals are not simply about mouthwatering food, they’re about family, friends, stories, love and laughter.
 metatitle: Great Asian Anyone Can Understand - Chang's Authentic Asian Cooking
 description: Chang’s is proudly a third-generation Australian owned family business, with father and daughter team Patrick and Elaine Pow heading the Sydney-based company and involved in every aspect of the business day-to-day.
