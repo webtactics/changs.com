@@ -15,13 +15,14 @@ tags:
   - Summer
   - Autumn
   - Spring
-  - Kid friendly
+  - Kid Friendly
 
   - crispy-noodle-salad-dressing
   - gluten-free-tamari-light-soy-sauce
   - long-life-noodles
   - sesame-oil
   - wok-ready-noodles
+  - Wok-Ready Noodles
 
   - Featured
 
