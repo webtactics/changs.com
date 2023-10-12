@@ -8,6 +8,8 @@
   --white50: hsla(0,0%,100%,0.6);
   --white75: rgba(255,255,255,0.75);
 	--red: #D90000;
+  --yellow: hsla(55.73, 93.36%, 52.75%, 1);
+  --yellow50: hsla(55.73, 93.36%, 52.75%, 0.5);
   --text: #333;
   --black: hsla(0,0%,0%,1);
   --black55: hsla(0,0%,0%,0.55);
@@ -157,7 +159,8 @@ color: var(--primary);
 }
 
 .container {
-  background-image: url('https://ik.imagekit.io/webtactics/changs/images/assets/bg/Chang-pattern-191x500-30.png');
+  background-color: var(--yellow50);
+  background-image: url('https://ik.imagekit.io/webtactics/changs/images/assets/bg/Chang-pattern-191x500-30-clear.png');
   background-repeat: repeat;}
 
 
