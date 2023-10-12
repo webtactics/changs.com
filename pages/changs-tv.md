@@ -1,5 +1,5 @@
 ---
-layout: layouts/default.njk
+layout: layouts/2-column.html
 title: Great Asian Anyone Can Understand
 metatitle: Great Asian Anyone Can Understand - Chang's Authentic Asian Cooking
 description: Need some Chang's cooking inspiration? Try our any of our simple recipes or product ideas below.
