@@ -116,7 +116,7 @@ h1.heading-text {
   text-align: left;
   line-height: 3.4rem;
   text-transform: capitalize;
-  background-color: var(--yellow50);
+  background-color: var(--white75);
   margin:0 0 3rem auto;
   padding:1rem;
   display: inline-block;
