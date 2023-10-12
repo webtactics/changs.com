@@ -21,6 +21,13 @@ layout: layouts/default.njk
     <li><a href="https://www.changs.com/why-changs/privacy-policy/" title="Privacy Policy" alt="Privacy Policy">Privacy Policy</a></li>
     </ul>
     </div>
+{% elseif page.url == "/changstv/" %}
+<div id="menu_vert">
+    <ul class="internal-nav">
+    <li><a href="/products/" title="Products" alt="Products">Products</a></li>
+    <li><a href="/recipes/" title="Recipes" alt="Recipes">Recipes</a></li>
+    </ul>
+    </div>
 {% else %}
 {% include "components/nav-side.njk" %}
 {% endif %}
