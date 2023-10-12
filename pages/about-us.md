@@ -29,9 +29,9 @@ eleventyNavigation:
 <div class="aboutimageone"> <a href="/products"><img src="https://www.changs.com/uploads/images/assets/190829-Original-Fried-Noodles.jpg" alt="Chang's Original Fried Noodles" title="Chang's Original Fried Noodles"></a> </div>
 </div>
 <div class="about-right">
-<h3>Our products</h3>
+<h2>Our Products</h2>
 <p>We are passionate about providing high-quality Asian noodles and sauces to Australian homes to help bring your favourite Asian dishes to life.</p>
-<p>We have a huge range of noodles and sauces available at your local supermarket – check out our full range here.</p>
+<p>We have a huge range of <a href="/products/noodles/" title="Changs Noodles products">noodles</a> and <a href="/products/sauces/" title="Changs Sauces products">sauces</a> available at your local supermarket – check out our <a href="/products/" title="Changs Sauces products">full range here.</a></p>
 <p>We were also one of the first grocery manufacturers to offer gluten-free alternatives, and today, all Chang’s sauces are free of gluten plus we have a tamari range for those with more serious wheat allergies. &nbsp;</p>
 <p>If there is an Asian noodle or sauce variety you feel we’re missing, we’d love for you to let us know. You can email us at <a href="mailto:service@changs.com">service@changs.com</a></p>
 </div>
