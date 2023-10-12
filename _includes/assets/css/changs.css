@@ -109,10 +109,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 h1.heading-text {
   color: var(--primary);
-  line-height: 3rem;
   font-family: 'Trocchi', serif;
   font-size: 3rem;
   text-align: left;
+  line-height: 4rem;
   text-transform: capitalize;
   background-color: var(--white);
   margin:0 0 2rem auto;
