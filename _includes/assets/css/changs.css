@@ -113,7 +113,7 @@ h1.heading-text {
   color: var(--primary);
   font-family: 'Trocchi', serif;
   font-size: 3rem;
-  text-align: right;
+  text-align: left;
   line-height: 3.4rem;
   text-transform: capitalize;
   background-color: var(--white50);
