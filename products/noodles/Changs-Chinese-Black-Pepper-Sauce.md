@@ -12,9 +12,9 @@ tags:
   - IGA
   - Changs-Chinese-Black-Pepper-Sauce
 
-image: https://ik.imagekit.io/webtactics/changs/tr:w-1000,h-1000,f-auto/img/products/Changs-Chinese-Black-Pepper-Sauce/Changs-Chinese-Black-Pepper-Sauce-150ml.jpg
+image: products/Changs-Chinese-Black-Pepper-Sauce/Changs-Chinese-Black-Pepper-Sauce-150ml.jpg
 
-bgimage: https://ik.imagekit.io/webtactics/changs/tr:w-1600,h-800,f-auto/img/recipes/black-pepper-lamb-and-green-beans/black-pepper-lamb-and-green-beans-1600x800.jpg
+bgimage: recipes/black-pepper-lamb-and-green-beans/black-pepper-lamb-and-green-beans-1600x800.jpg
 imageAlt: Changs Chinese Black Pepper Sauce
 description: Chang’s Wok-Ready noodles are 99% fat free and convenient for quick meals.  No soaking or boiling required, just add straight to a stir fry for instant perfect results every time.
 metadescription: Chang’s Wok-Ready noodles are 99% fat free and convenient for quick meals.  No soaking or boiling required, just add straight to a stir fry for instant perfect results every time.
