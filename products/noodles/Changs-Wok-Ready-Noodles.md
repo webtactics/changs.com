@@ -10,7 +10,7 @@ tags:
   - Gluten-Free
   - Coles
   - IGA
-  - Changs-Wok-Ready-Noodles
+  - Changs Wok-Ready Noodles
 
 image: https://ik.imagekit.io/webtactics/changs/img/products/Changs-Wok-Ready-Noodles/Changs-Wok-Ready-Noodles-1200x1200.jpg
 bgimage: https://ik.imagekit.io/webtactics/changs/img/recipes/mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-landscape-1.jpg
