@@ -117,27 +117,6 @@ section: post
 
 
 
- <div class="NewsSummaryPrice detail"> 
- <h4>Pricing</h4>
-<div class="grid-timecost"> 
-   <div class="sidebarwrapper2">
-    <h3>Wok Read Noodles</h3>
-{% set postslist = collections['Wok Ready Noodles'] %}
-  {% include "components/postslist.njk" %}
-  </div>
-
-{% if WokReadyNoodles %}
-<h1>WokReadyNoodles</h1>
-{% set postslist = collections['wok-ready-noodles'] %}
-{% include "components/postslist.njk" %}
-{% endif %}
-
-{% if time30 %}<div class="timecostwrapper"><span class="timecostmin">30 min:</span>{{ time30 }}</div>{% endif %}
-{% if time45 %}<div class="timecostwrapper"><span class="timecostmin">45 min:</span>{{ time45 }}</div>{% endif %}
-{% if time60 %}<div class="timecostwrapper"><span class="timecostmin">60 min:</span>{{ time60 }}</div>{% endif %}
-{% if time90 %}<div class="timecostwrapper"><span class="timecostmin">90 min:</span>{{ time90 }}</div>{% endif %}
-{% if time120 %}<div class="timecostwrapper"><span class="timecostmin">120 min:</span>{{ time120 }}</div>{% endif %}
-</div>	</div>	
 
 {% if galleryimages %}
  <div class="gallery">
