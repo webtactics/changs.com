@@ -146,6 +146,12 @@ section: post
 </div>
 <div class="detailsidebar">
 <aside>
+    {% if "recipesChangsChineseBlackPepperSauce" %}
+    <h1>Changs Wok Ready Noodles 5</h1>
+    {% set postslist = collections['Changs Wok Ready Noodles'] %}
+    {% include "components/postslist.njk" %}
+    {% endif %}
+
 {% if "ChangsChineseBlackPepperSauce" in page.data.recipes %}
 <h1>Changs Wok Ready Noodles</h1>
 {% set postslist = collections['Changs Wok Ready Noodles'] %}
@@ -170,7 +176,18 @@ section: post
 {% include "components/postslist.njk" %}
 {% endif %}
 
-ChangsWokReadyNoodles
+{% if recipes %}
+  <div class="tag"><h4>Tags</h4>
+  <ul>
+{% for recipes in  %}
+  {%- if tag != "post" -%}
+    {% set tagUrl %}/tagged/{{ tag }}/{% endset %}
+   <li><a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a></li>
+  {%- endif -%}
+{% endfor %}
+  </ul>
+</div>
+{% endif %}
 </aside>
 </div>
 </div>
