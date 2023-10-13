@@ -152,13 +152,17 @@ section: post
     {% include "components/postslist.njk" %}
     {% endif %}
 
-    {% if recipesChangsChineseBlackPepperSauce %}
+    {% if recipes.ChangsChineseBlackPepperSauce %}
     <h1>Changs Wok Ready Noodles 5s</h1>
     {% set postslist = collections['Changs Wok Ready Noodles'] %}
     {% include "components/postslist.njk" %}
     {% endif %}
 
-
+    {% if "recipes.ChangsChineseBlackPepperSauce" %}
+    <h1>Changs Wok Ready Noodles 5t</h1>
+    {% set postslist = collections['Changs Wok Ready Noodles'] %}
+    {% include "components/postslist.njk" %}
+    {% endif %}
 
 {% if prodChangsWokReadyNoodles %}
 <h1>Changs Wok Ready Noodles 2</h1>
