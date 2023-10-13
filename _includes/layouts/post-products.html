@@ -152,17 +152,9 @@ section: post
     {% include "components/postslist.njk" %}
     {% endif %}
 
-{% if "ChangsChineseBlackPepperSauce" in page.data.recipes %}
-<h1>Changs Wok Ready Noodles</h1>
-{% set postslist = collections['Changs Wok Ready Noodles'] %}
-{% include "components/postslist.njk" %}
-{% endif %}
 
-{% if "ChangsChineseBlackPepperSauce" in recipes %}
-<h1>Changs Wok Ready Noodles recipes</h1>
-{% set postslist = collections['Changs Wok Ready Noodles'] %}
-{% include "components/postslist.njk" %}
-{% endif %}
+
+
 
 {% if prodChangsWokReadyNoodles %}
 <h1>Changs Wok Ready Noodles 2</h1>
