@@ -2,14 +2,16 @@
 title: Chang's Wok-Ready Noodles
 author: Paul Goldsmith
 date: 2023-04-19
-permalink: "/products/changs-wok-ready-noodles/"
-WokReadyNoodles: wok-ready-noodles-collection
+permalink: "/products/Changs-Wok-Ready-Noodles/"
+Changs-Wok-Ready-Noodles: Changs-Wok-Ready-Noodles-Collection
 productname: wok-ready-noodles
 tags:
   - Noodles
   - Gluten-Free
   - Coles
   - IGA
+  - Changs-Wok-Ready-Noodles
+
 image: https://ik.imagekit.io/webtactics/changs-media/products/Wok-Ready-Noodles_Dxen6n1Dd.webp
 sumimage: https://ik.imagekit.io/webtactics/changs-media/products/Wok-Ready-Noodles-300x200_0zdbZdX_5.webp
 bgimage: https://ik.imagekit.io/webtactics/changs/tr:w-1600,h-800,f-auto/img/recipes/mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-landscape-1.jpg
