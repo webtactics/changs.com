@@ -4,7 +4,7 @@ author: Paul Goldsmith
 date: 2023-04-19
 permalink: "/products/Changs-Wok-Ready-Noodles/"
 Changs-Wok-Ready-Noodles: Changs-Wok-Ready-Noodles-Collection
-productname: Changs-Wok-Ready-Noodles
+
 tags:
   - Noodles
   - Gluten-Free
