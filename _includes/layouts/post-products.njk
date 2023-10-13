@@ -9,11 +9,9 @@ section: post
 <article>
 
 
-<div class="item blogdetail">
-<h1 class="heading-text">{{ title }}</h1>
+<div class="item blogdetail"
+<div class="blogdetailimage" align="center"><img src="{{ image }}" alt="{{ imageAlt }}" title="{{ imageAlt }}"></div>
 {% if GTIN %}<div class="timecostwrapper"><span class="timecostmin">GTIN:</span>{{ GTIN }}</div>{% endif %}
-
-<div class="blogdetailimage" align="center"><img src="{{ image }}/tr:w-1000,h-1000" alt="{{ imageAlt }}" title="{{ imageAlt }}"></div>
 <div class="detailcontent">     
 {{ layoutContent | safe }}</div>
 

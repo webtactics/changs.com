@@ -1,21 +1,21 @@
 ---
-title: Chang's Wok-Ready Noodles
+title: Changs Chinese Black Pepper Sauce
 author: Paul Goldsmith
 date: 2023-04-19
-permalink: "/products/Changs-Wok-Ready-Noodles/"
-Changs-Wok-Ready-Noodles: Changs-Wok-Ready-Noodles-Collection
-productname: Changs-Wok-Ready-Noodles
+permalink: "/products/Changs-Chinese-Black-Pepper-Sauce/"
+Changs-Chinese-Black-Pepper-Sauce: Changs-Chinese-Black-Pepper-Sauce-Collection
+productname: Changs-Chinese-Black-Pepper-Sauce
 tags:
-  - Noodles
+  - Sauces
   - Gluten-Free
   - Coles
   - IGA
-  - Changs-Wok-Ready-Noodles
+  - Changs-Chinese-Black-Pepper-Sauce
 
-image: https://ik.imagekit.io/webtactics/changs/tr:w-1000,h-1000,f-auto/img/products/Changs-Wok-Ready-Noodles/Changs-Wok-Ready-Noodles-1200x1200.jpg
+image: https://ik.imagekit.io/webtactics/changs/tr:w-1000,h-1000,f-auto/img/products/Changs-Chinese-Black-Pepper-Sauce/Changs-Chinese-Black-Pepper-Sauce-150ml.jpg
 
-bgimage: https://ik.imagekit.io/webtactics/changs/tr:w-1600,h-800,f-auto/img/recipes/mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-landscape-1.jpg
-imageAlt: Chang's Wok-Ready Noodles
+bgimage: https://ik.imagekit.io/webtactics/changs/tr:w-1600,h-800,f-auto/img/recipes/black-pepper-lamb-and-green-beans/black-pepper-lamb-and-green-beans-1600x800.jpg
+imageAlt: Changs Chinese Black Pepper Sauce
 description: Chang’s Wok-Ready noodles are 99% fat free and convenient for quick meals.  No soaking or boiling required, just add straight to a stir fry for instant perfect results every time.
 metadescription: Chang’s Wok-Ready noodles are 99% fat free and convenient for quick meals.  No soaking or boiling required, just add straight to a stir fry for instant perfect results every time.
 GTIN: 9300777092705
@@ -48,10 +48,10 @@ allergen1: This product is nut free
 
 
 galleryimages:
-  - url: Changs-Wok-Ready-Noodles/Changs-Wok-Ready-Noodles-gallery-1.jpg
-    alt: Chang's Wok-Ready Noodles front
-  - url: Changs-Wok-Ready-Noodles/Changs-Wok-Ready-Noodles-gallery-2.jpg
-    alt: Chang's Wok-Ready Noodles back
+  - url: Changs-Chinese-Black-Pepper-Sauce/Changs-Chinese-Black-Pepper-Sauce-gallery-1.jpg
+    alt: Changs Chinese Black Pepper Sauce front
+  - url: Changs-Chinese-Black-Pepper-Sauce/Changs-Chinese-Black-Pepper-Sauce-gallery-2.jpg
+    alt: Changs Chinese Black Pepper Sauce back
 
 
 coles: https://www.coles.com.au/search?q=Chang%27s
