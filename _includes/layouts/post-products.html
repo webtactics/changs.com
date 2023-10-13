@@ -153,6 +153,11 @@ section: post
 {% endif %}
 
 
+{% if prodChangsWokReadyNoodles %}
+<h1>Changs Wok Ready Noodles</h1>
+{% set postslist = collections['Changs Wok Ready Noodles'] %}
+{% include "components/postslist.njk" %}
+{% endif %}
 </aside>
 </div>
 </div>
