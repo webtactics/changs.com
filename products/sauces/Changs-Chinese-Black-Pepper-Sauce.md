@@ -1,5 +1,5 @@
 ---
-title: Changs Chinese Black Pepper Sauce
+title: Chang's Chinese Black Pepper Sauce
 author: Paul Goldsmith
 date: 2023-04-19
 permalink: "/products/Changs-Chinese-Black-Pepper-Sauce/"
@@ -10,7 +10,7 @@ tags:
   - Gluten-Free
   - Coles
   - IGA
-  - Changs-Chinese-Black-Pepper-Sauce
+  - Changs Chinese Black Pepper Sauce
 
 image: https://ik.imagekit.io/webtactics/changs/img/products/Changs-Chinese-Black-Pepper-Sauce/Changs-Chinese-Black-Pepper-Sauce-150ml.jpg
 
