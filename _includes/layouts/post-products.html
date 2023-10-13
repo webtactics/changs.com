@@ -48,18 +48,19 @@ section: post
 
   <h1>Recipes</h1>
 
+
+  
+  <h1>Recipes</h1>
+  
   <ul>
-    {% for recipe, available in page.data.recipes %}
+    {% for recipe in page.data.recipesline %}
       <li>
-        <h2>{{ recipe }}</h2>
-        {% if available %}
-          <p>This recipe is available.</p>
-        {% else %}
-          <p>This recipe is not available.</p>
-        {% endif}
+        <h2>{{ recipee }}</h2>
+        <!-- Add any content related to the recipe here -->
       </li>
     {% endfor %}
   </ul>
+  
 
 
 
