@@ -99,8 +99,9 @@ section: post
 {% if time120 %}<div class="timecostwrapper"><span class="timecostmin">120 min:</span>{{ time120 }}</div>{% endif %}
 </div>	</div>	
 
+{% if galleryimages %}
  <div class="gallery">
-{% include "components/gallery.njk" %}
+{% include "components/gallery-products.njk" %}
 </div>
 
 
