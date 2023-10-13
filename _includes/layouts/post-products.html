@@ -46,7 +46,20 @@ section: post
   </div>
 
 
+  <h1>Recipes</h1>
 
+  <ul>
+    {% for recipe, available in page.data.recipes %}
+      <li>
+        <h2>{{ recipe }}</h2>
+        {% if available %}
+          <p>This recipe is available.</p>
+        {% else %}
+          <p>This recipe is not available.</p>
+        {% endif}
+      </li>
+    {% endfor %}
+  </ul>
 
 
 
@@ -152,7 +165,7 @@ section: post
     {% include "components/postslist.njk" %}
     {% endif %}
 
-    {% if recipes.ChangsChineseBlackPepperSauce %}
+    {% if "Changs Wok-Ready Noodles" %}
     <h1>Changs Wok Ready Noodles 5s</h1>
     {% set postslist = collections['Changs Wok Ready Noodles'] %}
     {% include "components/postslist.njk" %}
