@@ -151,11 +151,30 @@ section: post
     {% include "components/postslist.njk" %}
     {% endif %}
 
-    {% if "Changs Wok-Ready Noodles" %}
-    <h1>Changs Wok Ready Noodles 5s</h1>
+    {% if "Changs Chinese Black Pepper Sauce" %}
+    <h1>Changs Chinese Black Pepper Sauce</h1>
+    {% set postslist = collections['Changs Chinese Black Pepper Sauce'] %}
+    {% include "components/postslist.njk" %}
+    {% elif Changs Crispy Noodle Salad Dressing %}
+        <h1>Changs Crispy Noodle Salad Dressing</h1>
+        {% set postslist = collections['Changs Crispy Noodle Salad Dressing'] %}
+    {% include "components/postslist.njk" %}
+    
+        {% elif Changs Crunchy Fried Noodles %}
+            <h1>Changs Crunchy Fried Noodles</h1>
+            {% set postslist = collections['Changs Crunchy Fried Noodles'] %}
+    {% include "components/postslist.njk" %}
+    
+            {% elif Changs Delicious Mongolian Style Stir Fry Sauce\n %}
+                <h1>Changs Delicious Mongolian Style Stir Fry Sauce\n</h1>
+                {% set postslist = collections['Changs Delicious Mongolian Style Stir Fry Sauce\n'] %}
+    {% include "components/postslist.njk" %}
+    
+               {% elif "Changs Wok-Ready Noodles" %}
+    <h1>Changs Wok Ready Noodles 5s2</h1>
     {% set postslist = collections['Changs Wok Ready Noodles'] %}
     {% include "components/postslist.njk" %}
-    {% endif %}
+     {% endif %}
 
     {% if "recipes.ChangsChineseBlackPepperSauce" %}
     <h1>Changs Wok Ready Noodles 5t</h1>
