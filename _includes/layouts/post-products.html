@@ -172,18 +172,7 @@ section: post
 {% include "components/postslist.njk" %}
 {% endif %}
 
-{% if recipes %}
-  <div class="tag"><h4>Tags</h4>
-  <ul>
-{% for recipes in  %}
-  {%- if tag != "post" -%}
-    {% set tagUrl %}/tagged/{{ tag }}/{% endset %}
-   <li><a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a></li>
-  {%- endif -%}
-{% endfor %}
-  </ul>
-</div>
-{% endif %}
+
 </aside>
 </div>
 </div>
