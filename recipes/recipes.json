@@ -3,7 +3,7 @@
     "permalink": "recipes/{{ title | slug }}/index.html",
     "author": "Chang's",
     "tags": [
-      "recipes", "main-ingredient-selector"
+      "Recipes"
     ]
   }
   
