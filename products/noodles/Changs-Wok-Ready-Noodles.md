@@ -12,9 +12,8 @@ tags:
   - IGA
   - Changs-Wok-Ready-Noodles
 
-image: products/Changs-Wok-Ready-Noodles/Changs-Wok-Ready-Noodles-1200x1200.jpg
-
-bgimage: recipes/mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-landscape-1.jpg
+image: https://ik.imagekit.io/webtactics/changs/img/products/Changs-Wok-Ready-Noodles/Changs-Wok-Ready-Noodles-1200x1200.jpg
+bgimage: https://ik.imagekit.io/webtactics/changs/img/recipes/mee-goreng-special-fried-noodles/mee-goreng-special-fried-noodles-landscape-1.jpg
 imageAlt: Chang's Wok-Ready Noodles
 description: Chang’s Wok-Ready noodles are 99% fat free and convenient for quick meals.  No soaking or boiling required, just add straight to a stir fry for instant perfect results every time.
 metadescription: Chang’s Wok-Ready noodles are 99% fat free and convenient for quick meals.  No soaking or boiling required, just add straight to a stir fry for instant perfect results every time.
