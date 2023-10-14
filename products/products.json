@@ -1,5 +1,5 @@
 {
-    "layout": "layouts/post-products.html",
+    "layout": "layouts/post-products.njk",
     "permalink": "products/{{ title | slug }}/index.html",
     "author": "Anonymous",
     "tags": [

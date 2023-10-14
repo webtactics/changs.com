@@ -10,12 +10,63 @@ section: post
 
 
 <div class="item blogdetail">
-<div class="blogdetailimage" align="center"><img src="{{ image }}/tr:w-1000,h-1000,f-auto" alt="{{ imageAlt }}" title="{{ imageAlt }}"></div>
+<div class="blogdetailimage" align="center"><img src="{{ image }}?tr=w-800,h-800" alt="{{ imageAlt }}" title="{{ imageAlt }}"></div>
 {% if GTIN %}<div class="timecostwrapper"><span class="timecostmin">GTIN:</span>{{ GTIN }}</div>{% endif %}
 <div class="detailcontent">     
 {{ layoutContent | safe }}</div>
 
-{{ productname }}
+<h1>Nutrition Information</h1>
+
+<div class="grid-container">
+    <div class="grid-item">
+      <h2>Nutrition Information</h2>
+      <ul>
+        <li>Servings per Pack: {{ nutrition.servesPerPack }}</li>
+        <li>Serving Size: {{ nutrition.servingSize }}</li>
+        <li>Energy per Serve: {{ nutrition.energyPerServe }}</li>
+        <li>Energy per 100g: {{ nutrition.energyPer100g }}</li>
+        <li>Protein per Serve: {{ nutrition.proteinPerServe }}</li>
+        <li>Protein per 100g: {{ nutrition.proteinPer100g }}</li>
+        <li>Total Fat per Serve: {{ nutrition.fatTotalPerServe }}</li>
+        <li>Total Fat per 100g: {{ nutrition.fatTotalPer100g }}</li>
+      </ul>
+    </div>
+    <div class="grid-item">
+      <ul>
+        <li>Saturated Fat per Serve: {{ nutrition.fatSaturatedPerServe }}</li>
+        <li>Saturated Fat per 100g: {{ nutrition.fatSaturatedPer100g }}</li>
+        <li>Carbohydrate per Serve: {{ nutrition.carbohydratePerServe }}</li>
+        <li>Carbohydrate per 100g: {{ nutrition.carbohydratePer100g }}</li>
+        <li>Carbohydrate Sugars per Serve: {{ nutrition.carbohydrateSugarsPerServe }}</li>
+        <li>Carbohydrate Sugars per 100g: {{ nutrition.carbohydrateSugarsPer100g }}</li>
+        <li>Sodium per Serve: {{ nutrition.sodiumPerServe }}</li>
+        <li>Sodium per 100g: {{ nutrition.sodiumPer100g }}</li>
+      </ul>
+    </div>
+  </div>
+
+
+  <h1>Recipes</h1>
+
+
+  
+
+  
+
+
+  <ul>
+    {% for recipe in page.data.recipesss %}
+      <li>
+        <h2>{{ recipe.name }}</h2>
+        {% if recipe.available %}
+          <p>This recipe is available.</p>
+        {% else %}
+          <p>This recipe is not available.</p>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+  
 
 
 
@@ -68,41 +119,17 @@ section: post
   {% include "components/postslist-sidebar.njk" %}
 
 
-{% if productname %}
-<div class="gallery">
-{% include "components/product-recipe-collection.njk" %}
-</div>
-{% endif %}
 
 
 
 
- <div class="NewsSummaryPrice detail"> 
- <h4>Pricing</h4>
-<div class="grid-timecost"> 
-   <div class="sidebarwrapper2">
-    <h3>Wok Read Noodles</h3>
-{% set postslist = collections['Wok Ready Noodles'] %}
-  {% include "components/postslist.njk" %}
-  </div>
 
-{% if WokReadyNoodles %}
-<h1>WokReadyNoodles</h1>
-{% set postslist = collections['wok-ready-noodles'] %}
-{% include "components/postslist.njk" %}
-{% endif %}
 
-{% if time30 %}<div class="timecostwrapper"><span class="timecostmin">30 min:</span>{{ time30 }}</div>{% endif %}
-{% if time45 %}<div class="timecostwrapper"><span class="timecostmin">45 min:</span>{{ time45 }}</div>{% endif %}
-{% if time60 %}<div class="timecostwrapper"><span class="timecostmin">60 min:</span>{{ time60 }}</div>{% endif %}
-{% if time90 %}<div class="timecostwrapper"><span class="timecostmin">90 min:</span>{{ time90 }}</div>{% endif %}
-{% if time120 %}<div class="timecostwrapper"><span class="timecostmin">120 min:</span>{{ time120 }}</div>{% endif %}
-</div>	</div>	
-
+{% if galleryimages %}
  <div class="gallery">
-{% include "components/gallery.njk" %}
+{% include "components/gallery-products.njk" %}
 </div>
-
+{% endif %}
 
 
 
@@ -118,9 +145,39 @@ section: post
 </div>
 <div class="detailsidebar">
 <aside>
-{% if WokReadyNoodles %}
-<h1>WokReadyNoodles</h1>
-{% set postslist = collections['Wok Ready Noodles'] %}
+    {% if "recipesChangsChineseBlackPepperSauce" %}
+    <h1>Changs Wok Ready Noodles 5</h1>
+    {% set postslist = collections['Changs Wok Ready Noodles'] %}
+    {% include "components/postslist.njk" %}
+    {% endif %}
+
+    {% if "Changs Chinese Black Pepper Sauce" %}
+    <h1>Changs Chinese Black Pepper Sauce</h1>
+    {% set postslist = collections['Changs Chinese Black Pepper Sauce'] %}
+    {% include "components/postslist.njk" %}
+    {% endif %}
+    
+    {% if "Changs Wok-Ready Noodles" %}
+    <h1>Changs Wok Ready Noodles 5s2</h1>
+    {% set postslist = collections['Changs Wok Ready Noodles'] %}
+    {% include "components/postslist.njk" %}
+     {% endif %}
+
+    {% if "recipes.ChangsChineseBlackPepperSauce" %}
+    <h1>Changs Wok Ready Noodles 5t</h1>
+    {% set postslist = collections['Changs Wok Ready Noodles'] %}
+    {% include "components/postslist.njk" %}
+    {% endif %}
+
+{% if prodChangsWokReadyNoodles %}
+<h1>Changs Wok Ready Noodles 2</h1>
+{% set postslist = collections['Changs Wok Ready Noodles'] %}
+{% include "components/postslist.njk" %}
+{% endif %}
+
+{% if ChangsWokReadyNoodles %}
+<h1>Changs Wok Ready Noodles 3</h1>
+{% set postslist = collections['Changs Wok Ready Noodles'] %}
 {% include "components/postslist.njk" %}
 {% endif %}
 
