@@ -57,7 +57,7 @@ section: post
 <div class="sidebarwrapper2">
 <h3>ChangsWokReadyNoodles</h3>
 {% set postslist = collections['Changs-Chinese-Black-Pepper-Sauce'] %}
-  {% include "components/postslist-sidebar.njk" %}
+  {% include "components/postslist-products-in-recipes-sidebar.njk" %}
 </div>
 {% endif %}
     
@@ -65,75 +65,19 @@ section: post
 <div class="sidebarwrapper2">
 <h3>ChangsTamariHoisinSauce</h3>
 {% set postslist = collections['Changs-Chinese-Black-Pepper-Sauce'] %}
-  {% include "components/postslist-sidebar.njk" %}
+  {% include "components/postslist-products-in-recipes-sidebar.njk" %}
 </div>
 {% endif %}
 {% if ChangsTamariOysterSauce %}
 <div class="sidebarwrapper2">
 <h3>ChangsTamariOysterSauce</h3>
 {% set postslist = collections['Changs-Wok-Ready-Noodles'] %}
-  {% include "components/postslist-sidebar.njk" %}
+  {% include "components/postslist-products-in-recipes-sidebar.njk" %}
 </div>
 {% endif %}
 
 
 
-{% if "Changs Chinese Black Pepper Sauce" %}
-<div class="sidebarwrapper2">
-<h3>"Changs Chinese Black Pepper Sauce"</h3>
-{% set postslist = collections['Changs-Chinese-Black-Pepper-Sauce'] %}
-  {% include "components/postslist-sidebar.njk" %}
-</div>
-{% endif %}
-
-
-{% if "Changs Crispy Noodle Salad Dressing" %}
-<div class="sidebarwrapper2">
-<h3>"Changs Crispy Noodle Salad Dressing"</h3>
-{% set postslist = collections['Changs-Crispy-Noodle-Salad-Dressing'] %}
-  {% include "components/postslist-sidebar.njk" %}
-</div>
-{% endif %}
-
-{% if "Changs Crunchy Fried Noodles" %}
-<div class="sidebarwrapper2">
-<h3>"Changs Crunchy Fried Noodles"</h3>
-{% set postslist = collections['Changs-Crunchy-Fried-Noodles'] %}
-  {% include "components/postslist-sidebar.njk" %}
-</div>
-{% endif %}
-
-{% if "Changs Delicious Mongolian Style Stir Fry Sauce" %}
-<div class="sidebarwrapper2">
-<h3>"Changs Delicious Mongolian Style Stir Fry Sauce"</h3>
-{% set postslist = collections['Changs-Delicious-Mongolian-Style-Stir-Fry-Sauce'] %}
-  {% include "components/postslist-sidebar.njk" %}
-</div>
-{% endif %}
-
-{% if "Changs Egg Noodles" %}
-<div class="sidebarwrapper2">
-<h3>"Changs Egg Noodles"</h3>
-{% set postslist = collections['Changs-Egg-Noodles'] %}
-  {% include "components/postslist-sidebar.njk" %}
-</div>
-{% endif %}
-
-
-
-{% for post in collections['Changs-Wok-Ready-Noodles'] %}
-  <h2>{{ post.data.title }}</h2>
-  {{ post.data.image }}
-  <p>{{ post.data.content }}</p>
-{% endfor %}
-
-{% if ChangsWokReadyNoodles %}
-{% for post in collections['Changs-Wok-Ready-Noodles'] %}
-  <h2>{{ post.data.title }}</h2>
-  {{ post.data.image }}
-  <p>{{ post.data.content }}</p>
-{% endfor %}
-{% endif %}
 
 
 
@@ -143,26 +87,6 @@ section: post
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-  
-{% if "Changs Wok-Ready Noodles" %}
-<div class="sidebarwrapper2">
-<h3>"Changs Wok-Ready Noodles"</h3>
-{% set postslist = collections['Changs-Wok-Ready-Noodles'] %}
-  {% include "components/postslist-sidebar.njk" %}
-</div>
-{% endif %}
 
 
 
