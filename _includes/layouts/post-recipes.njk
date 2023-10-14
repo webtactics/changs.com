@@ -68,6 +68,14 @@ section: post
   {% include "components/postslist-sidebar.njk" %}
 </div>
 {% endif %}
+{% if ChangsTamariOysterSauce %}
+<div class="sidebarwrapper2">
+<h3>ChangsTamariOysterSauce</h3>
+{% set postslist = collections['Changs-Wok-Ready-Noodles'] %}
+  {% include "components/postslist-sidebar.njk" %}
+</div>
+{% endif %}
+
 
 
 {% if "Changs Chinese Black Pepper Sauce" %}
@@ -119,13 +127,13 @@ section: post
   <p>{{ post.data.content }}</p>
 {% endfor %}
 
-
+{% if ChangsWokReadyNoodles %}
 {% for post in collections['Changs-Wok-Ready-Noodles'] %}
   <h2>{{ post.data.title }}</h2>
   {{ post.data.image }}
   <p>{{ post.data.content }}</p>
 {% endfor %}
-
+{% endif %}
 
 
 
