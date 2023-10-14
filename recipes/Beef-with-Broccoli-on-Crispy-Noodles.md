@@ -17,20 +17,13 @@ tags:
   - Kid Friendly
 
 
-
-  - Changs Sesame Oil
-  - Changs Soy Sauce Dark
-  - Changs Tamari Light Soy Sauce
-  - Changs Wok-Ready Noodles
-
-  - Changs Crunchy Fried Noodles
-  - Changs Original Fried Noodles
-  - Changs Original Oyster Sauce
   - Changs Vermicelli Rice Noodles
+  - Changs Crunchy Fried Noodles
+  - Changs Original Oyster Sauce
   - Changs Soy Sauce Light
-  - Changs Tamari Light Soy Sauce
-  - Changs Tamari Oyster Sauce
-  - Changs Soy Sauce Light
+  - Changs Soy Sauce Dark
+
+
 
 
   - Featured
@@ -44,18 +37,7 @@ makes:
 difficulty: Easy
 
 
-CrunchyFriedNoodles:
-HokkienNoodles:
-OriginalHoisinSauce:
-OriginalFriedNoodles: 'original-fried-noodles'
-OriginalOysterSauce: 'original-oyster-sauce'
-SesameOil:
-SoySauceLight:
-SoySauceDark: 'soy-sauce-dark'
-TamariLightSoySauce: 'tamari-light-soy-sauce'
-TamariOysterSauce: 'tamari-oyster-sauce'
-VermicelliRiceNoodles: 'vermicelli-rice-noodles'
-WokReadyNoodles:
+
 
 ---
 
