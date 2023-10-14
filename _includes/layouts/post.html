@@ -4,19 +4,14 @@ section: post
 ---
 
 
- <div class="grid-2-columns-2x1">
+ <div class="grid-2-columns-3x1">
  <div class="detailwrapper">
 <article>
 
-
 <div class="item blogdetail">
-
-
 
 <div class="blogdetailimage" align="center"><img src="{{ image }}?tr=w-800,h-1200" alt="{{ imageAlt }}" title="{{ imageAlt }}"></div>
 <div class="detailcontent">    
-{% if SoySauceLight %}<div><span class="timecostmin">30 min:</span>{{ SoySauceLight }}</div>{% endif %}
-
 {{ layoutContent | safe }}
 </div>
 
@@ -38,13 +33,15 @@ section: post
 {% endif %}
 
 {% if tags %}
-<div class="NewsSummaryPrice detail"><h4>Tags</h4>
+  <div class="tag"><h4>Tags</h4>
+  <ul>
 {% for tag in tags %}
   {%- if tag != "post" -%}
     {% set tagUrl %}/tagged/{{ tag }}/{% endset %}
-   <div class="tag"><a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a></div>
+   <li><a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a></li>
   {%- endif -%}
 {% endfor %}
+  </ul>
 </div>
 {% endif %}
   
@@ -128,10 +125,10 @@ section: post
 {% endif %}
 
  {% if WokReadyNoodles %}
-<h3>WokReadyNoodles</h3>
 {% include "components/products/wok-ready-noodles.njk" %}
 {% endif %}
 
+{% if SoySauceLight %}<div><span class="timecostmin">30 min:</span>{{ SoySauceLight }}</div>{% endif %}
 
 
   <div class="sidebarwrapper2">
@@ -139,11 +136,13 @@ section: post
   {% include "components/postslist-sidebar.njk" %}
   </div>
   
-   <div class="sidebarwrapper2">
-{% set postslist = collections['Main Meals'] %}
-  {% include "components/postslist-sidebar.njk" %}
-  </div>
-  
+{% if "Changs-Wok-Ready-Noodles" %}
+<div class="sidebarwrapper2">
+<h3>Changs-Wok-Ready-Noodles</h3>
+{% set postslist = collections['Changs-Wok-Ready-Noodles'] %}
+{% include "components/postslist.njk" %}
+</div>
+{% endif %}
   
   </aside>
 </div>

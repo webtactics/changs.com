@@ -8,15 +8,10 @@ section: post
  <div class="detailwrapper">
 <article>
 
-
 <div class="item blogdetail">
-
-
 
 <div class="blogdetailimage" align="center"><img src="{{ image }}?tr=w-800,h-1200" alt="{{ imageAlt }}" title="{{ imageAlt }}"></div>
 <div class="detailcontent">    
-{% if SoySauceLight %}<div><span class="timecostmin">30 min:</span>{{ SoySauceLight }}</div>{% endif %}
-
 {{ layoutContent | safe }}
 </div>
 
@@ -133,6 +128,7 @@ section: post
 {% include "components/products/wok-ready-noodles.njk" %}
 {% endif %}
 
+{% if SoySauceLight %}<div><span class="timecostmin">30 min:</span>{{ SoySauceLight }}</div>{% endif %}
 
 
   <div class="sidebarwrapper2">
@@ -140,12 +136,21 @@ section: post
   {% include "components/postslist-sidebar.njk" %}
   </div>
   
-   <div class="sidebarwrapper2">
-    <h3>Wok Read Noodles</h3>
-{% set postslist = collections['Wok Ready Noodles'] %}
-  {% include "components/postslist.njk" %}
-  </div>
-  
+{% if "Changs-Wok-Ready-Noodles" %}
+<div class="sidebarwrapper2">
+<h3>"Changs-Wok-Ready-Noodles"</h3>
+{% set postslist = collections['Changs-Wok-Ready-Noodles'] %}
+{% include "components/postslist.njk" %}
+</div>
+{% endif %}
+
+{% if ['Changs-Wok-Ready-Noodles'] %}
+<div class="sidebarwrapper2">
+<h3>'Changs-Wok-Ready-Noodles'</h3>
+{% set postslist = collections['Changs-Wok-Ready-Noodles'] %}
+{% include "components/postslist.njk" %}
+</div>
+{% endif %}
   
   </aside>
 </div>
