@@ -3,19 +3,6 @@ title: Chang's Wok-Ready Noodles
 author: Paul Goldsmith
 date: 2023-04-19
 permalink: "/products/Changs-Wok-Ready-Noodles/"
-prodChangsWokReadyNoodles: Changs-Wok-Ready-Noodles-Collection
-
-
-
-
-recipes:
-  - name: ChangsChineseBlackPepperSauce
-    available: true
-  - name: ChangsCrispyNoodleSaladDressing
-    available: 
-  - name: ChangsCrunchyFriedNoodles
-    available: 
-
 
 
 
@@ -24,6 +11,7 @@ tags:
   - Gluten-Free
   - Coles
   - IGA
+  - Changs-Wok-Ready-Noodles
 
 
 image: https://ik.imagekit.io/webtactics/changs/img/products/Changs-Wok-Ready-Noodles/Changs-Wok-Ready-Noodles-1200x1200.jpg

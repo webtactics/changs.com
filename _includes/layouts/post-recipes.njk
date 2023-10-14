@@ -53,6 +53,11 @@ section: post
 <aside>
 
 
+
+
+
+
+
 {% if CrispyNoodleSaladDressing %}
 <h3>CrispyNoodleSaladDressing</h3>
 {% include "components/products/crunchy-fried-noodles.njk" %}
@@ -124,8 +129,9 @@ section: post
 {% include "components/products/vermicelli-rice-noodles.njk" %}
 {% endif %}
 
- {% if WokReadyNoodles %}
-{% include "components/products/wok-ready-noodles.njk" %}
+ {% if Changs Wok-Ready Noodles %}
+{% set postslist = collections['Changs-Wok-Ready-Noodles'] %}
+  {% include "components/postslist-sidebar.njk" %}
 {% endif %}
 
 
@@ -136,16 +142,14 @@ section: post
 {% if "Changs Wok-Ready Noodles" %}
 <div class="sidebarwrapper2">
 <h3>"Changs Wok-Ready Noodles"</h3>
-{% set postslist = collections['Changs Wok-Ready Noodles'] %}
-{% include "components/postslist.njk" %}
+{% include "components/products/wok-ready-noodles.njk" %}
 </div>
 {% endif %}
 
 {% if "Changs Chinese Black Pepper Sauce" %}
 <div class="sidebarwrapper2">
 <h3>"Changs Chinese Black Pepper Sauce"</h3>
-{% set postslist = collections['Changs Chinese Black Pepper Sauce'] %}
-{% include "components/postslist.njk" %}
+{% include "components/products/wok-ready-noodles.njk" %}
 </div>
 {% endif %}
 
