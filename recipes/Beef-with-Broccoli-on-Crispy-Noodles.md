@@ -14,16 +14,23 @@ tags:
   - Autumn
   - Spring
   - Festive
-  - Kid friendly
+  - Kid Friendly
 
-  - crunchy-fried-noodles
-  - original-fried-noodles
-  - original-oyster-sauce
-  - vermicelli-rice-noodles
-  - soy-sauce-light
-  - tamari-light-soy-sauce
-  - tamari-oyster-sauce
-  - soy-sauce-dark
+
+
+  - Changs Sesame Oil
+  - Changs Soy Sauce Dark
+  - Changs Tamari Light Soy Sauce
+  - Changs Wok-Ready Noodles
+
+  - Changs Crunchy Fried Noodles
+  - Changs Original Fried Noodles
+  - Changs Original Oyster Sauce
+  - Changs Vermicelli Rice Noodles
+  - Changs Soy Sauce Light
+  - Changs Tamari Light Soy Sauce
+  - Changs Tamari Oyster Sauce
+  - Changs Soy Sauce Light
 
 
   - Featured
