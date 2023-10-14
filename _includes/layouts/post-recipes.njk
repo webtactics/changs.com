@@ -143,14 +143,16 @@ section: post
 {% if "Changs Wok-Ready Noodles" %}
 <div class="sidebarwrapper2">
 <h3>"Changs Wok-Ready Noodles"</h3>
-{% include "components/products/wok-ready-noodles.njk" %}
+{% set postslist = collections['Changs-Wok-Ready-Noodles'] %}
+  {% include "components/postslist-sidebar.njk" %}
 </div>
 {% endif %}
 
 {% if "Changs Chinese Black Pepper Sauce" %}
 <div class="sidebarwrapper2">
 <h3>"Changs Chinese Black Pepper Sauce"</h3>
-{% include "components/products/wok-ready-noodles.njk" %}
+{% set postslist = collections['Changs-Chinese-Black-Pepper-Sauce'] %}
+  {% include "components/postslist-sidebar.njk" %}
 </div>
 {% endif %}
 
