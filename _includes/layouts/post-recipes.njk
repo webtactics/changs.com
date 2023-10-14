@@ -52,88 +52,74 @@ section: post
 <div class="sidebarwrapper">
 <aside>
 
-
-
-
-
-
-
-{% if CrispyNoodleSaladDressing %}
-<h3>CrispyNoodleSaladDressing</h3>
-{% include "components/products/crunchy-fried-noodles.njk" %}
-{% endif %}
- 
-
-{% if CrunchyFriedNoodles %}
-<h3>CrunchyFriedNoodles</h3>
-{% include "components/products/crunchy-fried-noodles.njk" %}
-{% endif %}
- 
-{% if HokkienNoodles %}
-<h3>HokkienNoodles</h3>
-{% include "components/products/hokkien-noodles.njk" %}
-{% endif %}
-
-{% if GlutenFreeTamariLightSoySauce %}
-<h3>GlutenFree<br/>TamariLightSoySauce</h3>
-{% include "components/products/hokkien-noodles.njk" %}
-{% endif %}
-
-{% if LongLifeNoodles %}
-<h3>LongLifeNoodles</h3>
-{% include "components/products/hokkien-noodles.njk" %}
-{% endif %}
-
- {% if OriginalFriedNoodles %}
-<h3>OriginalFriedNoodles</h3>
-{% include "components/products/original-hoisin-sauce.njk" %}
-{% endif %}
-  
- {% if OriginalHoisinSauce %}
-<h3>OriginalHoisinSauce</h3>
-{% include "components/products/original-hoisin-sauce.njk" %}
-{% endif %}
-
- {% if OriginalOysterSauce %}
-<h3>OriginalOysterSauce</h3>
-{% include "components/products/original-oyster-sauce.njk" %}
-{% endif %}
-
- {% if SesameOil %}
-<h3>SesameOil</h3>
-{% include "components/products/sesame-oil.njk" %}
-{% endif %}
-
- {% if SoySauceLight %}
-<h3>SoySauceLight</h3>
-{% include "components/products/soy-sauce-light.njk" %}
-{% endif %}
-
- {% if SoySauceDark %}
-<h3>SoySauceDark</h3>
-{% include "components/products/soy-sauce-dark.njk" %}
-{% endif %}
-
- {% if TamariLightSoySauce %}
-<h3>TamariLightSoySauce</h3>
-{% include "components/products/tamari-light-soy-sauce.njk" %}
-{% endif %}
-
- {% if TamariOysterSauce %}
-<h3>TamariOysterSauce</h3>
-{% include "components/products/tamari-oyster-sauce.njk" %}
-{% endif %}
-
- {% if VermicelliRiceNoodles %}
-<h3>VermicelliRiceNoodles</h3>
-{% include "components/products/vermicelli-rice-noodles.njk" %}
-{% endif %}
-
-  
-{% if "Changs Wok-Ready Noodles" %}
-{% set postslist = collections['Changs-Wok-Ready-Noodles'] %}
+{% if "Changs Chinese Black Pepper Sauce" %}
+<div class="sidebarwrapper2">
+<h3>"Changs Chinese Black Pepper Sauce"</h3>
+{% set postslist = collections['Changs-Chinese-Black-Pepper-Sauce'] %}
   {% include "components/postslist-sidebar.njk" %}
+</div>
 {% endif %}
+
+
+{% if "Changs Crispy Noodle Salad Dressing" %}
+<div class="sidebarwrapper2">
+<h3>"Changs Crispy Noodle Salad Dressing"</h3>
+{% set postslist = collections['Changs-Crispy-Noodle-Salad-Dressing'] %}
+  {% include "components/postslist-sidebar.njk" %}
+</div>
+{% endif %}
+
+{% if "Changs Crunchy Fried Noodles" %}
+<div class="sidebarwrapper2">
+<h3>"Changs Crunchy Fried Noodles"</h3>
+{% set postslist = collections['Changs-Crunchy-Fried-Noodles'] %}
+  {% include "components/postslist-sidebar.njk" %}
+</div>
+{% endif %}
+
+{% if "Changs Delicious Mongolian Style Stir Fry Sauce" %}
+<div class="sidebarwrapper2">
+<h3>"Changs Delicious Mongolian Style Stir Fry Sauce"</h3>
+{% set postslist = collections['Changs-Delicious-Mongolian-Style-Stir-Fry-Sauce'] %}
+  {% include "components/postslist-sidebar.njk" %}
+</div>
+{% endif %}
+
+{% if "Changs Egg Noodles" %}
+<div class="sidebarwrapper2">
+<h3>"Changs Egg Noodles"</h3>
+{% set postslist = collections['Changs-Egg-Noodles'] %}
+  {% include "components/postslist-sidebar.njk" %}
+</div>
+{% endif %}
+
+
+
+{% for post in collections.['Changs-Wok-Ready-Noodles'] %}
+  <h2>{{ post.data.title }}</h2>
+  {{ post.data.image }}
+  <p>{{ post.data.content }}</p>
+{% endfor %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -148,18 +134,9 @@ section: post
 </div>
 {% endif %}
 
-{% if "Changs Chinese Black Pepper Sauce" %}
-<div class="sidebarwrapper2">
-<h3>"Changs Chinese Black Pepper Sauce"</h3>
-{% set postslist = collections['Changs-Chinese-Black-Pepper-Sauce'] %}
-  {% include "components/postslist-sidebar.njk" %}
-</div>
-{% endif %}
 
-  <div class="sidebarwrapper2">
-{% set postslist = collections['Featured'] %}
-  {% include "components/postslist-sidebar.njk" %}
-  </div>
+
+
   
   </aside>
 </div>
