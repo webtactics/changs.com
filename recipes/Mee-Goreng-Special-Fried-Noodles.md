@@ -22,7 +22,7 @@ tags:
   - Changs Sesame Oil
   - Changs Soy Sauce Dark
   - Changs Tamari Light Soy Sauce
-  - Changs Wok Ready Noodles
+  - Changs Wok-Ready Noodles
 
   - Featured
 

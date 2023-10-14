@@ -21,7 +21,7 @@ tags:
   - Changs Original Hoisin Sauce
   - Changs Sesame Oil
   - Changs Tamari Light Soy Sauce
-  - Changs Wok Ready Noodles
+  - Changs Wok-Ready Noodles
 
   - Featured
 products:
