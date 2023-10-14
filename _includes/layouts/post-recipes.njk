@@ -75,7 +75,13 @@ section: post
   {% include "components/postslist-products-in-recipes-sidebar.njk" %}
 </div>
 {% endif %}
-
+{% if ChangsTamariLightSoySauce %}
+<div class="sidebarwrapper2">
+<h3>ChangsTamariLightSoySauce</h3>
+{% set postslist = collections['Changs-Wok-Ready-Noodles'] %}
+  {% include "components/postslist-products-in-recipes-sidebar.njk" %}
+</div>
+{% endif %}
 
 
 
