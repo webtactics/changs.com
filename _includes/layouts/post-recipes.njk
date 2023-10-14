@@ -129,7 +129,8 @@ section: post
 {% include "components/products/vermicelli-rice-noodles.njk" %}
 {% endif %}
 
- {% if Changs Wok-Ready Noodles %}
+  
+{% if "Changs Wok-Ready Noodles" %}
 {% set postslist = collections['Changs-Wok-Ready-Noodles'] %}
   {% include "components/postslist-sidebar.njk" %}
 {% endif %}
