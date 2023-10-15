@@ -3,7 +3,6 @@ title: Chang's Chinese Black Pepper Sauce
 author: Paul Goldsmith
 date: 2023-04-19
 permalink: "/products/Changs-Chinese-Black-Pepper-Sauce/"
-Changs-Chinese-Black-Pepper-Sauce: Changs-Chinese-Black-Pepper-Sauce-Collection
 type: Changs Chinese Black Pepper Sauce
 
 tags:
@@ -45,8 +44,10 @@ nutrition:
   gluten: Not Detected
   nutFree: This product is nut free
 
-allergen: Gluten Free
-allergen1: This product is nut free
+allergen:
+  line1: Gluten Free
+  line2: This product is nut free
+  line3:
 
 
 

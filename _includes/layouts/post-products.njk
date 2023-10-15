@@ -48,8 +48,10 @@ section: post
 
   <h1>Recipes</h1>
 
-
-  
+<p>{{ ingredients }}</p>
+<p>{{ allergen.line1 }}<br>
+{{ allergen.line2 }}{% if allergen.line3 %}<br>
+{{ allergen.line3 }}{% endif %}</p>
 
   
 
