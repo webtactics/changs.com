@@ -1,8 +1,8 @@
-const { DateTime } = require("luxon");
-const CleanCSS = require("clean-css");
-const UglifyJS = require("uglify-js");
-const htmlmin = require("html-minifier");
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+import { DateTime } from "luxon";
+import CleanCSS from "clean-css";
+import UglifyJS from "uglify-js";
+import htmlmin from "html-minifier";
+npm install --save-dev @types/11ty__eleventy-navigation
 const lodash = require("lodash");
 
 module.exports = function(eleventyConfig) {
