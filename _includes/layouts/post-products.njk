@@ -133,7 +133,15 @@ section: post
 
 
 
+// Apply the include filter to a collection and store the result
+{% set typeProducts = collections.products | include("data.type", "Changs Chinese Black Pepper Sauce") %}
 
+// We can now loop over the stored result e.g. projects with a "type" of "Open Source"
+{% for product in typeProducts %}
+
+  <h2>{{ product.title }}</h2>
+  
+{% endfor %}
 
 
 

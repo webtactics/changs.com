@@ -4,6 +4,7 @@ author: Paul Goldsmith
 date: 2023-04-19
 permalink: "/products/Changs-Chinese-Black-Pepper-Sauce/"
 Changs-Chinese-Black-Pepper-Sauce: Changs-Chinese-Black-Pepper-Sauce-Collection
+type: Changs Chinese Black Pepper Sauce
 
 tags:
   - Sauces
