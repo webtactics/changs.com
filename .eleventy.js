@@ -3,6 +3,7 @@ const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-js");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const lodash = require("lodash");
 
 module.exports = function(eleventyConfig) {
 
@@ -75,7 +76,18 @@ module.exports = function(eleventyConfig) {
     return content;
   });
 
+    // lodash filter
+  eleventyConfig.addFilter("include", (arr, path, value) => {
 
+    value = lodash.deburr(value).toLowerCase();
+    
+    return arr.filter((item) => {
+      let pathValue = lodash.get(item, path);
+      pathValue = lodash.deburr(pathValue).toLowerCase();
+      return pathValue.includes(value);
+    });
+
+  });
 
 
   // Don't process folders with static assets e.g. images
