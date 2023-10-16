@@ -57,7 +57,7 @@ section: post
 
 
   <ul>
-    {% for recipe in page.data.recipesss %}
+    {% for recipe in page.data.recipes %}
       <li>
         <h2>{{ recipe.name }}</h2>
         {% if recipe.available %}
@@ -71,48 +71,8 @@ section: post
   
 
 
-
-{% if ChangsCrunchyFriedNoodles %}
-<h3>CrunchyFriedNoodles</h3>
-{% include "components/products/crunchy-fried-noodles.njk" %}
-{% elif ChangsHokkienNoodles %}
-<h3>HokkienNoodles</h3>
-{% include "components/products/hokkien-noodles.njk" %}
-{% elif ChangsOriginalFriedNoodles %}
-<h3>OriginalFriedNoodles</h3>
-{% include "components/products/original-fried-noodles.njk" %}
-{% elif ChangsOriginalHoisinSauce %}
-<h3>OriginalHoisinSauce</h3>
-{% include "components/products/original-hoisin-sauce.njk" %}
-{% elif ChangsOriginalOysterSauce %}
-<h3>OriginalOysterSauce</h3>
-{% include "components/products/original-oyster-sauce.njk" %}
-{% elif ChangsSesameOil %}
-<h3>SesameOil</h3>
-{% include "components/products/sesame-oil.njk" %}
-{% elif ChangsSoySauceLight %}
-<h3>SoySauceLight</h3>
-{% include "components/products/soy-sauce-light.njk" %}
-{% elif SoySauceDark %}
-<h3>SoySauceDark</h3>
-{% include "components/products/soy-sauce-dark.njk" %}
-{% elif TamariLightSoySauce %}
-<h3>TamariLightSoySauce</h3>
-{% include "components/products/tamari-light-soy-sauce.njk" %}
-{% elif TamariOysterSauce %}
-<h3>TamariOysterSauce</h3>
-{% include "components/products/tamari-oyster-sauce.njk" %}
-{% elif VermicelliRiceNoodles %}
-<h3>VermicelliRiceNoodles</h3>
-{% include "components/products/vermicelli-rice-noodles.njk" %}
-{% elif WokReadyNoodles %}
-<h3>Wok Ready Noodles 1</h3>
-{% include "components/products/wok-ready-noodles.html" %}
-
-<h3>WokReadyNoodles 2</h3>
-{% set postslist = collections['wok-ready-noodles'] %}
-{% include "components/postslist-products.html" %}
-{% endif %}
+{% assign previousPost = collections.products | getPreviousCollectionItem %}
+{% assign nextPost = collections.products | getNextCollectionItem %}
 
 
 
