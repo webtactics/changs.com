@@ -74,6 +74,8 @@ section: post
 {% assign previousPost = collections.products | getPreviousCollectionItem %}
 {% assign nextPost = collections.products | getNextCollectionItem %}
 
+{% if previousPost %}Previous Blog Post: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>{% endif %}
+{% if nextPost %}Next Blog Post: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>{% endif %}
 
 
 
