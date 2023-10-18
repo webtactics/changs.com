@@ -17,33 +17,34 @@ class: products
 {% set postslist = collections.products %}
 {% include "components/postslist.njk" %}
 {% endif %}
+
 {% if page.url == "/products/noodles/" %}
 {% set postslist = collections.Noodles %}
 {% include "components/post-product-default.njk" %}
 {% endif %}
+
 {% if page.url == "/products/sauces/" %}
 {% set postslist = collections.Sauces %}
 {% include "components/post-product-default.njk" %}
 {% endif %}
-{% if page.url == "products/gluten-free-products/" %}
-{% set postslist = collections['GlutenFree'] %}
-{% include "components/postslist.njk" %}
-{% endif %}
+
+
+
 {% if page.url == "products/gluten-free-products/" %}
 <h4>Gluten-Free</h4>
 {% set postslist = collections.GlutenFree %}
 {% include "components/postslist.njk" %}
 {% endif %}
-{% if page.url == "products/gluten-free-products/" %}
-<h4>Gluten-Free</h4>
-{% set postslist = collections.Gluten Free %}
-{% include "components/postslist.njk" %}
-{% endif %}
+
+
+
+
 {% if page.url == "products/gluten-free-products/" %}
 <h4>[Gluten-Free]</h4>
 {% set postslist = collections['Gluten Free'] %}
 {% include "components/postslist.njk" %}
 {% endif %}
+
 {% if page.url == "products/tamari-wheat-free-sauces/" %}
 {% set postslist = collections.Tamari %}
 {% include "components/tamari.njk" %}
