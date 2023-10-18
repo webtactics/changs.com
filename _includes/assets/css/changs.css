@@ -815,7 +815,7 @@ ul.off-canvas-list > li.current > a, ul.off-canvas-list > li.active-class > a {
     margin: -40vh auto 0 auto;
     padding: 0;
     z-index: 2;
-    width: calc(100vw - 6em);
+    width: calc(100vw - 0.5rem);
     max-width: 1440px;
     background-color: transparent;
     }
@@ -858,7 +858,7 @@ min-height:600px;
   }
 
   .grid-2-columns-3x1 {
-    grid-template-columns: 3fr 1fr; gap: 0.5rem;
+    grid-template-columns: 3fr 1fr; gap: 2rem;
   }   
   .grid-2-columns-5x7 {
     grid-template-columns: 5fr 7fr; gap: 2rem;
