@@ -8,7 +8,7 @@ permalink: "/products/Changs-Wok-Ready-Noodles/"
 
 tags:
   - Noodles
-  - Gluten-Free
+  - GlutenFree
   - Coles
   - IGA
   - Changs-Wok-Ready-Noodles

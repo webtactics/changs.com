@@ -7,7 +7,7 @@ type: Changs Chinese Black Pepper Sauce
 
 tags:
   - Sauces
-  - Gluten-Free
+  - GlutenFree
   - Coles
   - IGA
   - Changs-Chinese-Black-Pepper-Sauce
