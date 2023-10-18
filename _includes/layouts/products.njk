@@ -7,10 +7,10 @@ class: products
 
 {{ layoutContent | safe }}
 
-<h4>[Gluten Free]</h4>
-{% set postslist = collections['Gluten Free'] %}
-{% include "components/postslist.njk" %}
 
+<h4>GlutenFree</h4>
+{% set postslist = collections.GlutenFree %}
+{% include "components/postslist.njk" %}
 
 
 {% if page.url == "/products/" %}
