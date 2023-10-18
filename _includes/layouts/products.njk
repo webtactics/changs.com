@@ -28,13 +28,19 @@ class: products
 
 
 
-{% if page.url == "products/gluten-free-products/" %}
-<h4>[Gluten Freeeee]</h4>
+{% if page.url == "/products/gluten-free-products/" %}
+<h4>Gluten Free</h4>
 {% set postslist = collections.GlutenFree %}
 {% include "components/postslist.njk" %}
 {% endif %}
 
-{% if page.url == "products/tamari-wheat-free-sauces/" %}
+{% if page.url == "/products/gluten-free-products/" %}
+<h4>[Gluten Freeeee]</h4>
+{% set postslist = collections['GlutenFree'] %}
+{% include "components/postslist.njk" %}
+{% endif %}
+
+{% if page.url == "/products/tamari-wheat-free-sauces/" %}
 {% set postslist = collections.Tamari %}
 {% include "components/tamari.njk" %}
 {% endif %}
