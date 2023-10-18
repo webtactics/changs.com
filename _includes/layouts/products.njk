@@ -30,3 +30,8 @@ class: products
 {% set postslist = collections.tamari %}
 {% include "components/tamari.njk" %}
 {% endif %}
+
+{% if page.url == "products/sauces/" %}
+{% set postslist = collections.Sauces %}
+{% include "components/postslist.njk" %}
+{% endif %}
