@@ -30,7 +30,7 @@ class: products
 
 {% if page.url == "products/gluten-free-products/" %}
 <h4>[Gluten Freeeee]</h4>
-{% set postslist = collections['Gluten Free'] %}
+{% set postslist = collections.GlutenFree %}
 {% include "components/postslist.njk" %}
 {% endif %}
 
