@@ -26,16 +26,7 @@ class: products
 {% include "components/post-product-default.njk" %}
 {% endif %}
 
-
-
 {% if page.url == "/products/gluten-free-products/" %}
-<h4>Gluten Free</h4>
-{% set postslist = collections.GlutenFree %}
-{% include "components/postslist.njk" %}
-{% endif %}
-
-{% if page.url == "/products/gluten-free-products/" %}
-<h4>[Gluten Freeeee]</h4>
 {% set postslist = collections['GlutenFree'] %}
 {% include "components/postslist.njk" %}
 {% endif %}
