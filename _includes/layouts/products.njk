@@ -23,7 +23,7 @@ class: products
 {% include "components/postslist.njk" %}
 
 {% elif page.url == "products/gluten-free-products/" %}
-{% set postslist = collections.['Gluten-Free'] %}
+{% set postslist = collections.Gluten-Free %}
 {% include "components/postslist.njk" %}
 
 {% elif page.url == "products/tamari-wheat-free-sauces/" %}
