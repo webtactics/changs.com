@@ -159,8 +159,8 @@ color: var(--primary);
 }
 
 .container {
-  background-color: var(--yellow50);
-  background-image: url('https://ik.imagekit.io/webtactics/changs/images/assets/bg/Chang-pattern-191x500-30-clear.png');
+  background-color: var(--yellow);
+  background-image: url('https://ik.imagekit.io/webtactics/changs/images/assets/bg/pattern-small.png');
   background-repeat: repeat;}
 
 
