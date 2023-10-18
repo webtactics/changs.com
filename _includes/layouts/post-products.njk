@@ -89,7 +89,18 @@ section: post
 {% endfor %}
 
 
-
+{% if tags %}
+  <div class="tag"><h4>Tags</h4>
+  <ul>
+{% for tag in tags %}
+  {%- if tag != "post" -%}
+    {% set tagUrl %}/tagged/{{ tag }}/{% endset %}
+   <li><a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a></li>
+  {%- endif -%}
+{% endfor %}
+  </ul>
+</div>
+{% endif %}
 
 
    
