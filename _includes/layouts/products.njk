@@ -7,7 +7,10 @@ class: products
 
 {{ layoutContent | safe }}
 
-
+<h4>[Gluten-Free]</h4>
+{% set postslist = collections['Gluten Free'] %}
+{% include "components/postslist.njk" %}
+{% endif %}
 
 
 {% if page.url == "/products/" %}
@@ -29,6 +32,16 @@ class: products
 {% if page.url == "products/gluten-free-products/" %}
 <h4>Gluten-Free</h4>
 {% set postslist = collections.GlutenFree %}
+{% include "components/postslist.njk" %}
+{% endif %}
+{% if page.url == "products/gluten-free-products/" %}
+<h4>Gluten-Free</h4>
+{% set postslist = collections.Gluten Free %}
+{% include "components/postslist.njk" %}
+{% endif %}
+{% if page.url == "products/gluten-free-products/" %}
+<h4>[Gluten-Free]</h4>
+{% set postslist = collections['Gluten Free'] %}
 {% include "components/postslist.njk" %}
 {% endif %}
 {% if page.url == "products/tamari-wheat-free-sauces/" %}
