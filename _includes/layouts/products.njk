@@ -8,9 +8,7 @@ class: products
 {{ layoutContent | safe }}
 
 
-<h4>GlutenFree</h4>
-{% set postslist = collections.GlutenFree %}
-{% include "components/postslist.njk" %}
+
 
 
 {% if page.url == "/products/" %}
@@ -27,15 +25,6 @@ class: products
 {% set postslist = collections.Sauces %}
 {% include "components/post-product-default.njk" %}
 {% endif %}
-
-
-
-{% if page.url == "products/gluten-free-products/" %}
-<h4>GlutenFree</h4>
-{% set postslist = collections.GlutenFree %}
-{% include "components/postslist.njk" %}
-{% endif %}
-
 
 
 
