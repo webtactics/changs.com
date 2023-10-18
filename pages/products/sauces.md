@@ -11,7 +11,4 @@ eleventyNavigation:
 ---
 Sauces
 
-{% if page.url == "products/sauces/" %}
-{% set postslist = collections.Sauces %}
-{% include "components/postslist.njk" %}
-{% endif %}
+
