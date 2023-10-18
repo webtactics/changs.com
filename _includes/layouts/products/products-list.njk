@@ -15,11 +15,11 @@
 <h1>{{ title }}</h1>
 {{ layoutContent | safe }}
 {% if page.url == "/products/noodles/" %}
-{% set postslist = collections.noodles %}
+{% set postslist = collections.Noodles %}
 {% include "components/post-product-default.njk" %}
 {% endif %}
 {% if page.url == "products/sauces/" %}
-{% set postslist = collections.sauces %}
+{% set postslist = collections.Sauces %}
 {% include "components/postslist.njk" %}
 {% endif %}
 {% if page.url == "products/gluten-free-products/" %}
