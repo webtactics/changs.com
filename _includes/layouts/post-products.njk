@@ -56,26 +56,7 @@ section: post
   
 
 
-  <ul>
-    {% for recipe in page.data.recipes %}
-      <li>
-        <h2>{{ recipe.name }}</h2>
-        {% if recipe.available %}
-          <p>This recipe is available.</p>
-        {% else %}
-          <p>This recipe is not available.</p>
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-  
 
-
-{% assign previousPost = collections.products | getPreviousCollectionItem %}
-{% assign nextPost = collections.products | getNextCollectionItem %}
-
-{% if previousPost %}Previous Blog Post: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>{% endif %}
-{% if nextPost %}Next Blog Post: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>{% endif %}
 
 
 
