@@ -11,6 +11,4 @@ eleventyNavigation:
 ---
 Sauces
 
-<div class="mobile-nav-search-wrapper">
-<div id="search"></div>
-</div>
+
