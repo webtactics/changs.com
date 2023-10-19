@@ -1,7 +1,7 @@
 ---
 title: Chang's Crispy Noodle Salad Dressing
 author: Paul Goldsmith
-date: 2023-04-19
+date: 2023-04-02
 permalink: "/products/Changs-Crispy-Noodle-Salad-Dressing/"
 type: Changs Crispy Noodle Salad Dressing
 
@@ -14,10 +14,10 @@ tags:
 
 
 
-image: https://ik.imagekit.io/webtactics/changs/img/products/Changs-Crispy-Noodle-Salad-Dressing/Changs-Crispy-Noodle-Salad-Dressing-1000x1000.jpg
+image: https://ik.imagekit.io/webtactics/changs-media/tr:w-1600,h-800,f-auto/slider/oriental-fried-noodle-salad-1600x800_FXG9u70R5.jpg?updatedAt=1685410661070
 
 bgimage: https://ik.imagekit.io/webtactics/changs/img/recipes/changs-crispy-noodle-salad/changs-crispy-noodle-salad-1600x800.webp
-imageAlt: Changs Chinese Black Pepper Sauce
+imageAlt: Chang's Crispy Noodle Salad Dressing
 description: Black bean sauce is an essential ingredient in the Cantonese dish  “Beef in Black bean sauce”. It adds a unique flavour to stir fry beef,  pork casserole and steamed fish.
 metadescription: Black bean sauce is an essential ingredient in the Cantonese dish  “Beef in Black bean sauce”. It adds a unique flavour to stir fry beef,  pork casserole and steamed fish.
 GTIN: 93777001

@@ -1,7 +1,7 @@
 ---
 title: Chang's Egg Noodles
 author: Paul Goldsmith
-date: 2023-04-19
+date: 2023-04-05
 permalink: "/products/Changs-Egg-Noodles/"
 type: Changs Egg Noodles
 
@@ -14,10 +14,10 @@ tags:
 
 
 
-image: https://ik.imagekit.io/webtactics/changs/img/products/Changs-Egg-Noodles/Changs-Egg-Noodles-150ml.jpg
+image: https://ik.imagekit.io/webtactics/changs/img/products/Changs-Egg-Noodles/Changs-Egg-Noodles.jpg
 
-bgimage: https://ik.imagekit.io/webtactics/changs/img/recipes/black-pepper-lamb-and-green-beans/black-pepper-lamb-and-green-beans-1600x800.jpg
-imageAlt: Changs Chinese Black Pepper Sauce
+bgimage: https://ik.imagekit.io/webtactics/changs/img/recipes/quick-ramen-style-noodle-soup/quick-ramen-style-noodle-soup.jpg
+imageAlt: Chang's Egg Noodles
 description: Black bean sauce is an essential ingredient in the Cantonese dish  “Beef in Black bean sauce”. It adds a unique flavour to stir fry beef,  pork casserole and steamed fish.
 metadescription: Black bean sauce is an essential ingredient in the Cantonese dish  “Beef in Black bean sauce”. It adds a unique flavour to stir fry beef,  pork casserole and steamed fish.
 GTIN: 93777001

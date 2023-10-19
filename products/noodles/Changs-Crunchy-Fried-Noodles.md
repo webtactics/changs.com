@@ -1,7 +1,7 @@
 ---
 title: Chang's Crunchy Fried Noodles
 author: Paul Goldsmith
-date: 2023-04-19
+date: 2023-04-03
 permalink: "/products/Changs-Crunchy-Fried-Noodles/"
 type: Changs Crunchy Fried Noodles
 
