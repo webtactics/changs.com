@@ -1,5 +1,5 @@
 ---
-title: Chang's Delicious Mongolian Style Stir Fry Sauce
+title: Chang's Mongolian Style Stir Fry Sauce
 author: Paul Goldsmith
 date: 2023-04-04
 permalink: "/products/Changs-Delicious-Mongolian-Style-Stir-Fry-Sauce/"
