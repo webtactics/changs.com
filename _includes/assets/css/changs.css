@@ -953,7 +953,7 @@ min-height:600px;
   
 
 
-.postsummarywrapper {position:relative;text-align:center}
+.postsummarywrapper {position:relative;text-align:center;padding:1rem;}
 
 .postsummarywrapper a {padding:0;border:none;}
 
