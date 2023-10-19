@@ -17,7 +17,7 @@ tags:
   - Kid Friendly
 
   - Changs Vermicelli Rice Noodles
-  - Changs Crunchy Fried Noodles
+  - Changs Original Fried Noodles
   - Changs Original Oyster Sauce
   - Changs Soy Sauce Light
   - Changs Soy Sauce Dark
@@ -26,7 +26,7 @@ tags:
 
 ChangsChineseBlackPepperSauce:
 ChangsCrispyNoodleSaladDressing:
-ChangsCrunchyFriedNoodles: true
+ChangsCrunchyFriedNoodles:
 ChangsDeliciousMongolianStyleStirFrySauce:
 ChangsEggNoodles:
 ChangsFishSauce:
@@ -45,7 +45,7 @@ ChangsOrganicSobaNoodles:
 ChangsOriginalBlackBeanSauce:
 ChangsOriginalChineseSateSauce:
 ChangsOriginalFishSauce:
-ChangsOriginalFriedNoodles:
+ChangsOriginalFriedNoodles: true
 ChangsOriginalHoisinSauce:
 ChangsOriginalHotChilliSauce:
 ChangsOriginalOysterSauce: true
@@ -63,7 +63,7 @@ ChangsTastySichuanStyleStirFrySauce:
 ChangsThaiStyleRiceNoodles:
 ChangsTraditionalSuperLoCalNoodles:
 ChangsVermicelliRiceNoodles: true
-ChangsWokReadyNoodles: true
+ChangsWokReadyNoodles:
 
 image: https://ik.imagekit.io/webtactics/changs/img/recipes/beef-with-broccoli-on-crispy-noodles/beef-with-broccoli-on-crispy-noodles-1.jpg
 imageAlt: Beef with Broccoli on Crispy Noodles
