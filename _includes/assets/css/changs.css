@@ -966,7 +966,7 @@ min-height:600px;
 .postsummarywrapper .image-overlay .overlay-icon{width:70px;height:70px;display:block;border-radius:50%;margin:-70px auto 0;opacity:0;-webkit-transition:all .2s;-moz-transition:all .2s;-ms-transition:all .2s;-o-transition:all .2s;transition:all .2s}
 .postsummarywrapper:hover .image-overlay .overlay-icon{opacity:1;margin:70px auto 0}.postsummarywrapper .image-overlay .overlay-icon img{width:70px;height:70px}
 
-.NewsSummaryLinkHome {padding:0;min-height:110px;}
+.NewsSummaryLinkHome {padding:0;min-height:85px;}
 .NewsSummaryPrice {font-size:0.85rem;color:var(--green);padding:0.5rem 0;}
 .ProdDescSummaryHome {color:rgba(129,129,129,1.00);padding:0.5rem 0;min-height:150px;font-size:1rem;}
   .ProdDescSummaryHome p {
