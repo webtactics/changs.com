@@ -14,9 +14,9 @@ tags:
 
 
 
-image: https://ik.imagekit.io/webtactics/changs/img/products/Changs-Crispy-Noodle-Salad-Dressing/Changs-Crispy-Noodle-Salad-Dressing-150ml.jpg
+image: https://ik.imagekit.io/webtactics/changs/img/products/Changs-Crispy-Noodle-Salad-Dressing/Changs-Crispy-Noodle-Salad-Dressing-1000x1000.jpg
 
-bgimage: https://ik.imagekit.io/webtactics/changs/img/recipes/black-pepper-lamb-and-green-beans/black-pepper-lamb-and-green-beans-1600x800.jpg
+bgimage: https://ik.imagekit.io/webtactics/changs/img/recipes/changs-crispy-noodle-salad/changs-crispy-noodle-salad-1600x800.webp
 imageAlt: Changs Chinese Black Pepper Sauce
 description: Black bean sauce is an essential ingredient in the Cantonese dish  “Beef in Black bean sauce”. It adds a unique flavour to stir fry beef,  pork casserole and steamed fish.
 metadescription: Black bean sauce is an essential ingredient in the Cantonese dish  “Beef in Black bean sauce”. It adds a unique flavour to stir fry beef,  pork casserole and steamed fish.
