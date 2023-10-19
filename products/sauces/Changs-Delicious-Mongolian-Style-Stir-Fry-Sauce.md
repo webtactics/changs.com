@@ -14,10 +14,10 @@ tags:
 
 
 
-image: https://ik.imagekit.io/webtactics/changs/img/products/Changs-Delicious-Mongolian-Style-Stir-Fry-Sauce/Changs-Delicious-Mongolian-Style-Stir-Fry-Sauce-150ml.jpg
+image: https://ik.imagekit.io/webtactics/changs/img/products/Changs-Delicious-Mongolian-Style-Stir-Fry-Sauce/Changs-Delicious-Mongolian-Style-Stir-Fry-Sauce-1000x1000.jpg
 
-bgimage: https://ik.imagekit.io/webtactics/changs/img/recipes/black-pepper-lamb-and-green-beans/black-pepper-lamb-and-green-beans-1600x800.jpg
-imageAlt: Changs Chinese Black Pepper Sauce
+bgimage: https://ik.imagekit.io/webtactics/changs/img/products/Changs-Delicious-Mongolian-Style-Stir-Fry-Sauce/Mongolian-Beef-1.jpg
+imageAlt: Chang's Delicious Mongolian Style Stir Fry Sauce
 description: Black bean sauce is an essential ingredient in the Cantonese dish  “Beef in Black bean sauce”. It adds a unique flavour to stir fry beef,  pork casserole and steamed fish.
 metadescription: Black bean sauce is an essential ingredient in the Cantonese dish  “Beef in Black bean sauce”. It adds a unique flavour to stir fry beef,  pork casserole and steamed fish.
 GTIN: 93777001
