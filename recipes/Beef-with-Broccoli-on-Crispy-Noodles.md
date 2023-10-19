@@ -38,7 +38,7 @@ difficulty: Easy
 
 ChangsChineseBlackPepperSauce:
 ChangsCrispyNoodleSaladDressing:
-ChangsCrunchyFriedNoodles:
+ChangsCrunchyFriedNoodles: true
 ChangsDeliciousMongolianStyleStirFrySauce:
 ChangsEggNoodles:
 ChangsFishSauce:
@@ -60,21 +60,21 @@ ChangsOriginalFishSauce:
 ChangsOriginalFriedNoodles:
 ChangsOriginalHoisinSauce:
 ChangsOriginalHotChilliSauce:
-ChangsOriginalOysterSauce:
+ChangsOriginalOysterSauce: true
 ChangsSavouryBlackBeanStirFrySauce:
 ChangsSesameOil:
-ChangsSoySauceDark:
-ChangsSoySauceLight:
+ChangsSoySauceDark: true
+ChangsSoySauceLight: true
 ChangsSpicySichuanStyleStirFrySauce:
 ChangsSweetManchurianStirFrySauce:
 ChangsTamariBlackBeanSauce:
 ChangsTamariHoisinSauce:
-ChangsTamariLightSoySauce: true
-ChangsTamariOysterSauce: ChangsTamariOysterSauce
+ChangsTamariLightSoySauce:
+ChangsTamariOysterSauce:
 ChangsTastySichuanStyleStirFrySauce:
 ChangsThaiStyleRiceNoodles:
 ChangsTraditionalSuperLoCalNoodles:
-ChangsVermicelliRiceNoodles:
+ChangsVermicelliRiceNoodles: true
 ChangsWokReadyNoodles: true
 
 
