@@ -16,25 +16,13 @@ tags:
   - Festive
   - Kid Friendly
 
-
   - Changs Vermicelli Rice Noodles
   - Changs Crunchy Fried Noodles
   - Changs Original Oyster Sauce
   - Changs Soy Sauce Light
   - Changs Soy Sauce Dark
 
-
-
-
   - Featured
-
-image: https://ik.imagekit.io/webtactics/changs/img/recipes/beef-with-broccoli-on-crispy-noodles/beef-with-broccoli-on-crispy-noodles-1.jpg
-imageAlt: Beef with Broccoli on Crispy Noodles
-description: A rich and tasty Chinese inspired stirfry
-serves: 4
-prep: 40 minutes 
-makes: 
-difficulty: Easy
 
 ChangsChineseBlackPepperSauce:
 ChangsCrispyNoodleSaladDressing:
@@ -76,6 +64,39 @@ ChangsThaiStyleRiceNoodles:
 ChangsTraditionalSuperLoCalNoodles:
 ChangsVermicelliRiceNoodles: true
 ChangsWokReadyNoodles: true
+
+image: https://ik.imagekit.io/webtactics/changs/img/recipes/beef-with-broccoli-on-crispy-noodles/beef-with-broccoli-on-crispy-noodles-1.jpg
+imageAlt: Beef with Broccoli on Crispy Noodles
+description: A rich and tasty Chinese inspired stirfry
+serves: 4
+prep: 40 minutes 
+makes: 
+difficulty: Easy
+
+galleryimages:
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+  - url: 
+    alt: 
+
+
+video:
 
 
 ---
