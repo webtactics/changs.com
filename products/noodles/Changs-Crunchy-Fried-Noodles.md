@@ -1,22 +1,23 @@
 ---
-title: Chang's Egg Noodles
+title: Chang's Crunchy Fried Noodles
 author: Paul Goldsmith
 date: 2023-04-19
 permalink: "/products/Changs-Crunchy-Fried-Noodles/"
-type: Changs Egg Noodles
+type: Changs Crunchy Fried Noodles
 
 tags:
   - Noodles
   - Gluten Free
   - Coles
+  - Woolworths
   - IGA
   - Changs-Crunchy-Fried-Noodles
 
 
 
-image: https://ik.imagekit.io/webtactics/changs/img/products/Changs-Crunchy-Fried-Noodles/Changs-Crunchy-Fried-Noodles-150ml.jpg
+image: https://ik.imagekit.io/webtactics/changs/img/products/Changs-Crunchy-Fried-Noodles/Changs-Crunchy-Fried-Noodles.jpg
 
-bgimage: https://ik.imagekit.io/webtactics/changs/img/recipes/marinated-steak/marinated-steak-750x1000.jpg
+bgimage: https://ik.imagekit.io/webtactics/changs/img/recipes/roast-pumpkin-noodle-salad/roast-pumpkin-noodle-salad-5.jpg
 imageAlt: Changs Chinese Black Pepper Sauce
 description: Black bean sauce is an essential ingredient in the Cantonese dish  “Beef in Black bean sauce”. It adds a unique flavour to stir fry beef,  pork casserole and steamed fish.
 metadescription: Black bean sauce is an essential ingredient in the Cantonese dish  “Beef in Black bean sauce”. It adds a unique flavour to stir fry beef,  pork casserole and steamed fish.
