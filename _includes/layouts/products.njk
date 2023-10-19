@@ -12,27 +12,27 @@ class: products
 
 
 {% if page.url == "/products/" %}
-{% set postslist = collections.products %}
-{% include "components/postslist.njk" %}
+{% set postslist = collections.products | reverse %}
+{% include "components/postslist-prod-summary.njk" %}
 {% endif %}
 
 {% if page.url == "/products/noodles/" %}
-{% set postslist = collections.Noodles %}
+{% set postslist = collections.Noodles | reverse %}
 {% include "components/post-product-default.njk" %}
 {% endif %}
 
 {% if page.url == "/products/sauces/" %}
-{% set postslist = collections.Sauces %}
+{% set postslist = collections.Sauces| reverse %}
 {% include "components/post-product-default.njk" %}
 {% endif %}
 
 {% if page.url == "/products/gluten-free-products/" %}
-{% set postslist = collections['Gluten Free'] %}
+{% set postslist = collections['Gluten Free'] | reverse %}
 {% include "components/postslist.njk" %}
 {% endif %}
 
 {% if page.url == "/products/tamari-wheat-free-sauces/" %}
-{% set postslist = collections.Tamari %}
+{% set postslist = collections.Tamari | reverse %}
 {% include "components/postslist.njk" %}
 {% endif %}
 

@@ -1,0 +1,36 @@
+<section class="grid-3-columns" >
+	{% for post in postslist | reverse %}
+	<div class="NewsSummaryHome">
+		<article{% if post.url == url %} data-current="current item"{% endif %} >
+			
+	
+
+<div class="postsummarywrapper">
+<a href="{{ post.url | url }}"><img src="{{ post.data.image }}/tr:w-400,h-4000" alt="{{ post.data.imageAlt }}" title="{{ post.data.imageAlt }}" >
+<span class="image-overlay">
+<span class="overlay-icon"><img src="https://www.gtmassage.com.au/uploads/images/assets/summicon.png" /></span></span></a>
+</div>
+
+
+<div class="NewsSummaryLinkHome">
+<h2><a href="{{ post.url | url }}" title="{{ post.data.title }}" alt="{{ post.data.title }}">{{ post.data.title }}</a></h2>
+</div>
+
+				
+
+<div class="NewsSummarySummaryHome">
+{% if post.data.description %}<p>{{ post.data.description }}</p>{% endif %}
+</div>
+
+<div class="right newssumbutton">
+<a class="button right" title="{{ post.data.title }}" href="{{ post.url | url }}">Read more &gt;</a>
+</div>
+
+
+
+		</article>
+		</div>
+	{% endfor %}
+</section>
+
+
