@@ -979,7 +979,7 @@ min-height:600px;
   }
 
 
-.newssumbutton {margin:-2rem 0 0 0;}
+.newssumbutton {clear: both;position: relative;}
 
 .NewsSummaryHome {
   margin: 0;
