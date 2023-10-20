@@ -959,9 +959,9 @@ min-height:600px;
 
 .postsummarywrapper img{width:100%}
 
-.postsummarywrapper .image-overlay{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.3);-webkit-transition:all .2s;-moz-transition:all .2s;-ms-transition:all .2s;-o-transition:all .2s;transition:all .2s;opacity:0;overflow:hidden}
+.postsummarywrapper .image-overlay{position:absolute;top:0;left:0;width:100%;height:100%;background-color:transparent;-webkit-transition:all .2s;-moz-transition:all .2s;-ms-transition:all .2s;-o-transition:all .2s;transition:all .2s;opacity:0;overflow:hidden}
 
-.postsummarywrapper:hover .image-overlay{opacity:1;background-color:rgba(0,0,0,.3);}
+.postsummarywrapper:hover .image-overlay{opacity:1;background-color:transparent;}
 
 .postsummarywrapper .image-overlay .overlay-icon{width:70px;height:70px;display:block;border-radius:50%;margin:-70px auto 0;opacity:0;-webkit-transition:all .2s;-moz-transition:all .2s;-ms-transition:all .2s;-o-transition:all .2s;transition:all .2s}
 .postsummarywrapper:hover .image-overlay .overlay-icon{opacity:1;margin:70px auto 0}.postsummarywrapper .image-overlay .overlay-icon img{width:70px;height:70px}
