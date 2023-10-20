@@ -985,7 +985,7 @@ min-height:600px;
   margin: 0;
    padding: 1rem;
    background-color: var(--white);
-   border: 1px solid var(--black55);
+   border: 2px solid var(--black55);
 }
 .NewsSummaryHome:hover {
    box-shadow: 0 2px 8px #CFCFCF;
@@ -993,7 +993,7 @@ min-height:600px;
    -moz-transition: box-shadow 0.2s ease-in-out;
    -o-transition: box-shadow 0.2s ease-in-out;
    transition: box-shadow 0.2s ease-in-out;
-   border: 1px solid var(--black);
+   border: 2px solid var(--black);
 }
 
 .NewsSummaryHome h2 {font-size: 1.4rem;line-height: 1.2;font-weight:400;}
