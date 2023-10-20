@@ -1499,6 +1499,10 @@ margin-top: 1rem;
   padding: 0;
   min-height: 100px;
 }
+
+.NewsSummaryHome:hover img {
+  filter: brightness(1.2);
+}
 .postsumhome {
   color: var(--text);
   font-size: 1rem;
