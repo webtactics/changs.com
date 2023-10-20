@@ -1447,7 +1447,7 @@ margin-top: 1rem;
 
 
 /* CSS */
-.button.success, button.success {
+.button.postwide, button.postwide {
   background-color: var(--white);
   border: .3rem solid var(--black);
   color: var(--black);
@@ -1462,7 +1462,7 @@ margin-top: 1rem;
   -o-transition: all .8s;
   transition: all .8s;
 }
-.button.success:focus, .button.success:hover, button.success:focus, button.success:hover {
+.button.postwide:focus, .button.postwide:hover, button.postwide:focus, button.postwide:hover {
   background-color: var(--black);
   color: var(--white);
   border: .3rem solid var(--white);
