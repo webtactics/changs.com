@@ -995,6 +995,7 @@ min-height:600px;
    transition: box-shadow 0.2s ease-in-out;
    border: 1px solid var(--black);
 }
+
 .NewsSummaryHome h2 {font-size: 1.4rem;line-height: 1.2;font-weight:400;}
 .NewsSummaryHome h2 a {border:none;}
 .NewsSummaryHome h2 a:hover {border:none;}
