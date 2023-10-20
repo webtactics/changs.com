@@ -1448,6 +1448,7 @@ margin-top: 1rem;
 
 /* CSS */
 .button.postwide, button.postwide {
+  display: block;
   background-color: var(--white);
   border: .3rem solid var(--black);
   color: var(--black);
