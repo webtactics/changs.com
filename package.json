@@ -35,6 +35,6 @@
     "algoliasearch": "^4.17.2",
     "instantsearch.js": "^4.56.1",
     "lodash": "^4.17.21",
-    "markdown-it-anchor": "^8.6.7"
+    "markdown-it-anchor": "^9.0.1"
   }
 }
