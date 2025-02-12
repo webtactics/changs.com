@@ -4,6 +4,7 @@ const UglifyJS = require("uglify-js");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const lodash = require("lodash");
+const esbuild = require('esbuild');
 
 module.exports = function(eleventyConfig) {
 
@@ -88,6 +89,25 @@ module.exports = function(eleventyConfig) {
     });
 
   });
+
+  eleventyConfig.addWatchTarget('./_includes/assets/js/');
+  
+  eleventyConfig.on('eleventy.before', async () => {
+    await esbuild.build({
+      entryPoints: ['_includes/assets/js/main.js'],
+      bundle: true,
+      outfile: '_site/js/main.js',
+      format: 'esm',
+    });
+  });
+
+  return {
+    dir: {
+      input: ".",
+      output: "_site"
+    }
+  };
+};
 
 
   // Don't process folders with static assets e.g. images
