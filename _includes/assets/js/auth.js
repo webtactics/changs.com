@@ -1,5 +1,5 @@
 import createAuth0Client from '@auth0/auth0-spa-js';
-import { auth0 } from 'auth0.js';
+import auth0 from './auth0.js';
 
 let auth0Client;
 
@@ -24,17 +24,33 @@ export const initAuth = async () => {
 };
 
 export const login = async () => {
-  await auth0Client.loginWithRedirect();
-};
-
+  if (!auth0Client) {
+    console.error("Auth0 client is not initialized");
+    return;
 export const logout = async () => {
+  if (!auth0Client) {
+    console.error("auth0Client is not initialized");
+    return;
+  }
   auth0Client.logout({
     returnTo: window.location.origin
   });
 };
-
+  auth0Client.logout({
 export const isAuthenticated = async () => {
+  if (!auth0Client) {
+    console.error("Auth0 client is not initialized");
+    return false;
+  }
   return await auth0Client.isAuthenticated();
+};
+
+export const getUser = async () => {
+  if (!auth0Client) {
+    console.error("Auth0 client is not initialized");
+    return null;
+  }
+  return await auth0Client.getUser();
 };
 
 export const getUser = async () => {
