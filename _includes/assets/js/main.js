@@ -1,4 +1,4 @@
-import { initAuth, login, logout, isAuthenticated, getUser } from './auth';
+import { initAuth, login, logout, isAuthenticated, getUser } from './auth.js';
 
 // Initialize Auth0 when the page loads
 document.addEventListener('DOMContentLoaded', async () => {
