@@ -7,7 +7,7 @@ class: recipes
 <div class="search-wrapper">
 <div id="search"></div>
 </div>
-{{ layoutContent | safe }}
+{{ content | safe }}
 
 {% set postslist = collections.Recipes %}
 {% include "components/postslist.njk" %}

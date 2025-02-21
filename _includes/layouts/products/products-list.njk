@@ -13,7 +13,7 @@
  <div class="detailwrapper">
 <article>
 <h1>{{ title }}</h1>
-{{ layoutContent | safe }}
+{{ content | safe }}
 {% if page.url == "/products/noodles/" %}
 {% set postslist = collections.Noodles %}
 {% include "components/post-product-default.njk" %}

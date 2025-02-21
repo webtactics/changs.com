@@ -5,7 +5,7 @@ class: contact
 ---
 <h1>{{ title }}</h1>
 
-{{ layoutContent | safe }}
+{{ content | safe }}
 
 {% set postslist = collections.massages %}
 {% include "components/postslist.njk" %}
